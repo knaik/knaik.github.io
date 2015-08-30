@@ -30,6 +30,8 @@ An easy way to see lossy vs lossless is to plot the spectrogram of the file you 
 I personally use [spek](http://spek.cc/) , an open-source project based on the ffmpeg libraries, with simple drag and drop support.
 Here's a sample lossless spectrogram:
 
-![.flac spectrogram](/images/spek1.jpg)
+![.flac spectrogram](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/spek1.JPG)
+
+
 
  
