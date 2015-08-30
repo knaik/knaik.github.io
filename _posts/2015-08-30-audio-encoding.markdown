@@ -33,7 +33,7 @@ I personally use [spek](http://spek.cc/) , an open-source project based on the f
 Here's a sample lossless spectrogram:
 
 ![.flac spectrogram](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/spek1.JPG)
-[for more info about spectrograms](https://en.wikipedia.org/wiki/Spectrogram)
+[click here for more info about spectrograms](https://en.wikipedia.org/wiki/Spectrogram)
 
 
 
