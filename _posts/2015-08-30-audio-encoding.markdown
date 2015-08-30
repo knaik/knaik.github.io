@@ -19,6 +19,8 @@ With lossless, you save every bit of data you can while still using strong compr
 | `.wav` *   | `.opus` | 
 | `.aiff`*	  | `.wma` |
 |			  | `.ogg` (vorbis) |
+    
+	
 
 >`.wav` and `.aiff` are interesting cases because they could be either lossy or lossless. 
 They are the uncompressed formats, `.wav` in windows and `.aiff` in mac os x, and for most purposes considered raw pcm (pulse-code modulation) containers.
