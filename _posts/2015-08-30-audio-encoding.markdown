@@ -13,7 +13,7 @@ The two major types of compression are lossy and lossless. As the names imply, w
 With lossless, you save every bit of data you can while still using strong compression to save on storage space.
 
 | Lossless  | Lossy |
-| ------------- | ------------- |
+|:------------- |:------------- |
 | `.m4a`(alac)  | `.mp3`  |
 | `.flac`  | `.aac`  | 
 | `.wav` * | `.opus` | 
