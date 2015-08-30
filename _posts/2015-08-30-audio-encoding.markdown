@@ -20,7 +20,7 @@ With lossless, you save every bit of data you can while still using strong compr
 | `.aiff`*	  | `.wma` |
 |			  | `.ogg` (vorbis) |
 
-\* `.wav` and `.aiff` are interesting cases because they could be either lossy and lossless. 
+>`.wav` and `.aiff` are interesting cases because they could be either lossy or lossless. 
 They are the uncompressed formats, `.wav` in windows and `.aiff` in mac os x, and for most purposes considered raw pcm (pulse-code modulation) containers.
 The problem comes from the fact that there is no way to know the source that the files were created from. 
 I could decompress an `.mp3` which clearly was previously compressed using a lossy algorithm. 
@@ -31,6 +31,9 @@ I personally use [spek](http://spek.cc/) , an open-source project based on the f
 Here's a sample lossless spectrogram:
 
 ![.flac spectrogram](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/spek1.JPG)
+[for more info about spectrograms](https://en.wikipedia.org/wiki/Spectrogram)
+
+
 
 
 
