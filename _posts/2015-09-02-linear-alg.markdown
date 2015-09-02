@@ -23,8 +23,8 @@ What are they used for?
 -System of linear equations
 `2x -y + z = 2` and `-x   + 7z = 1`
 
-$$ \begin{matrix} 2 & -1 & 1 \\\ -1 & 0 & 7 \end{matrix} $$
-$$ \begin{matrix} 2 \\\ 1 \end{matrix} $$
+$$ \begin{pmatrix} 2 & -1 & 1 \\\ -1 & 0 & 7 \end{pmatrix} $$
+$$ \begin{pmatrix} 2 \\\ 1 \end{pmatrix} $$
 
 -LCD, OLED are simply represented as matrices
 -variance-covariance matrix in stats
