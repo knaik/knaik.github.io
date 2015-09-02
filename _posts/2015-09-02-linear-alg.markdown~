@@ -34,7 +34,7 @@ easily add operations
 
 A<sub>mxt</sub> = B <sub>mxt</sub> are equal if they have the same values at every index
 Sum
-(a+b)<sub>i,j</sub> = a_i,j + b_i,j
+(a+b)<sub>i,j</sub> = a~i,j~ + b~i,j~
 
 scalar multiplication
 each index value is multiplied by a constant value (scalar)
@@ -45,7 +45,7 @@ zero addition property
 
 -----
 Transpose of a matrix
-transpose of an `m x n`  (matrix A) is defined as A^T
+transpose of an `m x n`  (matrix A) is defined as \\(A^T\\)
 
 Properties of Transpose (theorm 1.2 on page 7)
 $$ (A + B)^T = A^T + B^T \\\
@@ -53,14 +53,14 @@ $$ (A + B)^T = A^T + B^T \\\
 (A^T)^T = A$$
 
 \\( Exercise: Find (A - 3 B^T)^T + 4B for\\)
-\\( A^T - 3B +4B  which simplies to A^T + B \\)
+\\( A^T - 3B +4B  \; which \; simplifies \; to \; A^T + B \\)
 
 $$
 	A = 
 		\begin{pmatrix}
 		0 & 1 & 2 & -1 \\\
 		0 & 2 & 3 & -1
-		\end{pmatrix} \\
+		\end{pmatrix} \;
 		B =
 		\begin{pmatrix}
 		1 & 2 \\\ 4 & -1 \\\ 1 & 0 \\\ 0 & 7 
@@ -101,24 +101,24 @@ $$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \\\
 \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3
 $$
 
-where a , b is any vector in r^3
+where a , b is any vector \\(R^3\\)
 
 -----
 Matrix Vector Product
 Example: Find the matrix product 
 \\(
-A \vect{v} where:
+A \\vect{v} where:
 
 A = 
 \begin{pmatrix}
 1 & 2 & -1 \\\
 0 & -1 & 1
 \end{pmatrix} 
-\vect{v} =
+\\vec{v} =
 \begin{pmatrix}
 2 \\\ -3 \\\  7 
 \end{pmatrix} \\\
-A \vect{v} = 
+A \\vec{v} = 
 2 \begin{pmatrix}
 1  \\\ 0 
 \end{pmatrix}
@@ -139,7 +139,7 @@ Identity Matrices
 $$ \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} $$
 
 Rotation Matrix
-$$ A_\theta = \begin{matrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} $$
+$$ A_\\theta = \begin{matrix} cos \\theta & - sin \\theta \\\ sin \\theta & cos \\theta \end{pmatrix} $$
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
