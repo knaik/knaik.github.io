@@ -41,9 +41,10 @@ Graph Algorithms:
 Sorting:
 
 |Array|Linked List| Heap|
-|:----|:-----:|:----|
+|:----|:-----|:----|
 |Insertion Sort | Mergesort| Heapsort|
 |Quicksort| Radixsort(time permitting)| |
+
 
 Big O:
 `Worst Case` `Best Case` `Average Case`
