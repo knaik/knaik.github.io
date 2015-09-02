@@ -251,3 +251,4 @@ A \vect{v} =
 		$>> w = A*v$ 
 	\end{itemize}
 }
+ </script>
