@@ -97,8 +97,8 @@ $$ \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 
 \\( c1 = 2  \quad  c2 = -1 \\) with substation, we can see this evaluates as  a true solution
 
 Standard unit vectors 
-$$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \; \; e_2 = \begin{pmatrix} 0 \\\ 1 \\\ 0 \end{pmatrix} \; \; e_3 = \begin{pmatrix} 0 \\\ 0 \\\ 1 \end{pmatrix}\\\
-and \quad \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad where \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} \\) is \; any \; vector \; R^3 $$
+$$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \quad e_2 = \begin{pmatrix} 0 \\\ 1 \\\ 0 \end{pmatrix} \quad e_3 = \begin{pmatrix} 0 \\\ 0 \\\ 1 \end{pmatrix}\\\
+and \quad \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad where \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} \; is \; any \; vector \; R^3 $$
 
 -----
 Matrix Vector Product
