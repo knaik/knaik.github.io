@@ -74,7 +74,7 @@ $$
 	5 & 1 \\\
 	3 & 3 \\\
 	-1 ^ 6
-	\end{matrix}
+	\end{pmatrix}
 $$
 
 
