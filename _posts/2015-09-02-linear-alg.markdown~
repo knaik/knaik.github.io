@@ -51,9 +51,16 @@ $$
 		\begin{pmatrix}
 		0 & 1 & 2 & -1 \\\
 		0 & 2 & 3 & -1
-		\end{pmatrix} \,,
-		\qquad B =
+		\end{pmatrix} \\
+		B =
 		\begin{pmatrix}
-		1 & 2 \\ 4 & -1 \\ 1 & 0 \\ 0 & 7 
+		1 & 2 \\\ 4 & -1 \\\ 1 & 0 \\\ 0 & 7 
 		\end{pmatrix}
+$$
+
+Properties of Transpose (theorm 1.2 on page 7)
+$$ (A + B)^T = A^T + B^T \\\
+(sA)^T = s A^T\\\
+(A^T)^T = A$$
+
 
