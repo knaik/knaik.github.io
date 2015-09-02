@@ -68,7 +68,7 @@ $$
 $$
 
 
-	Resultant Matrix = 
+Resultant Matrix = 
 $$	\begin{pmatrix} 	
 	1 & 2 \\\
 	5 & 1 \\\
@@ -106,19 +106,19 @@ where a , b is any vector in r^3
 -----
 Matrix Vector Product
 Example: Find the matrix product 
-$$
+\\(
 A \vect{v} where:
 
-		A = 
-		\begin{pmatrix}
-		1 & 2 & -1 \\\
-		0 & -1 & 1
-		\end{pmatrix} 
-		
-		\vect{v} =
-		\begin{pmatrix}
-		2 \\\ -3 \\\  7 
-		\end{pmatrix} \\\
+A = 
+\begin{pmatrix}
+1 & 2 & -1 \\\
+0 & -1 & 1
+\end{pmatrix} 
+
+\vect{v} =
+\begin{pmatrix}
+2 \\\ -3 \\\  7 
+\end{pmatrix} \\\
 A \vect{v} = 
 2 \begin{pmatrix}
 1  \\\ 0 
@@ -133,7 +133,7 @@ A \vect{v} =
 \begin{pmatrix}
 -11 \\\ 10 
 \end{pmatrix}
-$$
+\\)
 
 
 
