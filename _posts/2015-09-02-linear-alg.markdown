@@ -107,5 +107,11 @@ Identity Matrices
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
-
-
+{% highlight matlab %}
+>> A = [120; 25 - 1; 410 - 1] % Creating a matrix, semicolon separate rows
+>> u = [0 2 8] % row vector
+>> v = [0; 2; 8] % column vector
+>> B = A' % find transpose of A and store in B^T
+>> C = A + B
+>> w = A * v % Matrix vector product
+{% endhighlight %}
