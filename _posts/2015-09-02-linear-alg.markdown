@@ -49,7 +49,7 @@ Properties of Transpose (theorem 1.2 on page 7)
 (sA)^T = s A^T\\\
 (A^T)^T = A \\)
 
-\\( Exercise: Find (A - 3 B^T)^T + 4B \quad \\\)
+\\( Exercise: Find (A - 3 B^T)^T + 4B \quad \\\ \\)
 \\( A^T - 3B +4B  \quad which \quad simplifies \quad to \quad A^T + B \\)
 
 $$
@@ -84,10 +84,10 @@ $$ \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} and \begin{pmatrix} 0 \\\ 1 \\\ 1
 
 
 $$ c_1  \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} + c_2 \begin{pmatrix} 0 \\\ 1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}\\\$$
-$$ \quad \begin{pmatrix} c1 \\\ 2(c1) \\\ 3(c1) \end{pmatrix} +  \begin{pmatrix} 0 \\\ c2 \\\ c2 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}$$
-$$ \quad \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix} $$
+$$ \quad \quad \begin{pmatrix} c1 \\\ 2(c1) \\\ 3(c1) \end{pmatrix} +  \begin{pmatrix} 0 \\\ c2 \\\ c2 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}$$
+$$ \quad \quad \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix} $$
 
-\\( c1 = 2  \quad  c2 = -1 \\) with substation, we can see this evaluates as  a true solution
+\\( \quad \quad \quad \quad c1 = 2  \quad  c2 = -1 \\) with substation, we can see this evaluates as  a true solution
 
 Standard unit vectors 
 $$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \quad e_2 = \begin{pmatrix} 0 \\\ 1 \\\ 0 \end{pmatrix} \quad e_3 = \begin{pmatrix} 0 \\\ 0 \\\ 1 \end{pmatrix} \quad
@@ -103,7 +103,7 @@ $$
 
 ----
 Identity Matrices
-\\( \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} \quad \quad \\) Rotation Matrix \\(  A_{ \theta} = \begin{pmatrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} \\)
+\\( \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} \quad \quad \quad \quad \quad \quad \\) Rotation Matrix \\(  A_{ \theta} = \begin{pmatrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} \\)
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
