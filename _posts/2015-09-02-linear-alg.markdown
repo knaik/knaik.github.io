@@ -103,34 +103,25 @@ and \quad \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad
 -----
 Matrix Vector Product
 Example: Find the matrix product 
-\\(
-A \vec{v} where:
+$$
+A \vec v \; where:
 
 A = 
 \begin{pmatrix}
 1 & 2 & -1 \\\
 0 & -1 & 1
-\end{pmatrix} 
-\\vect{v} =
-\begin{pmatrix}
+\end{pmatrix} \; \vec v = \; \begin{pmatrix}
 2 \\\ -3 \\\  7 
-\end{pmatrix} \\\
-A \\vec{v} = 
-2 \begin{pmatrix}
+\end{pmatrix} A \vec v = 2 \begin{pmatrix}
 1  \\\ 0 
-\end{pmatrix}
-+ -3 \begin{pmatrix}
+\end{pmatrix} + -3 \begin{pmatrix}
 2  \\\ -1 
-\end{pmatrix}
-+ 7 \begin{pmatrix}
+\end{pmatrix} + 7 \begin{pmatrix}
 -1 \\\ 1
-\end{pmatrix}
- =
-\begin{pmatrix}
+\end{pmatrix}  = \begin{pmatrix}
 -11 \\\ 10 
 \end{pmatrix}
-\\)
-
+$$
 ----
 Identity Matrices
 $$ \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} $$
