@@ -41,8 +41,8 @@ Graph Algorithms:
 Sorting:
 
 |Array|Linked List| Heap|
-|:----|:-----|:----|
-|Insertion Sort | Mergesort| Heapsort|
+|:----|:-----:|:----|
+|Insertion Sort    |Mergesort   |Heapsort|
 |Quicksort| Radixsort(time permitting)| |
 
 <br>
@@ -50,6 +50,17 @@ Big O:
 `Worst Case` `Best Case` `Average Case`
 
 Eclipse IDE
+
+----------------------------
+drew a ladder, memory is a bunch of bytes...
+H  <--- pointer to memory(for example an array)
+H 
+H
+H
+
+Google, Graphs (for maps.. )
+	connection of nodes
+	
 
 {% highlight java %}
 

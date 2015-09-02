@@ -51,6 +51,17 @@ Big O:
 
 Eclipse IDE
 
+----------------------------
+drew a ladder, memory is a bunch of bytes...
+H  <--- pointer to memory(for example an array)
+H 
+H
+H
+
+Google, Graphs (for maps.. )
+	connection of nodes
+	
+
 {% highlight java %}
 
 {% endhighlight %}
