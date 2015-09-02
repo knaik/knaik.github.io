@@ -53,7 +53,7 @@ $$ (A + B)^T = A^T + B^T \\\
 (A^T)^T = A$$
 
 \\( Exercise: Find (A - 3 B^T)^T + 4B for\\)
-` \\( A^T - 3B +4B  which simplies to A^T + B \\)`
+\\( A^T - 3B +4B  which simplies to A^T + B \\)
 
 $$
 	A = 
@@ -69,20 +69,20 @@ $$
 
 
 	Resultant Matrix = 
-	\begin{pmatrix} 	
+$$	\begin{pmatrix} 	
 	1 & 2 \\\
 	5 & 1 \\\
 	3 & 3 \\\
 	-1 & 6
 	\end{pmatrix}
-
+$$
 
 Linear Combinations	
 Vector: either single row or single column
 $$ u = \begin{pmatrix} 1 & 0 & -1 \end{pmatrix}   v = \begin{pmatrix} 1 \\\ -1 \\\ 4 \\\ 0 \end{pmatrix} $$
 usually use lowercase when naming vectors (compared to multi-dimensional matrices)
 
-Example: Any vector in \\(R^3\\)$ is a linear combination of the standard unit vectors.
+Example: Any vector in \\(R^3\\) is a linear combination of the standard unit vectors.
 
 can 
 $$ \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix} $$
@@ -90,15 +90,50 @@ be expressed as a linear combination of
 $$ \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} and \begin{pmatrix} 0 \\\ 1 \\\ 1 \end{pmatrix} $$
 
 
-$$ c_1 = \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} + c_2 \begin{pmatrix} 0 \\\ 1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}$$
+$$ c_1  \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} + c_2 \begin{pmatrix} 0 \\\ 1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}\\\$$
 $$ \begin{pmatrix} c1 \\\ 2(c1) \\\ 3(c1) \end{pmatrix} +  \begin{pmatrix} 0 \\\ c2 \\\ c2 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}$$
 $$ \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix} $$
 
 `c1 = 2   c2 = -1 ` by substation, we can see this evaluates as  a true solution
 
+Standard unit vectors 
+$$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \\\
+\begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3
+$$
 
+where a , b is any vector in r^3
 
+-----
+Matrix Vector Product
+Example: Find the matrix product 
+$$
+A \vect{v} where:
 
+		A = 
+		\begin{pmatrix}
+		1 & 2 & -1 \\\
+		0 & -1 & 1
+		\end{pmatrix} 
+		
+		\vect{v} =
+		\begin{pmatrix}
+		2 \\\ -3 \\\  7 
+		\end{pmatrix} \\\
+A \vect{v} = 
+2 \begin{pmatrix}
+1  \\\ 0 
+\end{pmatrix}
++ -3 \begin{pmatrix}
+2  \\\ -1 
+\end{pmatrix}
++ 7 \begin{pmatrix}
+-1 \\\ 1
+\end{pmatrix}
+ =
+\begin{pmatrix}
+-11 \\\ 10 
+\end{pmatrix}
+$$
 
 
 
