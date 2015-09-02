@@ -42,7 +42,7 @@ Sorting:
 
 |Array|Linked List| Heap|
 |:----|:-----|:----|
-|Insertion Sort |Mergesort   |Heapsort|
+|Insertion Sort    |Mergesort   |Heapsort|
 |Quicksort| Radixsort(time permitting)| |
 
 <br>
