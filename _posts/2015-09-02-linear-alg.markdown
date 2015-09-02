@@ -30,6 +30,30 @@ $$ \begin{pmatrix} 2 \\\ 1 \end{pmatrix} $$
 -variance-covariance matrix in stats
 -google matrix represent nodes of internet
 
+easily add operations
 
+A<sub>mxt</sub> = B <sub>mxt</sub> are equal if they have the same values at every index
+Sum
+(a+b)<sub>i,j</sub> = a_i,j + b_i,j
 
+scalar multiplication
+each index value is multiplied by a constant value (scalar)
 
+Zero matrix	
+a matrix of <sub>m,n</sub> has all index values set to 0
+zero addition property
+
+-----
+Transpose of a matrix
+transpose of an `m x n`  (matrix A) is defined as A^T
+$$
+	A = 
+		\begin{pmatrix}
+		0 & 1 & 2 & -1 \\\
+		0 & 2 & 3 & -1
+		\end{pmatrix} \\
+		B =
+		\begin{pmatrix}
+		1 & 2 \\\ 4 & -1 \\\ 1 & 0 \\\ 0 & 7 
+		\end{pmatrix}
+$$
