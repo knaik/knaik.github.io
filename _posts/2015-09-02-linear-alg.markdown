@@ -8,8 +8,8 @@ categories: Linear Algebra
 $$ \begin{matrix} a & b & c \\\ d & e & f \\\ g & h & i \end{matrix} $$
 
 What is a Matrix?
--Rectangular array of objects
--- can be real numbers, sometimes complex
+- Rectangular array of objects
+	- can be real numbers, sometimes complex
 
 A=
 $$ \begin{matrix} a & b & c & 1 \\\ d & e & f & 2 \\\ g & h & i & 3 \end{matrix} $$
@@ -17,7 +17,7 @@ $$ \begin{matrix} a & b & c & 1 \\\ d & e & f & 2 \\\ g & h & i & 3 \end{matrix}
 A has 3 rows, 4 colums
 a_2,3_ = f
 
-matrix_row, column_
+matrix<sub>row, column</sub>
 
 What are they used for?
 - System of linear equations
@@ -26,9 +26,9 @@ What are they used for?
 $$ \begin{pmatrix} 2 & -1 & 1 \\\ -1 & 0 & 7 \end{pmatrix} $$
 $$ \begin{pmatrix} 2 \\\ 1 \end{pmatrix} $$
 
--LCD, OLED are simply represented as matrices
--variance-covariance matrix in stats
--google matrix represent nodes of internet
+- LCD, OLED are simply represented as matrices
+- variance-covariance matrix in stats
+- Google matrix represent nodes of internet
 
 easily add operations
 
@@ -103,6 +103,7 @@ and \quad \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad
 -----
 Matrix Vector Product
 Example: Find the matrix product 
+
 $$
 A \vec v \; where: \\\
 A = \begin{pmatrix} 1 & 2 & -1 \\\ 0 & -1 & 1 \end{pmatrix} \; \vec v = \; \begin{pmatrix} 2 \\\ -3 \\\  7 \end{pmatrix} A \vec v = 2 \begin{pmatrix} 1  \\\ 0 \end{pmatrix} + -3 \begin{pmatrix} 2  \\\ -1 \end{pmatrix} + 7 \begin{pmatrix} -1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} -11 \\\ 10 \end{pmatrix} 
