@@ -5,7 +5,7 @@ date:   2015-09-02 11:23:32
 categories: Linear Algebra
 ---
 #A trial of copy paste Latex code
-
+$$
 \def\d#1#2{ \frac{d #1}{d #2}}
 \def\dn#1#2#3{\frac{d^{#3}{#1}}{d #2^{#3}}}
 \def\dd#1#2{\dn{#1}{#2}{2}}
@@ -251,3 +251,4 @@ A \vect{v} =
 		$>> w = A*v$ 
 	\end{itemize}
 }
+$$
