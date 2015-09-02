@@ -139,7 +139,7 @@ Identity Matrices
 $$ \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} $$
 
 Rotation Matrix
-$$ A_\theta = \begin{matrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} $$
+$$ A_\\theta = \begin{matrix} cos \\theta & - sin \\theta \\\ sin \\theta & cos \\theta \end{pmatrix} $$
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
