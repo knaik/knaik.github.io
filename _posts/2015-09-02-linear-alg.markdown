@@ -67,14 +67,27 @@ $$
 		\end{pmatrix}
 $$
 
-$$
+$
 	Resultant Matrix = 
 	\begin{pmatrix} 	
 	1 & 2 \\\
 	5 & 1 \\\
 	3 & 3 \\\
-	-1 ^ 6
+	-1 & 6
 	\end{pmatrix}
-$$
+$
+
+Linear Combinations	
+Vector: either single row or single column
+$$ u = \begin{pmatrix} 1 & 0 & -1 \end{pmatrix} v = \begin{pmatrix} 1 \\\ -1 \\\ 4 \\\ 0 \end{pmatrix} $$
+usually use lowercase when naming vectors (compared to multi-dimensional matrices)
+
+Example: Any vector in $R^3$ is a linear combination of the standard unit vectors.
+
+
+
+
+
+
 
 
