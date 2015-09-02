@@ -48,7 +48,7 @@ Transpose of a matrix
 transpose of an `m x n`  (matrix A) is defined as \\(A^T\\)
 
 Properties of Transpose (theorm 1.2 on page 7)
-$$ (A + B)^T = A^T + B^T \\\
+$$  \; \\\ (A + B)^T = A^T + B^T \\\
 (sA)^T = s A^T\\\
 (A^T)^T = A$$
 
@@ -97,24 +97,21 @@ $$ \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 
 `c1 = 2   c2 = -1 ` by substation, we can see this evaluates as  a true solution
 
 Standard unit vectors 
-$$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \\\
-\begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3
-$$
-
-where a , b is any vector \\(R^3\\)
+$$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \quad e_2 = \begin{pmatrix} 0 \\\ 1 \\\ 0 \end{pmatrix} \quad e_3 = \begin{pmatrix} 0 \\\ 0 \\\ 1 \end{pmatrix}\\\
+and \; \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad where \\(\begin{pmatrix} a \\\ b \\\ c \end{pmatrix} \\) is any vector \\(R^3\\)
 
 -----
 Matrix Vector Product
 Example: Find the matrix product 
 \\(
-A \\vect{v} where:
+A \vec{v} where:
 
 A = 
 \begin{pmatrix}
 1 & 2 & -1 \\\
 0 & -1 & 1
 \end{pmatrix} 
-\\vec{v} =
+\\vect{v} =
 \begin{pmatrix}
 2 \\\ -3 \\\  7 
 \end{pmatrix} \\\
@@ -139,7 +136,7 @@ Identity Matrices
 $$ \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} $$
 
 Rotation Matrix
-$$ A_\\theta = \begin{matrix} cos \\theta & - sin \\theta \\\ sin \\theta & cos \\theta \end{pmatrix} $$
+$$ A_{\theta} = \begin{matrix} cos\theta & - sin \\theta \\\ sin \\theta & cos \\theta \end{pmatrix} $$
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
