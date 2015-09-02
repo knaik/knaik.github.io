@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linear Algebra Notes"
-date:   2015-09-02
+date:   2015-09-02 1:40:00
 categories: Linear Algebra
 ---
 #Day 1 notes
