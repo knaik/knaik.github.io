@@ -52,6 +52,9 @@ $$ (A + B)^T = A^T + B^T \\\
 (sA)^T = s A^T\\\
 (A^T)^T = A$$
 
+Exercise: Find $(A - 3 B^T)^T + 4B$ for
+` $ A^T - 3B +4B $ which simplies to $A^T + B$`
+
 $$
 	A = 
 		\begin{pmatrix}
@@ -62,6 +65,16 @@ $$
 		\begin{pmatrix}
 		1 & 2 \\\ 4 & -1 \\\ 1 & 0 \\\ 0 & 7 
 		\end{pmatrix}
+$$
+
+$$
+	Resultant Matrix = 
+	\begin{pmatrix} 	
+	1 & 2 \\\
+	5 & 1 \\\
+	3 & 3 \\\
+	-1 ^ 6
+	\end{matrix}
 $$
 
 

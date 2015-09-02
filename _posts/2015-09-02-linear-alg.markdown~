@@ -46,6 +46,15 @@ zero addition property
 -----
 Transpose of a matrix
 transpose of an `m x n`  (matrix A) is defined as A^T
+
+Properties of Transpose (theorm 1.2 on page 7)
+$$ (A + B)^T = A^T + B^T \\\
+(sA)^T = s A^T\\\
+(A^T)^T = A$$
+
+Exercise: Find $(A - 3 B^T)^T + 4B$ for
+` $ A^T - 3B +4B $ which simplies to $A^T + B$`
+
 $$
 	A = 
 		\begin{pmatrix}
@@ -58,9 +67,11 @@ $$
 		\end{pmatrix}
 $$
 
-Properties of Transpose (theorm 1.2 on page 7)
-$$ (A + B)^T = A^T + B^T \\\
-(sA)^T = s A^T\\\
-(A^T)^T = A$$
-
+$$
+	Resultant Matrix = 
+	\begin{pmatrix} 	
+	1 & 2 \\\
+	5 & 1 \\\
+	3 & 3 \\\
+	
 
