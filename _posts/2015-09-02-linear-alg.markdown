@@ -20,7 +20,7 @@ a_2,3_ = f
 matrix_row, column_
 
 What are they used for?
--System of linear equations
+- System of linear equations
 `2x -y + z = 2` and `-x   + 7z = 1`
 
 $$ \begin{pmatrix} 2 & -1 & 1 \\\ -1 & 0 & 7 \end{pmatrix} $$
@@ -34,13 +34,13 @@ easily add operations
 
 A<sub>mxt</sub> = B <sub>mxt</sub> are equal if they have the same values at every index
 Sum
-(a+b)<sub>i,j</sub> = a~i,j~ + b~i,j~
+(a+b)<sub>i,j</sub> = a<sub>i,j</sub> + b<sub>i,j</sub>
 
 scalar multiplication
 each index value is multiplied by a constant value (scalar)
 
 Zero matrix	
-a matrix of <sub>m,n</sub> has all index values set to 0
+a matrix of `m,n` has all index values set to 0
 zero addition property
 
 -----
@@ -53,7 +53,7 @@ $$  \; \\\ (A + B)^T = A^T + B^T \\\
 (A^T)^T = A$$
 
 \\( Exercise: Find (A - 3 B^T)^T + 4B for\\)
-\\( A^T - 3B +4B  \; which \; simplifies \; to \; A^T + B \\)
+\\( A^T - 3B +4B  \quad which \quad simplifies \quad to \quad A^T + B \\)
 
 $$
 	A = 
@@ -104,24 +104,10 @@ and \quad \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad
 Matrix Vector Product
 Example: Find the matrix product 
 $$
-A \vec v \; where:
-
-A = 
-\begin{pmatrix}
-1 & 2 & -1 \\\
-0 & -1 & 1
-\end{pmatrix} \; \vec v = \; \begin{pmatrix}
-2 \\\ -3 \\\  7 
-\end{pmatrix} A \vec v = 2 \begin{pmatrix}
-1  \\\ 0 
-\end{pmatrix} + -3 \begin{pmatrix}
-2  \\\ -1 
-\end{pmatrix} + 7 \begin{pmatrix}
--1 \\\ 1
-\end{pmatrix}  = \begin{pmatrix}
--11 \\\ 10 
-\end{pmatrix}
+A \vec v \; where: \\\
+A = \begin{pmatrix} 1 & 2 & -1 \\\ 0 & -1 & 1 \end{pmatrix} \; \vec v = \; \begin{pmatrix} 2 \\\ -3 \\\  7 \end{pmatrix} A \vec v = 2 \begin{pmatrix} 1  \\\ 0 \end{pmatrix} + -3 \begin{pmatrix} 2  \\\ -1 \end{pmatrix} + 7 \begin{pmatrix} -1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} -11 \\\ 10 \end{pmatrix} 
 $$
+
 ----
 Identity Matrices
 $$ \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} $$
