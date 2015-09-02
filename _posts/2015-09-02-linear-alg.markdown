@@ -5,8 +5,6 @@ date:   2015-09-02
 categories: Linear Algebra
 ---
 #Day 1 notes
-$$ \begin{matrix} a & b & c \\\ d & e & f \\\ g & h & i \end{matrix} $$
-
 What is a Matrix?
 
 - Rectangular array of objects
@@ -15,10 +13,7 @@ What is a Matrix?
 A=
 $$ \begin{bmatrix} a & b & c & 1 \\\ d & e & f & 2 \\\ g & h & i & 3 \end{bmatrix} $$
 
-A has 3 rows, 4 colums
-a<sub>2,3</sub> = f
-
-matrix<sub>row, column</sub>
+A has 3 rows, 4 columns and a<sub>2,3</sub> = \\( f \\) the format is matrix<sub>row, column</sub>
 
 What are they used for?
 
@@ -50,11 +45,11 @@ Transpose of a matrix
 transpose of an `m x n`  (matrix A) is defined as \\(A^T\\)
 
 Properties of Transpose (theorem 1.2 on page 7)
-$$  \; \\\ (A + B)^T = A^T + B^T \\\
+\\( \; \\\ (A + B)^T = A^T + B^T \\\
 (sA)^T = s A^T\\\
-(A^T)^T = A$$
+(A^T)^T = A \\)
 
-\\( Exercise: Find (A - 3 B^T)^T + 4B \quad for\\)
+\\( Exercise: Find (A - 3 B^T)^T + 4B \quad \\\)
 \\( A^T - 3B +4B  \quad which \quad simplifies \quad to \quad A^T + B \\)
 
 $$
@@ -76,7 +71,7 @@ $$
 
 Linear Combinations	
 Vector: either single row or single column
-$$ u = \begin{pmatrix} 1 & 0 & -1 \end{pmatrix} \quad  v = \begin{pmatrix} 1 \\\ -1 \\\ 4 \\\ 0 \end{pmatrix} $$
+$$ u = \begin{pmatrix} 1 & 0 & -1 \end{pmatrix} \quad  v = \begin{pmatrix} 1 \\\ -1 \end{pmatrix} $$
 
 usually use lowercase when naming vectors (compared to multi-dimensional matrices)
 
@@ -100,16 +95,15 @@ and \quad \begin{pmatrix} a \\\ b \\\ c \end{pmatrix} = ae_1 + be_2 + ce_3 \quad
 
 -----
 Matrix Vector Product
-Example: Find the matrix product 
+Example: Find the matrix product \\( A \vec v \; where: \\)
 
 $$
-A \vec v \; where: \\\
-A = \begin{pmatrix} 1 & 2 & -1 \\\ 0 & -1 & 1 \end{pmatrix} \; \; and \; \; \vec v = \; \begin{pmatrix} 2 \\\ -3 \\\  7 \end{pmatrix} \quadd A \vec v = 2 \begin{pmatrix} 1  \\\ 0 \end{pmatrix} + -3 \begin{pmatrix} 2  \\\ -1 \end{pmatrix} + 7 \begin{pmatrix} -1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} -11 \\\ 10 \end{pmatrix} 
+A = \begin{pmatrix} 1 & 2 & -1 \\\ 0 & -1 & 1 \end{pmatrix} \; \; and \; \; \vec v = \; \begin{pmatrix} 2 \\\ -3 \\\  7 \end{pmatrix} \quad \; A \vec v = 2 \begin{pmatrix} 1  \\\ 0 \end{pmatrix} + -3 \begin{pmatrix} 2  \\\ -1 \end{pmatrix} + 7 \begin{pmatrix} -1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} -11 \\\ 10 \end{pmatrix} 
 $$
 
 ----
 Identity Matrices
-\\( \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} \\) Rotation Matrix \\(  A_{ \theta} = \begin{pmatrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} \\)
+\\( \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} \quad \quad \\) Rotation Matrix \\(  A_{ \theta} = \begin{pmatrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} \\)
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
