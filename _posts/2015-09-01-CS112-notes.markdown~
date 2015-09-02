@@ -8,9 +8,45 @@ categories: CS112, Java
 
 | Grading ||
 |:-----|:-----:|
-|Assignments (5) | 35%|
+|Assignments (5) | 35% |
+|Midterm 1 | 15% |
+|Midterm 2 | 15% |
+|Final | 35%|
+|Recitation hw (5 total)| 5%|
 
+Data Structures:
 
+|Linear|Trees|Graphs|Hash Table|
+|Array|Binary Tree|Undirected| |
+|Linked List|Binary Search Tree|Directed| |
+|Stack|AVL Tree|Weighted| |
+|Queue|Heap| | |
+
+Searching:
+
+- Array
+- Linked List
+- Sorted Array 
+- Binary Search Tree 
+- AVL Tree 
+- Hash Table
+
+Graph Algorithms:
+
+- DFS (Depth first search)
+- BFS (Breadth first search)
+- Topological Sorting
+- Shortest Paths
+
+Sorting:
+
+|Array|Linked List| Heap|
+|:----|:-----:|:----|
+|Insertion Sort | Mergesort| Heapsort|
+|Quicksort| Radixsort(time permitting)| |
+
+Big O:
+`Worst Case` `Best Case` `Average Case`
 
 {% highlight java %}
 
