@@ -72,7 +72,7 @@ integration, need to split, negative doesn't matter
 
 diff									int
 
-$$
+\\(
 (e^x) = e^x \quad \quad \int e^x dx = e^x +c \\\
 sinx' = cosx						\int cosx = sinx + c \\\
 cosx = -sinx						sinx = -cosx  +c \\\
@@ -85,7 +85,7 @@ chain \quad rule \\\
 \frac{d}{dx} [f(u)] = f'(u) *  u' \\\
 subsitution
 \int f'(u) * u' du = f(u) + c\\\
-$$
+\\)
 
 
 
