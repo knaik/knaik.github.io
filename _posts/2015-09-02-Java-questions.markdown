@@ -39,3 +39,12 @@ public class Test{
 	}	
 }
 {% endhighlight %}
+'original
+1a
+2b
+swap method 1
+1a
+2b
+swap method 2
+2a
+1b'
