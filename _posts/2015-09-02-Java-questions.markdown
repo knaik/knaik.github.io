@@ -41,6 +41,8 @@ public class Test{
 {% endhighlight %}
 
 {% highlight bash %}
+output
+--------
 original
 1a
 2b
