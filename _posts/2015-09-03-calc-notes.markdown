@@ -23,3 +23,13 @@ Definite integral
 \\( \int_a^b f(x) dx \quad = A_1 - A_2 \quad (signed) \; area \; under \; graph \\\
 \int_a^a f(x) dx = 0 \quad \quad \int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx \\\ 
 \int_a^b f(x) dx = - \int_b^a f(x) dx \\)
+
+A1 is area above x-axis (positive), A2 is area below x-axis (negative)
+
+Fudamental Theorm of Calc
+
+I.
+\\( \int_a^b f(x) dx = F(x) |_a^b = F(b) - F(a) \\)
+
+II.
+\\( \frac{d}{dx} \int_a^x f(t) dt  = f(x) \\)
