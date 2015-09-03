@@ -65,6 +65,15 @@ I can't see
 something about dog, new dog
 pass by value vs pass by reference
 
+Java passes by Value 
+Object references are passed by value
+a copy of the object being referenced is passed as a value
+
+so does making it static "fix" this problem?
+-------------
+Linked Lists
+Lisp, car cdr
+
 
 {% highlight java %}
 
