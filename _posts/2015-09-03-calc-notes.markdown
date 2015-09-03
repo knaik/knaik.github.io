@@ -72,8 +72,7 @@ integration, need to split, negative doesn't matter
 
 diff									int
 
-\\(
-(e^x) = e^x \quad \quad \int e^x dx = e^x +c \\\
+\\( (e^x)' = e^x \quad \quad \int e^x dx = e^x +c \\\
 sinx' = cosx						\int cosx = sinx + c \\\
 cosx = -sinx						sinx = -cosx  +c \\\
 tanx = sec^2 x 					sec^2 x = tanx + c\\\
@@ -87,6 +86,9 @@ subsitution
 \int f'(u) * u' du = f(u) + c\\\
 \\)
 
+\\(
+1. \int x sqrt{x^2 +9} dx \\\
+2. \int_2^7 \\)
 
 
 
