@@ -53,3 +53,7 @@ swap method 2
 2a
 1b
 {% endhighlight %}
+
+Also I thought of this after I emailed you,
+any method that has void as a return will never be able to change values because nothing will be returned. 
+Wouldn't you be able to swap by using a return int method?
