@@ -61,6 +61,10 @@ H
 Google, Graphs (for maps.. )
 	connection of nodes
 	
+I can't see
+something about dog, new dog
+pass by value vs pass by reference
+
 
 {% highlight java %}
 
