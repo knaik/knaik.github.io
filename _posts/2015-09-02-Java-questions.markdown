@@ -39,7 +39,9 @@ public class Test{
 	}	
 }
 {% endhighlight %}
-'original
+
+{% highlight bash %}
+original
 1a
 2b
 swap method 1
@@ -47,4 +49,5 @@ swap method 1
 2b
 swap method 2
 2a
-1b'
+1b
+{% endhighlight %}
