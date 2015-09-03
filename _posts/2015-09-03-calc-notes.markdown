@@ -36,14 +36,14 @@ II.
 
 piece wise
 
-`
+```
 2	| y1  /\   y2
 	|    /    \
 	|_/____\_______
 	| /1   3   4
 -1	|/
 	
-`
+```
 geometry
 calc
 
@@ -71,6 +71,7 @@ integration, need to split, negative doesn't matter
 \\(\int_0^3 y_1(x) dx + \int_3^4y_2(x) dx = 1.5 + 1 = 2.5 \\)
 
 diff									int
+
 $$
 (e^x) = e^x \quad \quad \int e^x dx = e^x +c \\\
 sinx' = cosx						\int cosx = sinx + c \\\
@@ -84,7 +85,6 @@ chain \quad rule \\\
 \frac{d}{dx} [f(u)] = f'(u) *  u' \\\
 subsitution
 \int f'(u) * u' du = f(u) + c\\\
-
 $$
 
 
