@@ -96,8 +96,8 @@ u = 1 + r^2 \quad du = 2 r dr \\\
 4 \pi \int_1^101 u^{1/3} du \\)
 
 Average Value theorem
-\\(A = \int_a^b f(x) dx = f(c) x (b-a) \\\
-f(c) = \frac(1}{b - a} \int_a^b f(x) dx \\)
+\\(A = \int_a^b f(x) dx = f(c) * (b-a) \\\
+f(c) = \frac{1}{b - a} \int_a^b f(x) dx \\)
 Assuming function is continuous, gives approximate value, as if it was rectangular
 
 
