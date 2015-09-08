@@ -7,11 +7,11 @@ categories: LinearAlgebra
 #Day 2
 
 1.1 no 71
-Symmetric 
-
-\\(A = A^T \quad a_{ij} = a_{ij}^T = a_{ji} \quad a_{ij} = a_{ji} \\)
+Symmetric
 
 \\( \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
+
+\\(A = A^T \quad a_{ij} = a_{ij}^T = a_{ji} \quad a_{ij} = a_{ji} \\)
 
 1.2 no 37
 u = [3		, S = { [1		[2		[-2
