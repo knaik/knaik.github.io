@@ -5,6 +5,66 @@ date:   2015-09-08
 categories: CS112, Java
 ---
 #Day 2 Notes
+Programming languages have two types of techniques to pass arguments:
+Pass/Call by value
+
+{% highlight java %}
+Class Cat{
+	String name;
+	
+	Public Cat (String name) { 
+		this.name = name; } }
+		
+Static void foo(Cat d) {
+	d.name = "Baloo"; // c
+	d = new Cat("Lilo"); } //d
+	
+Static main(String args[]){
+	Cat aCat = new Cat("Foo"); //a
+	Cat.Foo(aCat); } //b
+	
+{% endhighlight %}
+
+Java CBV
+
+//a
+[Flo] @ 42
+
+aCat [42] @ 40  --> [Flo] @ 42
+
+//b
+foo(aCat)
+--after call
+d [42] @ 46 -->[Flo] @ 42 //main is calling foo which is the callee
+--inside foo
+d [42] @ 46 -->[Baloo] @ 42 //changed c
+
+d [48] @ 46 -->[Lilo] @ 48 // d
+
+//b
+aCat [42] @ 40  --> [Baloo] @ 42
+because we call a constructor inside a method, we lose that when we go back to main
+
+in `C` , you can call by reference with ampersand
+
+//a
+aCat [42] @ 40  --> [Flo] @ 42
+
+//b
+foo(aCat)
+--after call
+d [40] @ 46 -->[aCat] @ 40 --> [Flo] @ 42 //main is calling foo which is the callee
+--inside foo
+d [40] @ 46 -->[aCat] @ 40 --> [Baloo] @ 42  //changed c
+
+d [40] @ 46 -->[aCat] @ 40 --> [Lilo] @ 48 // d
+
+//b
+aCat [42] @ 40  --> [Lilo] @ 48
+
+
+
+
 
 #Day 1 Notes
 
@@ -75,8 +135,3 @@ so does making it static "fix" this problem?
 -------------
 Linked Lists
 Lisp, car cdr
-
-
-{% highlight java %}
-
-{% endhighlight %}
