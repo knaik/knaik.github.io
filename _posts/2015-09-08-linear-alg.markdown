@@ -20,7 +20,7 @@ c_1 \begin{bmatrix} 1 \\\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 2 \\\ 3 \end{bma
 System of linear equations:
 \\(  a_1x_1+a_2x_2+\cdots +a_nx_n = k \\\
      a_1,\, a_2,\ \dots,\ a_n\; and \; k \; are \; real \; numbers \\\
- x_1,\, x_2,\ \dots,\ x_n \; are \; the; variables \\)
+ x_1,\, x_2,\ \dots,\ x_n \; are \; the \; variables \\)
  
 
  An equation is non-lin if any var is raised to a power, multiplied together or involve other functions
@@ -43,9 +43,9 @@ Ax = b \\)
 \\( \begin{bmatrix} 1 &  1  & 1 \\\ 1 & -4 & -1 \\\ 0 & 1 & 2 \end{bmatrix}  \begin{bmatrix} x \\\ y \\\ z \end{bmatrix}  = \begin{bmatrix} 1 \\\ 7 \\\ 0 \end{bmatrix} \\)
 
 Three operations that do not change a system of equations:
-Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
-Multiply an equation by a non-zero scaler \\(	A \xrightarrow{r_i \rightarrow cr_i}  B \\)
-Multiply an equation by a scaler and add to another equation 	\\( A \xrightarrow{r_i \rightarrow cr_j + r_i} B \\)
+* Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
+* Multiply an equation by a non-zero scaler \\(	A \xrightarrow{r_i \rightarrow cr_i}  B \\)
+* Multiply an equation by a scaler and add to another equation 	\\( A \xrightarrow{r_i \rightarrow cr_j + r_i} B \\)
 
 Interchange two equations
 \\( \begin{bmatrix} 2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{r_1 \leftrightarrow r_2}	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} \\)
@@ -62,7 +62,7 @@ Multiply an equation by a scaler and add to another equation
 	2&3&1&-2
 	\end{bmatrix}
 	%
-	\xrightarrow{\begin{subarray}{l} r_3 \rightarrow 2r_1 + r_3 \\ r_1 \rightarrow -1r_1 \end{subarray}}
+	\xrightarrow{\begin{subarray}{l} r_3 \rightarrow 2r_1 + r_3, \\ r_1 \rightarrow -1r_1 \end{subarray}}
 	%
 	\begin{bmatrix}
 	1&-2&1&2\\\
@@ -85,7 +85,7 @@ The Row-Echelon Form:
 
  Non-examples:
  
- $$	\begin{bmatrix} 	2&-3&4\\\ 0&0&0\\\	0&0&1 	\end{bmatrix} \quad and \quad	\begin{bmatrix} 2&-3&4 \\\ 0&0&5 \\\ 0&0&1	\end{bmatrix} $$
+ $$	\begin{bmatrix} 	2&-3&4\\\ 0&0&0\\\ 0&0&1 	\end{bmatrix} \quad and \quad	\begin{bmatrix} 2&-3&4 \\\ 0&0&5 \\\ 0&0&1	\end{bmatrix} $$
 	
 Reduced Row Echelon form:
 - All conditions of Row-Echelon form

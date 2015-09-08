@@ -43,21 +43,15 @@ Ax = b \\)
 \\( \begin{bmatrix} 1 &  1  & 1 \\\ 1 & -4 & -1 \\\ 0 & 1 & 2 \end{bmatrix}  \begin{bmatrix} x \\\ y \\\ z \end{bmatrix}  = \begin{bmatrix} 1 \\\ 7 \\\ 0 \end{bmatrix} \\)
 
 Three operations that do not change a system of equations:
-- Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
-- Multiply an equation by a non-zero scaler
-- Multiply an equation by a scaler and add to another equation
+* Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
+* Multiply an equation by a non-zero scaler \\(	A \xrightarrow{r_i \rightarrow cr_i}  B \\)
+* Multiply an equation by a scaler and add to another equation 	\\( A \xrightarrow{r_i \rightarrow cr_j + r_i} B \\)
 
-	
-	 
-\\( A $r_i \rightarrow cr_i$}} \, B$
-	\item[] Multiply a row by a scaler and add to another row
-	$A \, \xrightarrow{\makebox[2cm]{$r_i \rightarrow cr_j + r_i$}} \, B$ \\)
-	
 Interchange two equations
-\\( \begin{bmatrix}	2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{{r_1 \leftrightarrow r_2}} 	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} \\)
+\\( \begin{bmatrix} 2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{r_1 \leftrightarrow r_2}	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} \\)
 	
 Multiply an equation by a non-zero scaler
-\\(	\begin{bmatrix}	-1&2&-1&-2\\\  2&-3&4&1\\\ 2&3&1&-2 	\end{bmatrix}  \xrightarrow{{r_2 \rightarrow 2r_1 + r_2}} \begin{bmatrix} -1&2&-1&-2\\\ 	0&1&2&-3\\\ 	2&3&1&-2 \end{bmatrix} \\)
+\\(	\begin{bmatrix}	-1&2&-1&-2\\\  2&-3&4&1\\\ 2&3&1&-2 	\end{bmatrix}  \xrightarrow{r_2 \rightarrow 2r_1 + r_2} \begin{bmatrix} -1&2&-1&-2\\\ 	0&1&2&-3\\\ 	2&3&1&-2 \end{bmatrix} \\)
 	
 Multiply an equation by a scaler and add to another equation
 \\(	\begin{bmatrix}
