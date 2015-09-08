@@ -19,7 +19,20 @@ u = [3		, S = { [1		[2		[-2
 						
 \\( \begin{bmatrix} c_1 + 2c_2 - 2c_3 \\\ 2 c_1 + 3c_2 + 5c_3 \end{bmatrix} \quad \begin{bmatrix} 3 \\\ 8 \end{bmatrix} \\)
 
+System of linear equations:
+$$  a_1x_1+a_2x_2+\cdots +a_nx_n = k \\\
+     a_1,\, a_2,\ \dots,\ a_n$ and $k$ are real numbers \\\
+ x_1,\, x_2,\ \dots,\ x_n are the variables $$
+ 
 
+ An equation is non-lin if any var is raised to a power, multiplied together or involve other functions
+ 
+System oflin eq
+
+$$ 	a_{11}x_1 +  a_{12}x_2 + \cdots a_{1n}x_n &= & b_1\\\
+	a_{21}x_1 +  a_{22}x_2 + \cdots a_{2n}x_n &= & b_2\\\
+	\vdots    \vdots\\\
+	 a_{m1}x_1 +  a_{m2}x_2 + \cdots a_{mn}x_n &= & b_n $$
 
 
 #Day 1 notes

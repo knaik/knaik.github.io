@@ -1,9 +1,40 @@
 ---
 layout: post
 title:  "Linear Algebra Notes"
-date:   2015-09-02 1:40:00
+date:   2015-09-08 
 categories: Linear Algebra
 ---
+#Day 2
+
+1.1 no 71
+Symmetric \\( A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} \\\
+\begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
+
+1.2 no 37
+u = [3		, S = { [1		[2		[-2
+		8]					2],	3],	 5]}
+						c1 * .   c2*..   c3*...
+						
+				
+						
+\\( \begin{bmatrix} c_1 + 2c_2 - 2c_3 \\\ 2 c_1 + 3c_2 + 5c_3 \end{bmatrix} \quad \begin{bmatrix} 3 \\\ 8 \end{bmatrix} \\)
+
+System of linear equations:
+$$  a_1x_1+a_2x_2+\cdots +a_nx_n = k \\\
+     a_1,\, a_2,\ \dots,\ a_n$ and $k$ are real numbers \\\
+ x_1,\, x_2,\ \dots,\ x_n are the variables $$
+ 
+
+ An equation is non-lin if any var is raised to a power, multiplied together or involve other functions
+ 
+System oflin eq
+
+$$ 	a_{11}x_1 +  a_{12}x_2 + \cdots a_{1n}x_n &= & b_1\\
+	a_{21}x_1 +  a_{22}x_2 + \cdots a_{2n}x_n &= & b_2\\
+	\vdots    \vdots\\
+	 a_{m1}x_1 +  a_{m2}x_2 + \cdots a_{mn}x_n &= & b_n $$
+
+
 #Day 1 notes
 What is a Matrix?
 
@@ -49,7 +80,7 @@ Properties of Transpose (theorem 1.2 on page 7)
 (sA)^T = s A^T\\\
 (A^T)^T = A \\)
 
-\\( Exercise: Find (A - 3 B^T)^T + 4B \quad \\)
+\\( Exercise: Find (A - 3 B^T)^T + 4B \quad \\\ \\)
 \\( A^T - 3B +4B  \quad which \quad simplifies \quad to \quad A^T + B \\)
 
 $$
@@ -84,10 +115,10 @@ $$ \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} and \begin{pmatrix} 0 \\\ 1 \\\ 1
 
 
 $$ c_1  \begin{pmatrix} 1 \\\ 2 \\\ 3 \end{pmatrix} + c_2 \begin{pmatrix} 0 \\\ 1 \\\ 1 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}\\\$$
-$$ \quad \begin{pmatrix} c1 \\\ 2(c1) \\\ 3(c1) \end{pmatrix} +  \begin{pmatrix} 0 \\\ c2 \\\ c2 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}$$
-$$ \quad \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix} $$
+$$ \quad \quad \begin{pmatrix} c1 \\\ 2(c1) \\\ 3(c1) \end{pmatrix} +  \begin{pmatrix} 0 \\\ c2 \\\ c2 \end{pmatrix}  = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix}$$
+$$ \quad \quad \begin{pmatrix} c1 \\\ 2c1 + c2 \\\ 3c1 + c2 \end{pmatrix} = \begin{pmatrix} 2 \\\ 3 \\\ 5 \end{pmatrix} $$
 
-\\( c1 = 2  \quad  c2 = -1 \\) with substation, we can see this evaluates as  a true solution
+\\( \quad \quad \quad \quad c1 = 2  \quad  c2 = -1 \\) with substation, we can see this evaluates as  a true solution
 
 Standard unit vectors 
 $$ e_1 = \begin{pmatrix} 1 \\\ 0 \\\ 0 \end{pmatrix} \quad e_2 = \begin{pmatrix} 0 \\\ 1 \\\ 0 \end{pmatrix} \quad e_3 = \begin{pmatrix} 0 \\\ 0 \\\ 1 \end{pmatrix} \quad
@@ -103,9 +134,15 @@ $$
 
 ----
 Identity Matrices
-\\( \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} \quad \quad \\) Rotation Matrix \\(  A_{ \theta} = \begin{pmatrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} \\)
+\\( \begin{pmatrix} 1 & 0 & 0 & ... \\\ 0 & 1 & 0 & ... \\\ 0 & 0 & 1 & ... \end{pmatrix} \quad \quad \quad \quad \quad \quad \\) Rotation Matrix \\(  A_{ \theta} = \begin{pmatrix} cos \theta & - sin \theta \\\ sin \theta & cos \theta \end{pmatrix} \\)
 
 given a vector, a user-defined theta offset can be applied using the rotation matrix
 
-
-
+{% highlight matlab %}
+>> A = [120; 25 - 1; 410 - 1] % Creating a matrix, semicolon separate rows
+>> u = [0 2 8] % row vector
+>> v = [0; 2; 8] % column vector
+>> B = A' % find transpose of A and store in B^T
+>> C = A + B
+>> w = A * v % Matrix vector product
+{% endhighlight %}
