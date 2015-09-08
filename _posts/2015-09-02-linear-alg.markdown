@@ -1,9 +1,27 @@
 ---
 layout: post
 title:  "Linear Algebra Notes"
-date:   2015-09-02 1:40:00
+date:   2015-09-08 
 categories: Linear Algebra
 ---
+#Day 2
+
+1.1 no 71
+Symmetric \\( A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} \\\
+\begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
+
+1.2 no 37
+u = [3		, S = { [1		[2		[-2
+		8]					2],	3],	 5]}
+						c1 * .   c2*..   c3*...
+						
+				
+						
+\\( \begin{bmatrix} c_1 + 2c_2 - 2c_3 \\\ 2 c_1 + 3c_2 + 5c_3 \end{bmatrix} \quad \begin{bmatrix} 3 \\\ 8 \end{bmatrix} \\)
+
+
+
+
 #Day 1 notes
 What is a Matrix?
 
