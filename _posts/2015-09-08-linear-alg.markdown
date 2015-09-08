@@ -87,7 +87,7 @@ Multiply an equation by a scaler and add to another equation
 	2&3&1&-2
 	\end{bmatrix}
 	%
-	\xrightarrow{{$\begin{subarray}{l} r_3 \rightarrow 2r_1 + r_3 \\ r_1 \rightarrow -1r_1 \end{subarray}$}}
+	\xrightarrow{{\begin{subarray}{l} r_3 \rightarrow 2r_1 + r_3 \\ r_1 \rightarrow -1r_1 \end{subarray}}}
 	%
 	\begin{bmatrix}
 	1&-2&1&2\\\
