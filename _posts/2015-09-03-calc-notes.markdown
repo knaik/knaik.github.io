@@ -72,9 +72,28 @@ Area of slice
 \\( = (2x)^2 = (2(2 = 1/6 y ))^2 = (4 - 1/3 y)^2 \\\
 V = \int_0^12 (4 - 1/3 y)^2 dy \\\
 u = 4 - 1/3 y \quad du = 1/3 dy \\\
--3 \int_{u(0) = 4}^{u(12) = 4} u^2 du = -3 \frac{u^3}{3} |_4^0  = 64 \\)
+-3 \int_{u(0) = 4}^{u(12) = 0} u^2 du = -3 \frac{u^3}{3} |_4^0  = 64 \\)
 
+An integral is an application of a reimann sum
 
+Neighborhoods are all equal density circles, find populatoin
+
+population density function
+
+\\( population \quad density \quad function \quad p(r)  \bigdot \\\
+|----|-\Delta r-|-------R \\\
+take tiny ring, with tiny width, find numb of people living in ring\\\
+width is \Delta r \\\
+Area = \pi r^2 \\\
+Area = 2 \pi r \Delta r * p(r) \\\
+\int_0^R 2 \pi r p(r) dr \\)
+
+Problem number 29, 6.2
+Find population, if population density is given as
+\\( p(r) = 4 (1+r^2) ^ 1/3 \\\ R = 10 \quad pop =? \\\
+Population = 2 \pi \int_0^10  4 (1+r^2) ^ 1/3 dr \\\
+u = 1 + r^2 \quad du = 2 r dr \\\
+4 \pi \int_1^101 u^{1/3} du \\)
 
 
 
