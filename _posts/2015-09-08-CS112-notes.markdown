@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CS 112: Data Structures Notes"
-date:   2015-09-02 1:40:00
+date:   2015-09-08
 categories: CS112, Java
 ---
 #Day 1 Notes
