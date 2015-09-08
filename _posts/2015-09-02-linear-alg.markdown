@@ -61,7 +61,7 @@ Interchange two equations
 $$ \begin{bmatrix}	2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{{r_1 \leftrightarrow r_2}} 	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} $$
 	
 Multiply an equation by a non-zero scaler
-$$ 	\begin{bmatrix}
+\\(	\begin{bmatrix}
 	-1&2&-1&-2\\
 	%
 	2&-3&4&1\\
@@ -77,10 +77,10 @@ $$ 	\begin{bmatrix}
 	0&1&2&-3\\
 	%
 	2&3&1&-2
-	\end{bmatrix} $$
+	\end{bmatrix} \\)
 	
 Multiply an equation by a scaler and add to another equation
-$$	\begin{bmatrix}
+\\(	\begin{bmatrix}
 	-1&2&-1&-2\\
 	%
 	0&1&2&-3\\
@@ -97,7 +97,7 @@ $$	\begin{bmatrix}
 	%
 	0&7&-1&-6
 	\end{bmatrix}
-	$$
+	\\)
 
 ---------------------------
 Special form of Matrices, goal is to use row ops to get to one of the special forms
@@ -121,7 +121,16 @@ Reduced Row Echelon form:
 
 \\(	\begin{bmatrix} 1&-3&0&1 \\\ 0&0&1&-2\\\  0&0&0&0 	\end{bmatrix} \quad  \begin{bmatrix}	0&1&0&0\\\	0&0&1&0\\\	0&0&0&1	\end{bmatrix} \\\
 	Non\; examples \quad \begin{bmatrix}  1&0&4\\\	0&1&0\\\	0&0&2 	\end{bmatrix} \quad \begin{bmatrix} 1&0&0\\\	0&0&1\\\	0&0&1	\end{bmatrix} \\)
-	
+
+augmented matrix 
+
+`x + y +z = 1`
+`x -4y -z = 7`
+`0 + y + 2z = 0`
+\\( \begin{bmatrix} 1 & 1 & 1 & | 1 \\\ 1 & -4 & | -1 \\\ 0 & 1 & 2 & \0 \end{bmatrix} \quad 	\xrightarrow{{row operations}} 	\begin{bmatrix}	1&0&0& \frac{7}{4}\\\	0&1&0 & \frac{-3}{2}\\\	0&0&1 & \frac{3}{4} \end{bmatrix} \\\ 
+x_1 = \frac{7}{4}, \quad x_2= -\frac{3}{2}, \quad x_3 = \frac{3}{4} \\)
+
+
 	
 	
 	
