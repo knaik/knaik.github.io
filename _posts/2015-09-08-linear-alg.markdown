@@ -9,15 +9,15 @@ categories: LinearAlgebra
 1.1 no 71
 Symmetric 
 
-$$ A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} $$
-
-\\( \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
+$$ A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} \quad \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} $$
 
 1.2 no 37
+
 \\( u = \begin{bmatrix} 3 \\\ 8 \end{bmatrix} , \quad S = \left\lbrace \begin{bmatrix} 1 \\\ 2 \end{bmatrix} \begin{bmatrix} 2 \\\ 3 \end{bmatrix} \begin{bmatrix} -2 \\\ 5 \end{bmatrix} \right\rbrace \quad \quad
 c_1 \begin{bmatrix} 1 \\\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 2 \\\ 3 \end{bmatrix} + c_3 \begin{bmatrix} -2 \\\ 5 \end{bmatrix} \quad \quad \begin{bmatrix} c_1 + 2c_2 - 2c_3 \\\ 2 c_1 + 3c_2 + 5c_3 \end{bmatrix} \quad \begin{bmatrix} 3 \\\ 8 \end{bmatrix} \\)
 
 System of linear equations:
+
 \\(  a_1x_1+a_2x_2+\cdots +a_nx_n = k \\\
      a_1,\, a_2,\ \dots,\ a_n\; and \; k \; are \; real \; numbers \\\
  x_1,\, x_2,\ \dots,\ x_n \; are \; the \; variables \\)
@@ -32,7 +32,7 @@ $$	a_{11} x_1 +  a_{12} x_2 + \cdots a_{1n} x_n =  b_1 \\\
 	\vdots  \quad \quad \quad \quad \quad  \vdots\\\
 	 a_{m1} x_1 +  a_{m2} x_2 + \cdots a_{mn} x_n =  b_n $$
 
-\\( x_1 \begin{bmatrix} a_11 \\\ \vdots \end{bmatrix} +  x_2 \begin{bmatrix} a_21 \\\ \vdots \end{bmatrix} +  x_3 \begin{bmatrix} a_31 \\\ \vdots  \end{bmatrix}   = \begin{bmatrix} b \\\ \vdots  \end{bmatrix} \\
+\\( x_1 \begin{bmatrix} a_{11} \\\ \vdots \end{bmatrix} +  x_2 \begin{bmatrix} a_21 \\\ \vdots \end{bmatrix} +  x_3 \begin{bmatrix} a_31 \\\ \vdots  \end{bmatrix}   = \begin{bmatrix} b \\\ \vdots  \end{bmatrix} \\
 A =  \begin{bmatrix} a_11 \end{bmatrix} , x = \begin{bmatrix} x_1 \\\ x_2 \\\ \vdots \end{bmatrix} ,  b = \begin{bmatrix} b \\\ \vdots \end{bmatrix} \\\
 Ax = b \\)
 
