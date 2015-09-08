@@ -80,7 +80,7 @@ Neighborhoods are all equal density circles, find populatoin
 
 population density function
 
-\\( population \quad density \quad function \quad p(r)  \bigdot \\\
+\\( population \quad density \quad function \quad p(r)  \circledr \\\
 |----|-\Delta r-|-------R \\\
 take tiny ring, with tiny width, find numb of people living in ring\\\
 width is \Delta r \\\
@@ -90,10 +90,12 @@ Area = 2 \pi r \Delta r * p(r) \\\
 
 Problem number 29, 6.2
 Find population, if population density is given as
-\\( p(r) = 4 (1+r^2) ^ 1/3 \\\ R = 10 \quad pop =? \\\
-Population = 2 \pi \int_0^10  4 (1+r^2) ^ 1/3 dr \\\
+\\( p(r) = 4 (1+r^2) ^ {1/3} \\\ R = 10 \quad pop =? \\\
+Population = 2 \pi \int_0^10  4 (1+r^2) ^ {1/3} dr \\\
 u = 1 + r^2 \quad du = 2 r dr \\\
 4 \pi \int_1^101 u^{1/3} du \\)
+
+Average Value theorem
 
 
 
