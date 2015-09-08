@@ -27,10 +27,10 @@ System of linear equations:
  
 System oflin eq
 
-\\(	a_{11} x_1 +  a_{12} x_2 + \cdots a_{1n} x_n =  b_1 \\\
+$$	a_{11} x_1 +  a_{12} x_2 + \cdots a_{1n} x_n =  b_1 \\\
 	a_{21} x_1 +  a_{22} x_2 + \cdots a_{2n} x_n =  b_2 \\\
 	\vdots  \quad \quad \quad \quad \quad  \vdots\\\
-	 a_{m1} x_1 +  a_{m2} x_2 + \cdots a_{mn} x_n =  b_n \\)
+	 a_{m1} x_1 +  a_{m2} x_2 + \cdots a_{mn} x_n =  b_n $$
 
 \\( x_1 \begin{bmatrix} a_11 \\\ \vdots \end{bmatrix} +  x_2 \begin{bmatrix} a_21 \\\ \vdots \end{bmatrix} +  x_3 \begin{bmatrix} a_31 \\\ \vdots  \end{bmatrix}   = \begin{bmatrix} b \\\ \vdots  \end{bmatrix} \\
 A =  \begin{bmatrix} a_11 \end{bmatrix} , x = \begin{bmatrix} x_1 \\\ x_2 \\\ \vdots \end{bmatrix} ,  b = \begin{bmatrix} b \\\ \vdots \end{bmatrix} \\\
@@ -43,36 +43,15 @@ Ax = b \\)
 \\( \begin{bmatrix} 1 &  1  & 1 \\\ 1 & -4 & -1 \\\ 0 & 1 & 2 \end{bmatrix}  \begin{bmatrix} x \\\ y \\\ z \end{bmatrix}  = \begin{bmatrix} 1 \\\ 7 \\\ 0 \end{bmatrix} \\)
 
 Three operations that do not change a system of equations:
-- Interchange two equations
-- Multiply an equation by a non-zero scaler
-- Multiply an equation by a scaler and add to another equation
+Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
+Multiply an equation by a non-zero scaler \\(	A \xrightarrow{r_i \rightarrow cr_i}  B \\)
+Multiply an equation by a scaler and add to another equation 	\\( A \xrightarrow{r_i \rightarrow cr_j + r_i} B \\)
 
-\\(	A =>  \leftrightarrow r_j B \\\ \\)
-	 Multiply a row by a non-zero scaler
-	 
-\\( A $r_i \rightarrow cr_i$}} \, B$
-	\item[] Multiply a row by a scaler and add to another row
-	$A \, \xrightarrow{\makebox[2cm]{$r_i \rightarrow cr_j + r_i$}} \, B$ \\)
-	
 Interchange two equations
-\\( \begin{bmatrix}	2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{{r_1 \leftrightarrow r_2}} 	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} \\)
+\\( \begin{bmatrix} 2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{r_1 \leftrightarrow r_2}	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} \\)
 	
 Multiply an equation by a non-zero scaler
-\\(	\begin{bmatrix}	-1&2&-1&-2\\\
-	%
-	2&-3&4&1\\\
-	%
-	2&3&1&-2 	\end{bmatrix}
-	%
-	\xrightarrow{{$r_2 \rightarrow 2r_1 + r_2$}}
-	%
-	\begin{bmatrix}
-	-1&2&-1&-2\\\
-	%
-	0&1&2&-3\\\
-	%
-	2&3&1&-2
-	\end{bmatrix} \\)
+\\(	\begin{bmatrix}	-1&2&-1&-2\\\  2&-3&4&1\\\ 2&3&1&-2 	\end{bmatrix}  \xrightarrow{r_2 \rightarrow 2r_1 + r_2} \begin{bmatrix} -1&2&-1&-2\\\ 	0&1&2&-3\\\ 	2&3&1&-2 \end{bmatrix} \\)
 	
 Multiply an equation by a scaler and add to another equation
 \\(	\begin{bmatrix}
