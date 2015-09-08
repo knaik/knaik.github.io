@@ -25,19 +25,20 @@ System of linear equations:
 
  An equation is non-lin if any var is raised to a power, multiplied together or involve other functions
  
-System oflin eq
+System eq
 
 $$	a_{11} x_1 +  a_{12} x_2 + \cdots a_{1n} x_n =  b_1 \\\
 	a_{21} x_1 +  a_{22} x_2 + \cdots a_{2n} x_n =  b_2 \\\
 	\vdots  \quad \quad \quad \quad \quad  \vdots\\\
-	 a_{m1} x_1 +  a_{m2} x_2 + \cdots a_{mn} x_n =  b_n $$
-
-\\( x_1 \begin{bmatrix} a_{11} \\\ \vdots \end{bmatrix} +  x_2 \begin{bmatrix} a_21 \\\ \vdots \end{bmatrix} +  x_3 \begin{bmatrix} a_31 \\\ \vdots  \end{bmatrix}   = \begin{bmatrix} b \\\ \vdots  \end{bmatrix} \\
+	 a_{m1} x_1 +  a_{m2} x_2 + \cdots a_{mn} x_n =  b_n \\\
+ x_1 \begin{bmatrix} a_{11} \\\ \vdots \end{bmatrix} +  x_2 \begin{bmatrix} a_21 \\\ \vdots \end{bmatrix} +  x_3 \begin{bmatrix} a_31 \\\ \vdots  \end{bmatrix}   = \begin{bmatrix} b \\\ \vdots  \end{bmatrix} \\
 A =  \begin{bmatrix} a_11 \end{bmatrix} , x = \begin{bmatrix} x_1 \\\ x_2 \\\ \vdots \end{bmatrix} ,  b = \begin{bmatrix} b \\\ \vdots \end{bmatrix} \\\
-Ax = b \\)
+Ax = b $$
 
 `x + y +z = 1`
+
 `x -4y -z = 7`
+
 `0 + y + 2z = 0`
 
 \\( \begin{bmatrix} 1 &  1  & 1 \\\ 1 & -4 & -1 \\\ 0 & 1 & 2 \end{bmatrix}  \begin{bmatrix} x \\\ y \\\ z \end{bmatrix}  = \begin{bmatrix} 1 \\\ 7 \\\ 0 \end{bmatrix} \\)
