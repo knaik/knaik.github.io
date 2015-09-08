@@ -22,7 +22,22 @@ odd
 sketch region closed by 
 \\( y = \frac{x}{x^2 + 1} \quad and \quad y = \frac{x}{5} \\)
 
+
+
 ![graph 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/graph1.gif)
+![graph 2](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/graph2.gif)
+
+We we integrate w/ respect to x axis because one function is always top and another is always bottom
+we shouldn't with y because towards the top of the function, the outer function is it's own top and bottom
+
+\\(top \quad - \quad bottom \quad  Area = 2 \int_0^2 \frac{x}{x^2 + 1} - \frac{x}{5} dx \\\
+u = x^2 + 1 \quad du = 2xdx \quad make sure to switch boundries u(x) \\\
+A = \int_1^5 1/u du - 2/5 \int_0^2 xdx \\\
+ln u |_1^5 - (\frac{x^2}{5}) |_0^2 = ln5-4/5 \\)
+
+
+
+
 
 
 
