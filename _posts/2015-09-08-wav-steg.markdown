@@ -10,4 +10,4 @@ categories: Crypto
  Initial idea: A wav file sample of generated white noise is mathematically random. Adding a layer of encrypted data should not disturb the random distribution. Converting from wav to flac should further make it harder to detect any data is hidden in the file.
  
  Research about wav files:
- A `.wav` file 
+ A `.wav` file is a raw data container format that, most commonly, contains lpcm (linear pulse-code modulation). It is based on 

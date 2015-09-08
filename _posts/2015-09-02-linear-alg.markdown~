@@ -127,7 +127,18 @@ augmented matrix
 `x + y +z = 1`
 `x -4y -z = 7`
 `0 + y + 2z = 0`
-\\( \begin{bmatrix} 1 & 1 & 1 & | 1 \\\ 1 & -4 & | -1 \\\ 0 & 1 & 2 & \0 \end{bmatrix} \quad 	\xrightarrow{{row operations}} 	\begin{bmatrix}	1&0&0& \frac{3}{4}\\\	0&1&0 & \frac{-3}{2}\\\	0&0&1 & \frac{3}{4} \end{bmatrix} \\)
+\\( \begin{bmatrix} 1 & 1 & 1 & | 1 \\\ 1 & -4 & | -1 \\\ 0 & 1 & 2 & \0 \end{bmatrix} \quad 	\xrightarrow{{row operations}} 	\begin{bmatrix}	1&0&0& \frac{7}{4}\\\	0&1&0 & \frac{-3}{2}\\\	0&0&1 & \frac{3}{4} \end{bmatrix} \\\ 
+x_1 = \frac{7}{4}, \quad x_2= -\frac{3}{2}, \quad x_3 = \frac{3}{4} \\)
+
+\\( x = \begin{bmatrix} 2 \\\ 1 - 2x_3 \\\ x_3 \end{bmatrix} = \begin{bmatrix} 2 \\\ 1 \\\ 0 \end{bmatrix} + \begin{bmatrix} 0 \\\ -2x_3 \\\ x_3 \end{bmatrix} \\\
+= \begin{bmatrix} 2\\\ 1 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 0 \\\ -2 \\\ 1 \end{bmatrix} \\)
+
+example b
+soln 
+	x3= 0, x2 = x2, x1 = 5 - 2x2
+
+\\( x = \begin{bmatrix} 5 - 2x_2 \\\ x_2 \\\ 0 \end{bmatrix} = \begin{bmatrix} 5 \\\ 0 \\\ 0 \end{bmatrix} + \begin{bmatrix} -2x2 x2 0...... \\)
+
 
 
 	
