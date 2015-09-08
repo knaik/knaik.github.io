@@ -116,8 +116,7 @@ Reduced Row Echelon form:
 - All conditions of Row-Echelon form
 - All leading entries are one (multiply with coefficient --> row operations to make this true)
 - Entries above AND below leading entries are all zero
-
-
+	-identity matrix in reduced row echelon
 	
 	
 	

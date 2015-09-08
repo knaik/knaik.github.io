@@ -7,7 +7,8 @@ categories: Linear Algebra
 #Day 2
 
 1.1 no 71
-Symmetric \\( A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} \\\
+Symmetric 
+\\( A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} \\\
 \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
 
 1.2 no 37
@@ -116,9 +117,10 @@ Reduced Row Echelon form:
 - All conditions of Row-Echelon form
 - All leading entries are one (multiply with coefficient --> row operations to make this true)
 - Entries above AND below leading entries are all zero
+	-identity matrix in reduced row echelon
 
-
-	
+\\(	\begin{bmatrix} 1&-3&0&1 \\\ 0&0&1&-2\\\  0&0&0&0 	\end{bmatrix} \quad  \begin{bmatrix}	0&1&0&0\\\	0&0&1&0\\\	0&0&0&1	\end{bmatrix} \\\
+	Non\; examples \quad \begin{bmatrix}  1&0&4\\\	0&1&0\\\	0&0&2 	\end{bmatrix} \quad \begin{bmatrix} 1&0&0\\\	0&0&1\\\	0&0&1	\end{bmatrix} \\)
 	
 	
 	
