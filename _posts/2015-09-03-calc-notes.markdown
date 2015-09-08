@@ -76,11 +76,11 @@ u = 4 - 1/3 y \quad du = 1/3 dy \\\
 
 An integral is an application of a reimann sum
 
-Neighborhoods are all equal density circles, find populatoin
+Neighbourhoods are all equal density circles, find population
 
 population density function
 
-\\( population \quad density \quad function \quad p(r)  \circledr \\\
+\\( population \quad density \quad function \quad p(r)  circle O \\\
 |----|-\Delta r-|-------R \\\
 take tiny ring, with tiny width, find numb of people living in ring\\\
 width is \Delta r \\\
@@ -96,6 +96,9 @@ u = 1 + r^2 \quad du = 2 r dr \\\
 4 \pi \int_1^101 u^{1/3} du \\)
 
 Average Value theorem
+\\(A = \int_a^b f(x) dx = f(c) . (b-a) \\\
+f(c) = \frac(1}{b - a} \int_a^b f(x) dx \\)
+Assuming function is continuous, gives approximate value, as if it was rectangular
 
 
 
