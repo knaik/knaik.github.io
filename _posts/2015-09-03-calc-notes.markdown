@@ -51,7 +51,7 @@ Pyramid \quad A_pyr = 1/3 A_base height \\)
 
 Sample Problem
 Volume of pyramid with height 12 and square base of length 4
-![pyramid 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/pyr1)
+![pyramid 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/pyr1.gif)
 
 
 
@@ -68,7 +68,8 @@ similar triangles
 12x = 24 - 2y
 x = 2 - 1/6y
 
-Area of slice = \\((2x)^2 = (2(2 = 1/6 y ))^2 = (4 - 1/3 y)^2 \\\
+Area of slice 
+\\( = (2x)^2 = (2(2 = 1/6 y ))^2 = (4 - 1/3 y)^2 \\\
 V = \int_0^12 (4 - 1/3 y)^2 dy \\\
 u = 4 - 1/3 y \quad du = 1/3 dy \\\
 
