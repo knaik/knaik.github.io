@@ -108,6 +108,8 @@ Assuming function is continuous, gives approximate value, as if it was rectangul
 
 
 
+
+
 #Day 1
 
 Two midterms and one final
