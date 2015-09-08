@@ -8,6 +8,7 @@ categories: LinearAlgebra
 
 1.1 no 71
 Symmetric 
+
 \\( A = A^T \quad a_{ij} = a_{ij}^T = a_{ji} \quad a_{ij} = a_{ji} \\)
 
 \\( \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
