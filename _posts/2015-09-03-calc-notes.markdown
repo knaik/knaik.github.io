@@ -68,7 +68,7 @@ similar triangles
 12x = 24 - 2y
 x = 2 - 1/6y
 
-Area of slice = \\( (2x)^2 = (2(2 = 1/6 y ))^2 = (4 - 1/3 y)^2 \\\
+Area of slice = \\((2x)^2 = (2(2 = 1/6 y ))^2 = (4 - 1/3 y)^2 \\\
 V = \int_0^12 (4 - 1/3 y)^2 dy \\\
 u = 4 - 1/3 y \quad du = 1/3 dy \\\
 
