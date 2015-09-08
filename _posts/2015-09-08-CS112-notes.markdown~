@@ -4,6 +4,102 @@ title:  "CS 112: Data Structures Notes"
 date:   2015-09-08
 categories: CS112, Java
 ---
+#Day 2 Notes
+Programming languages have two types of techniques to pass arguments:
+Pass/Call by value
+
+{% highlight java %}
+Class Cat{
+	String name;
+	
+	Public Cat (String name) { 
+		this.name = name; } }
+		
+Static void foo(Cat d) {
+	d.name = "Baloo"; // c
+	d = new Cat("Lilo"); } //d
+	
+Static main(String args[]){
+	Cat aCat = new Cat("Foo"); //a
+	Cat.Foo(aCat); } //b
+	
+{% endhighlight %}
+
+Java CBV
+
+//a
+`Flo`<sub> 42
+
+aCat [42] @ 40  --> [Flo] @ 42
+
+//b
+foo(aCat)
+--after call
+d [42] @ 46 -->[Flo] @ 42 //main is calling foo which is the callee
+
+--inside foo
+d [42] @ 46 -->[Baloo] @ 42 //changed c
+
+d [48] @ 46 -->[Lilo] @ 48 // d
+
+//b
+aCat [42] @ 40  --> [Baloo] @ 42
+because we call a constructor inside a method, we lose that when we go back to main
+
+in `C` , you can call by reference with ampersand
+
+//a
+aCat [42] @ 40  --> [Flo] @ 42
+
+//b
+foo(aCat)
+--after call
+d [40] @ 46 -->[aCat] @ 40 --> [Flo] @ 42 //main is calling foo which is the callee
+
+--inside foo
+d [40] @ 46 -->[aCat] @ 40 --> [Baloo] @ 42  //changed c
+
+d [40] @ 46 -->[aCat] @ 40 --> [Lilo] @ 48 // d
+
+//b
+aCat [42] @ 40  --> [Lilo] @ 48	
+
+test~m~
+test2~mm~
+----------------------------------------------------
+
+Linked Lists
+
+Node @ current address
+[data, link to the next node]
+
+int nodes:
+locat:   2		5				9					11
+[int a, 5]		[int b, 9] 	[int c, 11] 		[int d, null]  	//null signifies end of node list
+
+Linked Lists can only be transversed forward
+
+Doubly linked lists have 3 member fields
+[int a, previous memory address, next memory address]
+
+//circular linked lists
+
+
+{% highlight java %}
+Class IntNode{								
+	int Data;										//should be able to make generic 
+	intNode next; }								//for doubly linked lists, you can just add intNode previous;
+	
+Public IntNode(int data, intNode next) {
+	this.data = data;
+	this.next = next; }
+
+
+}
+	
+{% endhighlight %}
+
+
 
 #Day 1 Notes
 
@@ -74,8 +170,3 @@ so does making it static "fix" this problem?
 -------------
 Linked Lists
 Lisp, car cdr
-
-
-{% highlight java %}
-
-{% endhighlight %}
