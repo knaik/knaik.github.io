@@ -43,6 +43,7 @@ Ax = b \\)
 \\( \begin{bmatrix} 1 &  1  & 1 \\\ 1 & -4 & -1 \\\ 0 & 1 & 2 \end{bmatrix}  \begin{bmatrix} x \\\ y \\\ z \end{bmatrix}  = \begin{bmatrix} 1 \\\ 7 \\\ 0 \end{bmatrix} \\)
 
 Three operations that do not change a system of equations:
+
 * Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
 * Multiply an equation by a non-zero scaler \\(	A \xrightarrow{r_i \rightarrow cr_i}  B \\)
 * Multiply an equation by a scaler and add to another equation 	\\( A \xrightarrow{r_i \rightarrow cr_j + r_i} B \\)
@@ -77,6 +78,7 @@ Multiply an equation by a scaler and add to another equation
 Special form of Matrices, goal is to use row ops to get to one of the special forms
 
 The Row-Echelon Form:
+
  - The zero rows are in the bottom of the matrix
  - Each *leading entry* is in a column to the right of the leading entry in the previous row
  - The entries under leading entries are equal to zero * not real condition, just an implication
@@ -88,6 +90,7 @@ The Row-Echelon Form:
  $$	\begin{bmatrix} 	2&-3&4\\\ 0&0&0\\\ 0&0&1 	\end{bmatrix} \quad and \quad	\begin{bmatrix} 2&-3&4 \\\ 0&0&5 \\\ 0&0&1	\end{bmatrix} $$
 	
 Reduced Row Echelon form:
+
 - All conditions of Row-Echelon form
 - All leading entries are one (multiply with coefficient --> row operations to make this true)
 - Entries above AND below leading entries are all zero
