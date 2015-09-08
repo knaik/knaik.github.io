@@ -1,9 +1,35 @@
 ---
 layout: post
 title:  "Calc 2 Notes"
-date:   2015-09-03 1:40:00
+date:   2015-09-08 10:20:00
 categories: Calculus
 ---
+#Day 2
+
+Area under a curve could be anything, negative or positive
+Area between two curves will always be positive
+
+Even function has symmetry across y-axis
+Odd function has symmetry across 	origin
+
+even
+\\( f(-x) = f(x) \\)
+
+odd
+\\( f(-x) = -f(x) \\)
+
+6.1 problem 32
+sketch region closed by 
+\\( y = \frac{x}{x^2 + 1} \quad and \quad y = \frac{x}{5} \\)
+
+![graph 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/graph1.gif)
+
+
+
+
+
+
+
 #Day 1
 
 Two midterms and one final
@@ -37,10 +63,10 @@ II.
 piece wise
 
 ```
-2	| y1  /\   y2
-	|    /    \
-	|_/____\_______
-	| /1   3   4
+2	| y1/\   y2
+	|   /   \
+	|_/___\_______
+	| /1 3   4
 -1	|/
 	
 ```
