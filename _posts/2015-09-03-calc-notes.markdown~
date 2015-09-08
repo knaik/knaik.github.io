@@ -30,7 +30,31 @@ sketch region closed by
 We we integrate w/ respect to x axis because one function is always top and another is always bottom
 we shouldn't with y because towards the top of the function, the outer function is it's own top and bottom
 
-\\(top \quad - \quad bottom \quad \int_0^ \quad Area = 2 \int
+\\(top \quad - \quad bottom \quad  Area = 2 \int_0^2 \frac{x}{x^2 + 1} - \frac{x}{5} dx \\\
+u = x^2 + 1 \quad du = 2xdx \quad make sure to switch boundries u(x) \\\
+A = \int_1^5 1/u du - 2/5 \int_0^2 xdx \\\
+ln u |_1^5 - (\frac{x^2}{5}) |_0^2 = ln5-4/5 \\)
+
+Volume		y
+_________|__b_________
+|				 |						|
+|				 |						| 
+|------------|-----------------|	<--- slice 
+|------------|-----------------|				delta y
+|				 |						|
+|				 |	a					|
+----------------------------------------x
+
+\\(V_slice = A_cross-section * A_y \\\
+V_solid = \int_a^b A(y) dy \\\
+Pyramid \quad A_pyr = 1/3 A_base height \\)
+
+Sample Problem
+Volume of pyramid with height 12 and square base of length 4
+![pyramid 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/pyr1)
+
+
+\\(
 
 
 

@@ -35,6 +35,44 @@ u = x^2 + 1 \quad du = 2xdx \quad make sure to switch boundries u(x) \\\
 A = \int_1^5 1/u du - 2/5 \int_0^2 xdx \\\
 ln u |_1^5 - (\frac{x^2}{5}) |_0^2 = ln5-4/5 \\)
 
+Volume		y
+_________|__b_________
+|				 |						|
+|				 |						| 
+|------------|-----------------|	<--- slice 
+|------------|-----------------|				delta y
+|				 |						|
+|				 |	a					|
+----------------------------------------x
+
+\\(V_slice = A_cross-section * A_y \\\
+V_solid = \int_a^b A(y) dy \\\
+Pyramid \quad A_pyr = 1/3 A_base height \\)
+
+Sample Problem
+Volume of pyramid with height 12 and square base of length 4
+![pyramid 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/pyr1)
+
+
+
+12    /  |  \					a
+      /	   |    \
+    /___|___\				    b
+  /		   |	   \
+/_____|_____\			    c
+0			x
+
+a -> b = 12 - y
+b -> c = y
+similar triangles
+12x = 24 - 2y
+x = 2 - 1/6y
+
+Area of slice = \\( (2x)^2 = (2(2 = 1/6 y ))^2 = (4 - 1/3 y)^2 \\\
+V = \int_0^12 (4 - 1/3 y)^2 dy \\\
+u = 4 - 1/3 y \quad du = 1/3 dy \\\
+
+-3 \int_{u(0) = 4}^{u(12) = 4} u^2 du = -3 \frac{u^3}{3} |_4^0  = 64 \\)
 
 
 
