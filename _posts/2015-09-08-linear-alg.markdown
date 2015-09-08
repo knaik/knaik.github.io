@@ -14,6 +14,8 @@ $$ A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} $$
 \\( \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} \\)
 
 1.2 no 37
+\\( u = \begin{bmatrix} 3 \\\ 8 \end{bmatrix} , \quad S = \lbrace \begin{bmatrix} 1 \\\ 2 \end{bmatrix} \begin{bmatrix} 2 \\\ 3 \end{bmatrix} \begin{bmatrix} -2 \\\ 5 \end{bmatrix} \\)
+
 u = [3		, S = { [1		[2		[-2
 		8]					2],	3],	 5]}
 						c1 * .   c2*..   c3*...
