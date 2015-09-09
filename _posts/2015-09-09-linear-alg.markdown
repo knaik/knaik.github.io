@@ -158,11 +158,18 @@ C =
 \end{bmatrix}
 $$
 
-Rank of A is 2, nullity is 4 - 2 = 2; Rank of B is 3, nullity is 4 - 3; Rank(C) = 2, nullity = 4 - 2 = 2; Rank(D) = 3, nullity = 1;
+- Rank of A is 2, nullity is 4 - 2 = 2; 
+- Rank of B is 3, nullity is 4 - 3;
+- Rank(C) = 2, nullity = 4 - 2 = 2;
+- Rank(D) = 3, nullity = 1;
 
 for C[] , a) r2 -> -r2   b) r1 -> -4r2 + r1 
 
-reduced row ech vs row ech doesn't make a real diff
+reduced row ech vs row ech doesn't make a real diff. 
+nullity informs us of free vars: Rank(`A`) equals number of pivot columns, Nullity(`A`) equals number of non-pivot columns
+
+If an `n x n` (square) matrix has rank `n`, then it's reduced row ech form is \\(I_n\\) (identity matrix of size `n x n`)
+ 
 
 
 
