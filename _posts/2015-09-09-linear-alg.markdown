@@ -113,7 +113,7 @@ the non-pivot column corresponds to a "free variable".
 `x4 = -2, x3 will be free, x2 = 6 - 2x3, x1 = -4 + x3` 
 
 Then write in general form using vectors:
-$$ x = \end{bmatrix} -4 + x_3 \\\ 6 -2x_3 \\\ x_3\\\ -2 \end{bmatrix} \quad = \quad \begin{bmatrix} -4 \\\ 6 \\\ 0 \\\ -2 \end{bmatrix} + x_3 \begin{bmatrix} ... \end{bmatrix} $$
+$$ x = \end{bmatrix} -4 + x_3 \\\ 6 -2x_3 \\\ x_3\\\ -2 \end{bmatrix} \quad = \quad \begin{bmatrix} -4 \\\ 6 \\\ 0 \\\ -2 \end{bmatrix} + x_3 \begin{bmatrix} \cdots \end{bmatrix} $$
 
 Rank and Nullity
 
@@ -170,7 +170,14 @@ nullity informs us of free vars: Rank(`A`) equals number of pivot columns, Nulli
 
 If an `n x n` (square) matrix has rank `n`, then it's reduced row ech form is \\(I_n\\) (identity matrix of size `n x n`)
  
+The number of free vars and basic vars in solution `Ax = b` is given by rank A and nullity A respectively
 
+Suppose A is a `5 x 7` matrix, what is the max/min rank and nullity? 
+
+Maximum rank is 5 with a nullity of 2, min rank is 0 with a nullity of 7.
+\\( \begin{bmatrix} 1 & 0 & 0 & 0 & 0 & 0 & 0 \\\ 0 & 1 & 0 & 0 & 0 & 0 & 0 \\\ 0 & 0 & 1 & 0 & 0 & 0 & 0 \\\ 0 & 0 & 0 & 1 & 0 & 0 & 0 \\\ 0 & 0 & 0 & 0 & 0 & 1 & 0 \end{bmatrix} \\)
+
+Because you need reduced row ech, a single column and multiple row, `m x 1` will not allow negative.
 
 
 
