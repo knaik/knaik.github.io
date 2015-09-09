@@ -23,25 +23,12 @@ static void traverse(IntNode currFront){
 	IntNode temp = curFront;
 	while(temp =! null) {
 		System.out.println(temp.data);
-		curFront = curFront.next; } } //null pointer exception?
-
+	curFront = curFront.next; } } //null pointer exception?
 
 static IntNode deleteFirst(IntNode currFront){
 	curFront = curFront.next; }
-
-
-static void addAfter(IntNode beginning, int dataPresent, int dataToAdd){
-	IntNode tempNode = beginning;
-
-	while(tempNode =! null) {
-			if(tempNode ==  dataPresent) { break;}
-			else {tempNode = tempNode.next;} }
-
-	intNode node = new IntNode(2, null);
-	node.next = tempNode.next;
-	tempNode.next = node; }
+}
 	
-
 static main(){
 	IntNode initialL = null;
 	IntNode node1 = new IntNode(3, null); //IntNode node1 = new IntNode(3, null);
@@ -51,6 +38,9 @@ static main(){
 	initialL = prefix(0, initialL);
 }
 
+
+	
+	
 	
 	
 	
