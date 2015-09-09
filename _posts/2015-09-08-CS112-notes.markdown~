@@ -28,22 +28,27 @@ Static main(String args[]){
 Java CBV
 
 //a
-`Flo`<sub> 42
 
-aCat [42] @ 40  --> [Flo] @ 42
+`Flo`<sub>42</sub>
+
+`aCat[42]`<sub>40</sub>  --> `Flo`<sub>42</sub>
 
 //b
-foo(aCat)
+
+`foo(aCat)`
+
 --after call
-d [42] @ 46 -->[Flo] @ 42 //main is calling foo which is the callee
+`d[42]`<sub>46</sub>  --> `Flo`<sub>42</sub>  //main is calling foo which is the callee
 
 --inside foo
-d [42] @ 46 -->[Baloo] @ 42 //changed c
+`d[42]`<sub>46</sub>  --> `Baloo`<sub>42</sub> //changed c
 
-d [48] @ 46 -->[Lilo] @ 48 // d
+`d[42]`<sub>46</sub>  --> `Lilo`<sub>48</sub>
 
 //b
-aCat [42] @ 40  --> [Baloo] @ 42
+
+`d[42]`<sub>46</sub>  --> `Baloo`<sub>42</sub>
+
 because we call a constructor inside a method, we lose that when we go back to main
 
 in `C` , you can call by reference with ampersand
@@ -73,6 +78,7 @@ Linked Lists
 Node @ current address
 [data, link to the next node]
 
+{% highlight java %}
 int nodes:
 locat:   2		5				9					11
 [int a, 5]		[int b, 9] 	[int c, 11] 		[int d, null]  	//null signifies end of node list
@@ -93,11 +99,40 @@ Class IntNode{
 Public IntNode(int data, intNode next) {
 	this.data = data;
 	this.next = next; }
-
-
-}
 	
+Static main(){
+	intNode L = null;										// a
+	intNode node1 = new intNode(3, null);		// b
+	l = node1;												// c
+	intNode node2 - new intNode (5,null);		// d
+	node1.next = node2; 								// e	 Last in first out, no need to create initial node
+	intNode node3 = new intNode(7,null);		// 	f
+	node2.next = node3; 								// g
+	intNode nextNode =L;		}						// h
+	
+	
+Static Traverse(intNode nextNode){
+	while(nextNode.next != null) {
+		System.out.println(intNode.int val);
+		nextNode = nextNode.next; } }
+		
 {% endhighlight %}
+
+//a
+
+`L[null]`<sub>72</sub>
+
+//b
+
+`node1[3, null]`<sub>76</sub>
+
+80, node2 
+120
+
+
+
+
+
 
 
 

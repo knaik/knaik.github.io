@@ -69,8 +69,6 @@ d [40] @ 46 -->[aCat] @ 40 --> [Lilo] @ 48 // d
 //b
 aCat [42] @ 40  --> [Lilo] @ 48	
 
-test~m~
-test2~mm~
 ----------------------------------------------------
 
 Linked Lists
@@ -78,9 +76,11 @@ Linked Lists
 Node @ current address
 [data, link to the next node]
 
+{% highlight bash %}
 int nodes:
 locat:   2		5				9					11
 [int a, 5]		[int b, 9] 	[int c, 11] 		[int d, null]  	//null signifies end of node list
+{% endhighlight %}
 
 Linked Lists can only be transversed forward
 
