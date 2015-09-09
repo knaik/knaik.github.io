@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "CS 112: Data Structures Notes"
+date:   2015-09-09
+categories: CS112
+---
+#Day 3
