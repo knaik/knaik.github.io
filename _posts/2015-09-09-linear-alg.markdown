@@ -25,7 +25,8 @@ $$ r_3 \to r_1+ r_2 \begin{bmatrix} 0 & -1 & 4 & 5 \\\ 0 & 0 & 2 & 3 \\\ 0 & 0 &
 
 $$ \begin{bmatrix} 1& 3 & 5 & 7 & 0 \\\ 3 & 5 & 7 & 9 & 0 \\\ 5& 7 & 9 & 1 & 20 \end{bmatrix} \\\
 Solution: \\\
-\begin{bmatrix} 1& 3 & 5 & 7 & 0 \\\ 3 & 5 & 7 & 9 & 0 \\\ 5& 7 & 9 & 1 & 20 \end{bmatrix} \xrightarrow{\begin{subarray}{l} r_2 \rightarrow -3r_1 + r_2 \\ r_3 \rightarrow -5r_1 + r_3 \end{subarray}} \begin{bmatrix} 1& 3 & 5 & 7 & 0\\\ 0 & -4 & -8 & -12 & 0 \\\ 0 & -8 & -16 & -34 & 20	\end{bmatrix} \\\
+\begin{bmatrix} 1& 3 & 5 & 7 & 0 \\\ 3 & 5 & 7 & 9 & 0 \\\ 5& 7 & 9 & 1 & 20 \end{bmatrix} 
+\xrightarrow{\begin{subarray}{l} r_2 \rightarrow -3r_1 + r_2 \\ r_3 \rightarrow -5r_1 + r_3 \end{subarray}} 
 \begin{bmatrix}
 1& 3 & 5 & 7 & 0\\\
 0 & -4 & -8 & -12 & 0 \\\
@@ -39,7 +40,7 @@ Solution: \\\
 \end{bmatrix}
 $$
 
-1 3 5 7 0 	r1 //first is already 1
+`1 3 5 7 0 	r1 //first is already 1
 3 5 7 9 0 	r2
 5 7 9 1 20 	r3
 
@@ -56,14 +57,14 @@ r3 -> -5r1 +  r3
 r3 -> -2r2 + r3
 1  3  5     7   0 	r1
 0 -4 -8   -12  0  r2 
-0  0  0    -10  20 r3 
+0  0  0    -10  20 r3 `
 
 Reduced Rowechelon 
 zero above leading entries
 
-1  [3]  5     [7]     0 	r1
+`1  [3]  5     [7]     0 	r1
 0 -4   -8   [-12]    0    r2 
-0  0    0    -10     20   r3 
+0  0    0    -10     20   r3 `
 
 Gauss-Jordan Method
 
