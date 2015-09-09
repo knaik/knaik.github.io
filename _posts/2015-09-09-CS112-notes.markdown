@@ -11,14 +11,16 @@ class IntNode{
 	int data;
 	IntNode next; 
 	
-public intNode(int dataIn, IntNode next){
-	this.data = dataIn;
-	this.next = next; }
+	public intNode(int dataIn, IntNode next){
+		this.data = dataIn;
+		this.next = next; }
 	
+
 static IntNode prefix(int data, IntNode currFront) {
 	IntNode node = new IntNode(data, currFront); //need to specify front since not double linked
 	return node;}
 	
+
 static void traverse(IntNode currFront){
 	IntNode temp = curFront;
 	while(temp =! null) {
@@ -28,6 +30,10 @@ static void traverse(IntNode currFront){
 
 static IntNode deleteFirst(IntNode currFront){
 	curFront = curFront.next; }
+
+
+static IntNode deleteGenetic(...){
+	tempP.next = temp.next; } //can overload delete for first vs generic
 
 
 static void addAfter(IntNode beginning, int dataPresent, int dataToAdd){
@@ -50,8 +56,14 @@ static main(){
 	initialL.next = node1;
 	initialL = prefix(0, initialL);
 }
-
-	
-	
 	
 {% endhighlight %}
+
+{% highlight java %}
+
+{% endhighlight %}
+
+Problem Set 1
+
+Spreadsheet: r students, c tests; find total score/student, find avg score/exam
+
