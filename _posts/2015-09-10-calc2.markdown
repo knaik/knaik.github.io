@@ -41,8 +41,12 @@ first \; around \; y-axis \quad then \; around \; x-axis \\\
  A_{slice} = A_bigCircle - A_littleCircle = \pi (R^2 - r^3) = \pi 9 - x^4 \\)
 \\( V = int_{-sqrt{3}}^{sqrt{3}} (9 - x^4) dx\\)
 
+Shells
+
 The center of rectangle using shells has to be at the axis of rotation.
-The \\( \delta x  = ))\ thickness \\(a_{cyl} = (circumference)height \\)
+The \\( \Delta x  = ))\ thickness
+\\(a_{cyl} = (circumference)height \\)
 
-
+$$ - \pi \int_0^sqrt(3) -2x (3 - x^2) dx \\\
+u = 3 - x^2 \quad = 9\pi / 2 $$
 
