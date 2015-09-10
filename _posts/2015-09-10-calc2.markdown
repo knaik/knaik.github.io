@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "CS 112: Data Structures Notes"
+date:   2015-09-09
+categories: Calc2
+---
+#Day 4
+Volume Rotation
+
+`|---------|` 
+
+`|---------|`
+
+\\( dy \quad V = \int A(y) dy \\)
+
+since slice is horizontal
+
+Find volume of solid obtained by rotating a circle of radius `a` about the `y-axis` centered at origin.
+
+{% highlight bash %}
+				|
+			__	|_
+		  /		|	 \    	--^--- delta y 
+		 | 		|	 r|		--v---
+-----------------------------x
+		 |      |    |
+		   \__|__/	
+				|
+				|
+				|y
+{% endhighlight %}
+
+//( A_slice = \pi r^2 \\\
+x^2 + y^2 = a \quad \quad radius = x, x^2 = a^2 - y^2 \\\
+\int_0^r \pi a^2 - y^2 dy \\)
+
+Intersection:
+\\(y = x^2 and y = 3 \\\
+first \; around \; y-axis \quad then \; around \; x-axis \\\
+\pi \int_0^3 y dy = \pi (y^2) 1/2 |_0^3 \\\
+A_slice = A_bigCircle - A_littleCircle = \pi (R^2 - r^3) = \pi 9 - x^4 \\\
+V = int_{-sqrt{3}}^{sqrt{3}} (9 - x^4) dx\\)
+
+
+
