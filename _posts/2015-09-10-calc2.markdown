@@ -8,7 +8,7 @@ categories: Calc2
 Volume Rotation
 
 `|---------|` 
-
+					
 `|---------|`
 
 \\( dy \quad V = \int A(y) dy \\)
@@ -30,7 +30,7 @@ Find volume of solid obtained by rotating a circle of radius `a` about the `y-ax
 				|y
 {% endhighlight %}
 
-//( A_slice = \pi r^2 \\\
+\\( A_slice = \pi r^2 \\\
 x^2 + y^2 = a \quad \quad radius = x, x^2 = a^2 - y^2 \\\
 \int_0^r \pi a^2 - y^2 dy \\)
 
@@ -40,6 +40,7 @@ first \; around \; y-axis \quad then \; around \; x-axis \\\
 \pi \int_0^3 y dy = \pi (y^2) 1/2 |_0^3 \\\
 A_slice = A_bigCircle - A_littleCircle = \pi (R^2 - r^3) = \pi 9 - x^4 \\\
 V = int_{-sqrt{3}}^{sqrt{3}} (9 - x^4) dx\\)
+
 
 
 

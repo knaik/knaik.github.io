@@ -8,7 +8,7 @@ categories: Calc2
 Volume Rotation
 
 `|---------|` 
-
+					
 `|---------|`
 
 \\( dy \quad V = \int A(y) dy \\)
@@ -39,7 +39,8 @@ Intersection:
 first \; around \; y-axis \quad then \; around \; x-axis \\\
 \pi \int_0^3 y dy = \pi (y^2) 1/2 |_0^3 \\\
 A_slice = A_bigCircle - A_littleCircle = \pi (R^2 - r^3) = \pi 9 - x^4 \\\
-V = int_{-sqrt{3}}^{sqrt{3}}\\)
+V = int_{-sqrt{3}}^{sqrt{3}} (9 - x^4) dx\\)
+
 
 
 
