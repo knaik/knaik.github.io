@@ -67,3 +67,6 @@ Problem Set 1
 
 Spreadsheet: r students, c tests; find total score/student, find avg score/exam
 
+
+Pass by value means you have to return a modified pointer if you want to keep it. When you have a method call and then modify a pointer (reference), you will lose that modification
+unless you return it back to the caller. 
