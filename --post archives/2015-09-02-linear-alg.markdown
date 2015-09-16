@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linear Algebra Notes"
+title:  "Linear Algebra Notes to Quiz 1"
 date:   2015-09-02
 categories: LinearAlgebra
 ---

@@ -1,0 +1,432 @@
+---
+layout: post
+title:  "CS 112: Data Structures Notes"
+date:   2015-09-09
+categories: CS112
+---
+#Day 3 + 4
+
+{% highlight java %}
+class IntNode{
+	int data;
+	IntNode next; 
+	
+	public intNode(int dataIn, IntNode next){
+		this.data = dataIn;
+		this.next = next; }
+	
+
+static IntNode prefix(int data, IntNode currFront) {
+	IntNode node = new IntNode(data, currFront); //need to specify front since not double linked
+	return node;}
+	
+
+static void traverse(IntNode currFront){
+	IntNode temp = curFront;
+	while(temp =! null) {
+		System.out.println(temp.data);
+		curFront = curFront.next; } } //null pointer exception?
+
+
+static IntNode deleteFirst(IntNode currFront){
+	curFront = curFront.next; }
+
+
+static IntNode deleteGenetic(...){
+	tempP.next = temp.next; } //can overload delete for first vs generic
+
+
+static void addAfter(IntNode beginning, int dataPresent, int dataToAdd){
+	IntNode tempNode = beginning;
+
+	while(tempNode =! null) {
+			if(tempNode ==  dataPresent) { break;}
+			else {tempNode = tempNode.next;} }
+
+	intNode node = new IntNode(2, null);
+	node.next = tempNode.next;
+	tempNode.next = node; }
+	
+
+static main(){
+	IntNode initialL = null;
+	IntNode node1 = new IntNode(3, null); //IntNode node1 = new IntNode(3, null);
+	initialL = node1;
+	IntNode node2 = new IntNode(5, null); 
+	initialL.next = node1;
+	initialL = prefix(0, initialL);
+}
+	
+{% endhighlight %}
+
+{% highlight java %}
+
+{% endhighlight %}
+
+Problem Set 1
+
+Spreadsheet: r students, c tests; find total score/student, find avg score/exam
+
+
+Pass by value means you have to return a modified pointer if you want to keep it. When you have a method call and then modify a pointer (reference), you will lose that modification
+unless you return it back to the caller. 
+
+Q:
+
+Common pool for strings
+
+`String S1 = "Hello";`
+
+vs
+
+`String S2 = new String("Hello");`
+
+in first case, it goes to the common pool.
+in second case it goes onto the heap.
+
+if you add
+
+`String S3 = "Hello";`
+
+it points again to the object created in common pool
+
+`String S4 = new String("Hello");`
+
+this creates a third object, that can be found inside the heap
+
+`S1 == S2 evaluates to false`
+
+`S1.equals(S2) evaluates to true`
+
+`S1 == S3 evaluates to true`
+
+When making a linked list with strings, both member fields will contain references. one to string contained in the node, and the other part points to next
+
+only primitives can be held inside nodes.
+
+
+
+
+Does using 2 indexes vs using 1 make a big difference?
+Traverse vs toStrings
+can you have an array that's linked by nodes? 
+assignment 1?
+
+---------------------
+#reci 1
+
+
+
+A spreadsheet keeps track of student scores on all the exams in a course.  Matrix `r x c` where r is number of students,  and c is exams.
+Consider an algorithm that computes the total score on all exams for each student, and the average class score on each exam.  
+
+What are the basic operations you would count toward the running time?
+\\((c_n -1) * r) , ((r-1 )* c) + c\\)
+
+What is the worst-case running time as a total count (not big O) of these basic operations?
+\\( c* r + (r*c)/r//)
+
+What is the big O running time?
+two dimensional, O(n^2)
+
+Is your algorithm linear, quadratic, or some other order?
+linear w/ respect to array dimension
+
+A card game program keeps a deck of cards in an array. 
+Give an algorithm to "unshuffle" the deck so that all the cards of a suit are grouped together, and within each suit, the cards are in ascending order or rank--consider the ace as the lowest ranked card. 
+Since there are only 52 cards, space is not an issue so you can use extra space if needed. 
+The only constraint is that your algorithm be as fast as possible.
+
+Have 4 arrays (1 per suite). 
+moving from one array to another is costliest 
+
+What is the worst case big O running time of your algorithm? 
+O(42) 
+What are the basic operations you used in your analysis? Is the average big O running time different from the worst case?
+moving from one array to the other, and it's the same
+
+Two people compare their favorite playlists for matching songs.  
+The first playlist has n songs, and the second has m.  Each is stored in an array, in no particular order. 
+
+Describe an algorithm to find the common songs in these lists (intersection), WITHOUT sorting either list.
+Make a third array of size m + n; directly copy larger array, then search using smaller array. 
+
+What is the worst-case big O running time of your algorithm?  Make sure to state the basic operations used in your analysis of running time.
+O(m x n) , size of input is m+n , so O(n^2);
+
+What is the best-case big O running time of your algorithm?  Explain clearly, including all book-keeping needed to achieve this best case.
+Length of larger array, if every song on smaller playlist is same and first value on bigger playlist.
+or 1 + 2 + 3 + 4 .. n O(min(m,n)^2)
+
+Now suppose you could sort either or both arrays (as part of your algorithm). Repeat the worst-case and best-case analysis for the big O running time. (The running time must include the time to sort.)
+Merge sort (n log(n)) x 2, then m + n 
+										cost of comparisons?
+ 
+
+
+Time and Memory Cost
+Big O - how fast a function grows
+n - input size 
+
+\\(T(n) = 4 n^2 -2n +2 < = 4n^2 \quad 2n >= 2 \quad n> = 1 \\)
+
+big_o.pdf
+
+Order:
+
+\\(O(1) < O(logn) < O((logn)^e) < O(n)< O(n^2) < O(n^e) < O(n^n) \\)
+
+
+#Day 2 Notes
+Programming languages have two types of techniques to pass arguments:
+Pass/Call by value
+
+{% highlight java %}
+Class Cat{
+	String name;
+	
+	Public Cat (String name) { 
+		this.name = name; } }
+		
+Static void foo(Cat d) {
+	d.name = "Baloo"; // c
+	d = new Cat("Lilo"); } //d
+	
+Static main(String args[]){
+	Cat aCat = new Cat("Foo"); //a
+	Cat.Foo(aCat); } //b
+	
+{% endhighlight %}
+
+Java CBV
+
+//a
+
+`Flo`<sub>42</sub>
+
+`aCat[42]`<sub>40</sub>  --> `Flo`<sub>42</sub>
+
+//b
+
+`foo(aCat)`
+
+--after call
+`d[42]`<sub>46</sub>  --> `Flo`<sub>42</sub>  //main is calling foo which is the callee
+
+--inside foo
+`d[42]`<sub>46</sub>  --> `Baloo`<sub>42</sub> //changed c
+
+`d[42]`<sub>46</sub>  --> `Lilo`<sub>48</sub>
+
+//b
+
+`d[42]`<sub>46</sub>  --> `Baloo`<sub>42</sub>
+
+because we call a constructor inside a method, we lose that when we go back to main
+
+in `C` , you can call by reference with ampersand
+
+//a
+aCat [42] @ 40  --> [Flo] @ 42
+
+//b
+foo(aCat)
+--after call
+d [40] @ 46 -->[aCat] @ 40 --> [Flo] @ 42 //main is calling foo which is the callee
+
+--inside foo
+d [40] @ 46 -->[aCat] @ 40 --> [Baloo] @ 42  //changed c
+
+d [40] @ 46 -->[aCat] @ 40 --> [Lilo] @ 48 // d
+
+//b
+aCat [42] @ 40  --> [Lilo] @ 48	
+
+----------------------------------------------------
+
+Linked Lists
+
+Node @ current address
+[data, link to the next node]
+
+{% highlight bash %}
+int nodes:
+locat:   2		5					9						11
+[int a, 5]		[int b, 9] 		[int c, 11] 			[int d, null]  	//null signifies end of node list
+{% endhighlight %}
+
+Linked Lists can only be transversed forward
+
+Doubly linked lists have 3 member fields
+[int a, previous memory address, next memory address]
+
+//circular linked lists
+
+
+{% highlight java %}
+Class IntNode{								
+	int Data;										//should be able to make generic 
+	intNode next; }								//for doubly linked lists, you can just add intNode previous;
+	
+Public IntNode(int data, intNode next) {
+	this.data = data;
+	this.next = next; }
+	
+Static main(){
+	intNode L = null;										// a
+	intNode node1 = new intNode(3, null);		// b
+	l = node1;												// c
+	intNode node2 - new intNode (5,null);		// d
+	node1.next = node2; 								// e	 Last in first out, no need to create initial node
+	intNode node3 = new intNode(7,null);		// 	f
+	node2.next = node3; 								// g
+	intNode nextNode =L;		}						// h
+	
+	
+Static Traverse(intNode nextNode){
+	while(nextNode.next != null) {
+		System.out.println(intNode.int val);
+		nextNode = nextNode.next; } }
+		
+{% endhighlight %}
+
+//a
+
+`L[null]`<sub>72</sub>
+
+//b
+
+`node1[3, null]`<sub>76</sub>
+
+80, node2 
+120
+
+#Day 2
+
+
+#Question about pass by value
+
+{% highlight java %}
+public class Test{
+	public static void main(String args[]){
+		int a = 1;
+		int b = 2;
+		int x = 0;
+		
+		System.out.println("original");
+		System.out.println(a + "a");
+		System.out.println(b + "b");
+		
+			
+		System.out.println("swap method 1");
+		swap(a, b);	
+		System.out.println(a + "a");
+		System.out.println(b + "b");
+		
+		System.out.println("swap method 2");
+		int temp2 = a;
+		a = b;
+		b = temp2;		
+		
+		System.out.println(a + "a");
+		System.out.println(b + "b");
+	}
+
+	public static void swap(int c, int d){
+		int temp2 = c;
+		c = d;
+		d = temp2;		
+	}	
+}
+{% endhighlight %}
+
+{% highlight bash %}
+output
+--------
+original
+1a
+2b
+swap method 1
+1a
+2b
+swap method 2
+2a
+1b
+{% endhighlight %}
+
+Also I thought of this after I emailed you,
+any method that has void as a return will never be able to change values because nothing will be returned. 
+Wouldn't you be able to swap by using a return int method?
+
+
+#Day 1 Notes
+
+| Grading ||
+|:-----|:-----:|
+|Assignments (5) | 35% |
+|Midterm 1 | 15% |
+|Midterm 2 | 15% |
+|Final | 35%|
+|Recitation hw (5 total)| 5%|
+
+Data Structures:
+
+|Linear|Trees|Graphs|Hash Table|
+|Array|Binary Tree|Undirected| |
+|Linked List|Binary Search Tree|Directed| |
+|Stack|AVL Tree|Weighted| |
+|Queue|Heap| | |
+
+Searching:
+
+- Array
+- Linked List
+- Sorted Array 
+- Binary Search Tree 
+- AVL Tree 
+- Hash Table
+
+Graph Algorithms:
+
+- DFS (Depth first search)
+- BFS (Breadth first search)
+- Topological Sorting
+- Shortest Paths
+
+Sorting:
+
+|Array|Linked List| Heap|
+|:----|:-----:|:----|
+|Insertion Sort    |Mergesort   |Heapsort|
+|Quicksort| Radixsort(time permitting)| |
+
+<br>
+Big O:
+`Worst Case` `Best Case` `Average Case`
+
+Eclipse IDE
+
+----------------------------
+drew a ladder, memory is a bunch of bytes...
+H  <--- pointer to memory(for example an array)
+H 
+H
+H
+
+Google, Graphs (for maps.. )
+	connection of nodes
+	
+I can't see
+something about dog, new dog
+pass by value vs pass by reference
+
+Java passes by Value 
+Object references are passed by value
+a copy of the object being referenced is passed as a value
+
+so does making it static "fix" this problem?
+-------------
+Linked Lists
+Lisp, car cdr
+
+
