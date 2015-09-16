@@ -27,7 +27,7 @@ The 0u3 can not be thrown out,
 A set of k vectors { \\(u_1, u_2, ... , u_k\\) } in R^n is called linealry dependent if there exists
 scalers \\(c_1 + c_2 + ... + c_k \quad c_1 u_1 + c_2  u_2+ ... + c_k u_k = 0 \\) and not all c1, c2 are all zero.
 
-Suppose c1 != zero, ((\  c_2  u_2+ ... + c_k u_k = c_1 u_1 \quad ( 1/ {c_1 u_1} )(c_2  u_2+ ... + c_k u_k = u_1) \\)
+Suppose c1 != zero, ((\  c_2  u_2+ ... + c_k u_k = c_1 u_1 \quad (1/{c_1 u_1})(c_2  u_2+ ... + c_k u_k = u_1) \\)
 
 In order to ensure not dependent, you need to solve
 
@@ -53,3 +53,18 @@ In order to ensure not dependent, you need to solve
 1 0  2 0
 0 1 -1 0
 0 0  0 1
+
+x1 x2 x3 x4 sln:0
+
+x3 is going to be a free variable
+
+` x4 = 0 , x3 = x3 ,  x2 = x3 (based on second e, x2 - x3 = 0) x1 = -2x3`
+
+pick a nice number for x3
+
+to get a set of non-zero coffeicients, pick (arbitrary choice [other than 0]), pick x3= 1
+
+-2u2 + u2 + u3 +0u4 = 0
+
+why doesn't the inconsistency in row 3, 0003 make a difference?
+
