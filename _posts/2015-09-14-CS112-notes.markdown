@@ -59,10 +59,6 @@ static main(){
 	
 {% endhighlight %}
 
-{% highlight java %}
-
-{% endhighlight %}
-
 Problem Set 1
 
 Spreadsheet: r students, c tests; find total score/student, find avg score/exam
