@@ -89,7 +89,7 @@ Doubly linked lists have 3 member fields
 [int a, previous memory address, next memory address]
 
 //circular linked lists
-
+{% endhighlight %}
 
 {% highlight java %}
 Class IntNode{								
