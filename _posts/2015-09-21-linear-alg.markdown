@@ -92,6 +92,11 @@ A(CP) = AC(P) for each b which exists in R^n (
 (A+B)C = AC + BC; distributive property (and reverse C(P+Q) = CP + CQ;)
 Ik (identity matrix, square m x m with  diagonal 1s [1, 0, 0; 0, 1, 0; 0, 0, 1]; .. 
 IkA = A = AIm where A[](kxm) (dimensions based on order. for I x A, I should be kxk; for A x I, I should be m x m;)
+(AC)^T = C^T * A^T
 
+A[1, 4; 0, 3]; B[9, 0; 14, 2]; AB= [9 + 4*14, 8; 42, 6]; BA = [..
 
-
+{% highlight matlab%}
+A = fix(10*rand(2,3)); % entries would be -1, 1; fix rounds the numbers.. so generates a 2x3 from -10, 10?
+{% endhighlight %}
+ 
