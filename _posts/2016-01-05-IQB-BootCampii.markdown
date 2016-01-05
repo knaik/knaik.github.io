@@ -29,3 +29,62 @@ Ligand induces dimerization (receptor crosslinking), this causes opening of acti
 EGFR, lung, two point mutation, opens up catalytic cleft without activation (always active).
 
 Erlotinib small TKI. Biologics: antibody.
+
+Initiating a protein kinase drug discovery program
+Peter R Young
+
+TPP (Target Product Profile) - profile of focus (administration, mechanism, relavence, efficacy)
+
+Protein Kinases are varied and so selectivity is very important for drug development. They all have multiple activation methods.
+
+Single endpoint assay.
+
+Maximize output of assay, validation experiements.
+
+Kinase + peptide + ATP -> Kinase + phosphopeptide + adp
+Two usbtrates, peptides eachwith own Km
+
+Radioactive assay in past, now flourescent.
+
+Flourescence polarization.
+
+Luminescent Protein Kinase.
+
+Competition Binding Assay.
+
+IC50 for an inhibitor, 50% of inhibition.
+Usually triplicate Assay.
+
+Screening for potential drugs is based on practicality rather than possibility. Virtual screening is prominent in the field. Irreversible inhibitor has renewed inerest.
+
+High throughput screen.
+
+Z prime or Z factor, variablility around control. Seperation of outcomes.
+
+Cell based assays
+Target engagement
+
+Fluorescent probe both in vitro and in vivo.
+
+Characteristics	of	a	Protein	kinase	hit	to	
+progress	into	lead	optimization		
+•  Stage	at	which	more	considerable	medicinal	chemistry	
+resources	will	be	applied	
+•  Active	in	vitro	and	in	cells	
+•  Selectivity	promising	and	manageable	
+•  Chemistry	promising	with	strong	potential	for	patentability	
+–  Lipinski	rule	of	5,	Ligand	eﬃciency,	biochemical	eﬃciency,	ADME,	
+polar	surface	area	(PSA),	rotatable	bonds	
+•  Desired	functional	eﬀect	in	cell	culture	model(s)		
+•  Oral	bioavailability	
+•  Activity	in	an	animal	model	of	disease	
+
+Summary	
+•  A	target	product	proﬁle	and	compound	progression	
+scheme	is	important	to	advance	any	new	drug	discovery	
+project	
+•  Multiple	protein	kinase	assay	formats	exist	to	support	
+high	throughput	screening	of	compounds	
+•  Selectivity	is	now	a	manageable issue for discovering selective protein kinase inhibitors	
+•  Tools	exist	for	translating	in	vitro	compound	data	into	
+animal	models	and	humans	
