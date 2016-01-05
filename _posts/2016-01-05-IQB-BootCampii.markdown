@@ -88,3 +88,7 @@ high	throughput	screening	of	compounds
 •  Selectivity	is	now	a	manageable issue for discovering selective protein kinase inhibitors	
 •  Tools	exist	for	translating	in	vitro	compound	data	into	
 animal	models	and	humans	
+
+Chimera UCSF, buggy on windows.
+
+Amber
