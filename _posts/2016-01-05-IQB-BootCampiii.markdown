@@ -31,3 +31,17 @@ John S. Tokarski
 Insulin receptor Kinase.
 
 Kinase structure is very good for small drug targetting.
+
+Protein crystalography, issue with error for strong vs weak hydrogen bonding.
+
+Exploit Structure-Based Design.
+
+Using the CSD for Pharmaceutical Research
+Amy A Sarjeant, Ph.D
+
+• Basic crystal structure search, analysis & visualisation (ConQuest & Mercury)
+• Intramolecular geometry analysis (Mogul)
+• Intermolecular interaction analysis (IsoStar & Full Interaction Maps)
+• Assessment of risk of polymorphism (Mercury)
+• Easy analysis of hydrate, solvate and co-crystal structures (Mercury)
+
