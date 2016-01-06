@@ -45,3 +45,6 @@ Amy A Sarjeant, Ph.D
 • Assessment of risk of polymorphism (Mercury)
 • Easy analysis of hydrate, solvate and co-crystal structures (Mercury)
 
+In Silico Medcinal Chemistry Workshop
+
+Entropy is more important than enthalpy.
