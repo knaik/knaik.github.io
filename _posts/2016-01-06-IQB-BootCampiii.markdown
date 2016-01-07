@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IQB Boot Camp Day 3"
-date:   2016-01-05
+date:   2016-01-06
 categories: Quant
 ---
 #Day 3
