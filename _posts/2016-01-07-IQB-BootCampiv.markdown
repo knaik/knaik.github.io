@@ -121,3 +121,118 @@ made in preclinical species can be applied to humans.
 Pharmacodynamics
 Christina S. Won, PharmD, PhD
 
+Kaplin Meyer Curves, Mathematical Modeling for time frames
+
+Ocology uses MTD(maximum tolerated dose) model where PD is not always considered intensely.
+
+Immuno onoclogy seems interesting.
+
+IC50 - 50% inhibition of cell pathways, GI50 - reduce growth rate to 50% of maximum, ED50 - 50% of maximum measure effect, LD50 - 50% of cells die
+
+ Indirect (effect compartment) 
+-  Could be due to slow receptor binding, distributional delay, or transduction delay
+
+Counterclockwise - hysteresis 
+
+Multicompartent (add compartment as a site of extra interaction)
+
+Sigmoind Emax (hill equation)
+Empirical
+
+Multiple models for Tumor growth
+
+How can we translate PD data obtained in pre-clinical 
+studies to what one may observe in a clinical setting?  
+§  Unlike allometric methods applied to PK parameters, it is rare to see allometry 
+applied to PD parameters. 
+•  Example: Zuideveld et al 2007 
+
+Response 
+
+Direct effects, reversible effects, funtional adaptation, irreversible effects
+
+Career Byte: Securing an Industrial Postition - A Hiring Manager's Prespective
+Joseph L. Duffy, PhD
+
+Resume, looked at 4-5min(self-reported), 6.25 sec(mesaured)
+
+Automated -> Hiring Manager -> Telephone -> Committee -> Invitation -> Job Offer -> Hire
+
+..., 100, 20, 15, 7, 3, 2
+
+Apply for appropriate positions (100 -> 20)
+Time candidates spent evaluating a position before applying, self reporting (10 min), actual (50-75)sec
+
+Employee Referrals
+Campus Ambassador - good impression, choose stongest, jump to the comittee
+
+Flawless cover letter
+Resume
+Possible publications, research
+
+i'm pleased to sublic y app for ____(position) 
+forward to discussing
+perfect match
+"mission of human health"
+
+first para intro and 
+
+2nd para
+then briefly describe while you are ideally qualified
+useful info, get past computer
+-don't talk about technology, no need to say nmr, mass spec, word, etc
+
+third para
+reference something specific
+very specific - 
+talked about HIV, and specific seminar
+why specific company
+
+PROOF READ.
+
+from "TheLadders" eye tracking
+top left
+
+1. academic experience
+2. professional exp
+3. honors and awards
+
+4. publications
+consistent format for all citations, seperate sections for publications, patents, and presentations, be very selective using "Manuscript in preperation" citations, future publications may include "...", bold name, further up is better, added click here
+
+use your linkedin profile, supplementary 
+professional photo
+
+network connections should be relevant
+
+recommendations,
+
+partners in the job hunt
+current and past academic advisors, let recommenders know that they will be contacted and by whom, send them a CV, summary of your research, telephone discussion of your career aspriations and plans
+
+interview
+
+research presentation, questions, research, interviewer's research, positoin, company, industry
+
+express your interest, state restraints
+
+Interviewer - "do you have any questions for me?" 
+
+roundtable, your experience to the table,
+meals are part of the interview
+
+Workshop PK/PD
+Principles of PK-PD Modeling Workshop
+
+Non-compartmental Analysis, Model-Independnt Analysis
+ 
+ Very primitive.
+ 
+ Lot of assumptions, system is linear and stationary, frequency and duration of data colleciton is approproriate, terminal phate/decline is mono-exponential. 
+
+ Compartmental PK modeling
+ time course, administration, transfer, elimination
+ 
+ Simplicity = primitive method
+ 
+ Matlab, R, Pheonix
