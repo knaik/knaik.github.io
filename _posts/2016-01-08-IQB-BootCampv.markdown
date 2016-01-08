@@ -47,3 +47,29 @@ success in the clinic
  
 •  “Chance favors the prepared mind.” – Louis Pasteur, lecture at 
 University of Lille, December, 1854 
+
+The Making of an Awesome Curriculum Vitae
+Mike Kiledjian
+
+Publications trumps anything else.
+
+GradFund
+Teresa M. Delcorso-Ellman
+
+Tumor Genome Proﬁling	
+Dr	Chang S Chan	
+ 
+cBioPortal
+
+Cancer -> Tree
+1 2 4 8 16 32 64 ... trillions of cells
+
+trace Cancer up to source
+
+Samtools
+
+VarScan
+
+mPileup
+
+IGV Integrative Genomics Viewer
