@@ -47,3 +47,11 @@ Drug supply manager
 Drug safety
 Finance
 Vendor logistics
+
+The Interview: You Are Onstage
+Alex Freund
+
+---
+
+
+early phase 1
