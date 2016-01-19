@@ -23,6 +23,11 @@ Ch 7 is Least squares, patterns
 
 Dimensional Reduction?
 
+Start of chapter 4 is halfway point
+
+matlab solve == 0
+define X as symbolic
+single quote for symbolic solving
 
 
 
