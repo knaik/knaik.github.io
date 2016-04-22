@@ -28,3 +28,5 @@ This information helps us review the advertiser for CAP compliance before approv
 SLA: 2 Business Days"
 
 [source](https://readytogo.microsoft.com/global/_layouts/RTG/AssetViewer.aspx?AssetUrl=https%3a%2f%2freadytogo.microsoft.com%2fglobal%2fAsset%2fPages%2fSkype-Ads-FAQ.aspx)
+
+http://security.stackexchange.com/questions/121179/advertisement-on-skype-tried-to-download-a-file-to-my-computer-using-javascript
