@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Skype Drive By Javascript"
+date:   2016-04-22 10:20:00
+categories: Netsec
+---
+# Skype Javascript Download
+
+Skype uses an internal embedded broswer and the is delivered as content-type "Undecided".
+
+From the ad toolkit
+
+"Q: Can any advertiser run on Skype?
+A: Skype is setup within AdExpert as a Sensitive publisher.  This means by default all advertisers are automatically opted-OUT of Skype.  The only way advertisers can run on Skype is if they are manually added to a whitelist.  Advertisers will be added to the whitelist on a case by case basis.  This applies to Skype-only buys, Skype on Run of Network (RON) and Run-of-Social.  In preparation for this effort, the list of active advertisers was reviewed and many approved advertisers were added to the whitelist (in many markets, more than 1,000).  Twice a month, Skype will review a list of new advertisers and those deemed acceptable will be added to the whitelist.
+
+Q:  How do I get my client/advertiser added to the Skype whitelist?
+A: Step 1: Please confirm your advertiser accounts are not already on Display Advertising Global Whitelist (internal only).  If the advertiser has done business in another market or on another whitelisted publisher, they may already be on the Global whitelist.  Whitelisting is applied at the advertiser account level against publisher sites, not markets, but you will want to confirm all of the accounts you manage are already whitelisted before attempting to book traffic. 
+
+Confirm advertiser meets Global CAP and Skype requirements: Global Creative Acceptance Policy
+
+New and/or existing advertisers that have not been added to the Display Advertising Global Whitelist (internal only) should follow the following process for approval:
+Submit the following information to CEUpdate@microsoft.com in order to request a new whitelist update for your advertiser account(s):
+•	Location where the creative will be serving
+•	Account name(s) as they appear in Ad Expert
+•	Advertiser Vertical or Industry
+•	Site URL or creative landing page
+This information helps us review the advertiser for CAP compliance before approving and updating our Global Whitelist.  
+SLA: 2 Business Days"
+
+[source](https://readytogo.microsoft.com/global/_layouts/RTG/AssetViewer.aspx?AssetUrl=https%3a%2f%2freadytogo.microsoft.com%2fglobal%2fAsset%2fPages%2fSkype-Ads-FAQ.aspx)
