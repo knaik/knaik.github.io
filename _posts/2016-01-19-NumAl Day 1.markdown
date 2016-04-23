@@ -29,5 +29,6 @@ matlab solve == 0
 define X as symbolic
 single quote for symbolic solving
 
+Row vs Column because of SSD?
 
 
