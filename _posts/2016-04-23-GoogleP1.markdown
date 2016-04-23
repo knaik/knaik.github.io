@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Google Search Engine Trends"
+date:   2016-04-22 10:20:00
+categories: SEO
+---
+#Google.
+
+This post is 110% conjecture. Based on previous experiences and some intuitive guessing.
+
+This new search algorithm based on artifical neural networks is horrible. It is getting the classication very wrong. This isn't the first time it happened. It keeps assuming what I meant rather than understand what I mean. Before I typed in "Child protecting adult" because I wanted a picture of a child acting like a hero. This is an ambiguous case for artifical intelligence but I know and you know very easily what that means. The ordering of the words matter. The AI search algorithm is throwing it away. Please stop.
+
+Clearly I am researching Man In Distress. Not Man || Distress || Psychology. This is very inefficient. Please. 
+
+Also are you using previous search results as a way to narrow the field? Because that's causing overfitting. The search results aren't related to each other but maybe the search engine thinks they are. Please stop. I was good at finding information through google, is there an older algorithm without the AI that I can use?
+
+Sincerely,
+Comp Sci Student who loves Information Gathering

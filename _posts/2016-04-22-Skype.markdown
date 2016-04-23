@@ -6,7 +6,7 @@ categories: Netsec
 ---
 # Skype Javascript Download
 
-Skype uses an internal embedded broswer and the is delivered as content-type "Undecided".
+Skype uses an internal embedded broswer and the script is delivered as content-type "Undecided".
 
 From the ad toolkit
 
