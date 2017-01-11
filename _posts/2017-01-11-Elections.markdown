@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Direction for this blog"
-date:   2015-1-11 11:08:00
+date:   2017-1-11 11:08:00
 categories: Calculus
 ---
 #Election as of 11:08
@@ -54,3 +54,15 @@ Trump: In terms of new factories, any companies that plan to build factories out
 Question: Views on Intelligence Agencies.
 
 Trump: We're going to start with the wall with Mexico. Mexico will reimburse us, that will happen. Maybe through taxes.
+
+Trump accused Buzzfeed of being outright fake news.
+
+Question: Do you trust US Intelligence?
+
+Trump: Intelligence is very critcal. Withing 90 days, they will give me a report about being hacked. 
+
+Question: You just said Russia had a part in hacking the DNC.
+
+Trump: Everyone hacks the US.
+
+Question: Message to Putin, Russia will have far greater respect for US. 
