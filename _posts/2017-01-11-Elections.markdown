@@ -65,4 +65,6 @@ Question: You just said Russia had a part in hacking the DNC.
 
 Trump: Everyone hacks the US.
 
-Question: Message to Putin, Russia will have far greater respect for US. 
+Question: Message to Putin.
+
+Trump: Russia will have far greater respect for US.
