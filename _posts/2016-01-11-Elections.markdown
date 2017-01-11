@@ -39,4 +39,6 @@ Trump: I became president so I don't believe people care about me releasing tax 
 Essentially Trump aruges that if people cared about the tax returns, they wouldn't have elected him. Since he is now elected, the Tax returns are no longer relevant. He doesn't explicity say he won't show his tax returns.
 
 
-Trump is giving up control of his assets and will do things in his power to be sever his connections with his business. He is isolating himself from his businesses.
+Trump is giving up control of his assets and will do things in his power to be sever his connections with his business. He is isolating himself from his businesses. Trump believes this way of separating himself from his businesses in order to, in his perspective, protect his assessets from becoming devalued because of scandals related to his presidency.
+
+Trump is diverting foreign profits as charity to US Dept. of Treasury.
