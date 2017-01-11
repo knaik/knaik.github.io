@@ -34,4 +34,9 @@ Trump: I have no dealings/loans with Russia. We could make deals, but I don't wa
 
 Question: Restating the question.
 
-Trump: I became president so I don't believe people care about me releasing tax returns.
+Trump: I became president so I don't believe people care about me releasing tax returns. 
+
+Essentially Trump aruges that if people cared about the tax returns, they wouldn't have elected him. Since he is now elected, the Tax returns are no longer relevant. He doesn't explicity say he won't show his tax returns.
+
+
+Trump is giving up control of his assets and will do things in his power to be sever his connections with his business. He is isolating himself from his businesses.
