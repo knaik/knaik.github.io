@@ -42,3 +42,15 @@ Essentially Trump aruges that if people cared about the tax returns, they wouldn
 Trump is giving up control of his assets and will do things in his power to be sever his connections with his business. He is isolating himself from his businesses. Trump believes this way of separating himself from his businesses in order to, in his perspective, protect his assessets from becoming devalued because of scandals related to his presidency.
 
 Trump is diverting foreign profits as charity to US Dept. of Treasury.
+
+Question: Obamacare, what plans to replace?
+
+Trump: Repeal and Replace. "It's a very complicated process." Obamacare is the Democrat's problem. 
+
+Question: International Policies
+
+Trump: In terms of new factories, any companies that plan to build factories outside of the US will have to deal with border taxes.
+
+Question: Views on Intelligence Agencies.
+
+Trump: We're going to start with the wall with Mexico. Mexico will reimburse us, that will happen. Maybe through taxes.
