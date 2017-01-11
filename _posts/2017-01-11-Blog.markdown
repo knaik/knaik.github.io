@@ -1,9 +1,0 @@
----
-layout: post
-title:  "New Direction for this blog"
-date:   2017-1-11 11:06:00
-categories: Calculus
----
-#I am going to write more and I'm planning on being more open about my opinion. Please take everything you read with a grain of salt. I am only a person with the same information as you. Many posts will be conjecture, but that's what a blog is supposed to be. I will try to include Sources.
-
-My goal is to be as unbaised as but to be bias is human. Be critical.
