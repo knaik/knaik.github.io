@@ -11,27 +11,39 @@ Modified by Karan Naik
 Latest update: Sun Feb 20 2017
 
 
+#Introduction
 
 
-Introduction
 What is computer security?
+protection of computers
+
 Confidentiality
-Kknow how privacy relates to confidentiality
-Integrity
-Data integrity
-origin/destination (endpoint) integrity
-system integrity
-Availability
-Policy vs. Mechanism
-Definitions
-Vulnerability
-Attack
+bob can not share alice's secrets
+
+privacy
+alice gives up privacy by sharing secret with bob
+alice's privacy is intact with respect to others
+
+Integrity (are you sure?) aka sureness
+Data integrity (corruption?)
+origin/destination (endpoint) integrity (no MITM)
+system integrity (no loopholes, although physical methods always exist)
+Availability (right information shown to right people)
+Policy vs. Mechanism (theory/abstract vs day-to-day)
+
+Vulnerability: you are the weakest link
+
+Attack: calculated setup to achieve a goal through execution)
+(rube goldberg machine)/(dominoes)
+
 Threat categories (know but don't memorize)
-Disclosure
-Deception
-Disruption
-Usurpation
-Examples of threats
+Disclosure - spy espionage binoculars data dump
+Deception - fake id changing mac address in aircrack-ng attack
+Disruption - embargo or misdirection, fucking popups
+Usurpation - overthrow king(kernel-level process) [hacking]
+
+
+
 Snooping
 Modification
 Alteration
@@ -40,10 +52,13 @@ Denial of receipt
 Delay
 Denial of service
 You don't need to know the threat matrix or types of attackers/adversaries
+
 What is a trusted computing base
+
 Access control
 What is protection?
 What is access control?
+
 Basic OS and hardware mechanisms for protection
 Hardware timer
 Process scheduler
@@ -182,20 +197,30 @@ Control groups
 Just know that they allow you to limit the amount of resources used by a proces (CPU, memory, file I/O, network I/O)
 ----------------------------------------------------------------------------
 
-#Introduction
 
-Computer security is about securing computers, programs, and data. 
+What is CompSec?
+Protecting computers, programs, and data. 
+
+
+
 Three objectives: Confidentiality, Integrity, Availability
-Confidentiality:people, Integrity:proccess, Availability:connections
+
+Confidentiality - compartmentalization, privacy delineates
+
+confidentiality refers to personal information shared with an attorney, physician, therapist, or other individual that generally cannot be divulged to third parties without the express consent of the client. 
+privacy refers to the freedom from intrusion into one's personal matters, and personal information.
+
+Privacy – right to keep things to yourself • Confidentiality – right to keep things about you from
+being disclosed to others
+• Security – protection of your personal information 
+
+Confidentiality:people, Integrity:proccess, Availability:connections(to outside)
 
 
 Confidentiality requires authorization in practice, privacy specifies boundries.
 
-cubicles. process and data has it's own cubicle and not everyone can see inside.
 
-Confidentiality means that we do not make a system’s data and its resources
-available to everyone. Only authorized people and processes should have access. 
-Privacy specifies limits on what information can be shared with others while confidentiality provides a means to block access to such information. Privacy is a reason for confidentiality. Someone being able to access a protected file containing your medical records without proper access rights is a violation of confidentiality. (HIPAA)
+Confidentiality means that we do not make a system’s data and its resources available to everyone. Only authorized __ should have access. Privacy specifies limits on what information can be shared with others while confidentiality provides a means to block access to such information. Privacy is a reason for confidentiality. Someone being able to access a protected file containing your medical records without proper access rights is a violation of confidentiality. (HIPAA)
 
 
 Integrity: hole in the pipeline/hole in the wall/fly on the wall/contamination
@@ -213,17 +238,26 @@ Maintaining integrity means not just defending against intruders that want to mo
 
 Availability
 Availability means that the system is available for use and performs properly. A denial of service (DoS) attack may not steal data or damage any files but may cause a system to become unresponsive.
+
+
+
 Security is difficult. Software is incredibly complex. Large systems may comprise tens or hundreds of millions of lines of code. Systems as a whole are also complex. We may have a mix of cloud and local resources, third-party libraries, and multiple administrators. If security was easy, we would not have massive security breaches year after year. Microsoft wouldn’t have monthly security updates. There are no magic solutions … but there is a lot that can be done to mitigate the risk of attacks and their resultant damage.
 
 We saw that computer security addressed three areas of concern. The design of security systems also has three goals.
 
-Prevention (STOP)
+Prevention (STOP before)
 Prevention means preventing attackers from violating established security policies. It means that we can implement mechanisms into our hardware, operating systems, and application software that users cannot override – either maliciously or accidentally. Examples of prevention include enforcing access control rules for files and authenticating users with passwords.
-Detection (IDENTIFY)
+Detection (IDENTIFY during)
 Detection detects and reports security attacks. It is particularly important when prevention mechanisms fail. It is useful because it can identify weaknesses with certain prevention mechanisms. Even if prevention mechanisms are successful, detection mechanisms are useful to let you know that attempted attacks are taking place. An example of detection is notifying an administrator that a new user has been added to the system. Another example is being notified that there have been several consecutive unsuccessful attempts to log in.
 Recovery(BACKUP) back that ass up
 If a system is compromised, we need to stop the attack and repair any damage to ensure that the system can continue to run correctly and the integrity of data is preserved. Recovery includes forensics, the study of identifying what happened and what was damaged so we can fix it. An example of recovery is restoration from backups.
 Security engineering is the task of implementing the necessary mechanisms and defining policies across all the components of the system. Like other engineering disciplines, designing secure systems involves making compromises. A highly secure system will be disconnected from any communication network, sit in an electromagnetically shielded room that is only accessible to trusted users, and run software that has been thoroughly audited. That environment is not acceptable for most of our computing needs. We want to download apps, carry our computers with us, and interact with the world. Even in the ultra-secure example, we still need to be concerned with how we monitor access to the room, who wrote the underlying operating system and compilers, and whether authorized users can be coerced to subvert the system. Systems have to be designed with some idea of who are likely potential attackers and what the threats are. This is called risk analysis.
+
+
+the policy is the theory/model/framework
+the mechanism is the implementaion
+
+
 
 Secure systems have two parts to them: mechanisms and policies. A policy is a description of what is or is not allowed. For example, “users must have a password to log into the system” is a policy. Mechanisms* are used to implement and enforce policies. An example of a mechanism is the software that requests user IDs and passwords, authenticates the user, and allows entry to the system only if the correct password is used.
 
@@ -243,10 +277,16 @@ Usurpation: Unauthorized control of some part of a system. This includes theft o
 
 Access control
 See lecture notes
-Program Hijacking
+
+
+
+Program Hijacking (like dna splicing with ecoli)
 Program hijacking refers to techniques that can be used to take control of a program and have it do something other than what it was intended to do. One class of techniques uses code injection, in which an adversary manages to add code to the program and change the program’s execution flow to run that code.
 
 The best-known set of attacks are based on buffer overflow. Buffer overflow is the condition where a programmer allocates a chunk of memory (for example, an array of characters) but neglects to check the size of that buffer when moving data into it. Data will spill over into adjacent memory and overwrite whatever is in that memory.
+
+
+array bounds! 
 
 Languages such as C, C++, and assembler are susceptible to buffer overflows since the language does not have a means of testing array bounds. Hence, the compiler cannot generate code to validate that data is only going into the allocated buffer. For example, when you copy a string using strcpy(char *dest, char *src), you pass the function only source and destination pointers. The strcpy function has no idea how big either of the buffers are.
 
@@ -819,7 +859,3 @@ a glyph is a printable character. Unicode is designed around the concept of scri
 Note that Wikipedia and many other sites refer to this as “Version 7 Unix”. Unix has been under continuous evolution at Bell Labs from 1969 through approximately 1989. As such, it did not have versions. Instead, an updated set of manuals was published periodically. Installations of Unix have been referred to by the editions of their manuals.  ?
 
 Linux capabilities are not to be confused with the concept of capability lists, which are a form of access control that Linux does not use).  ?
-
-
-
-
