@@ -10,21 +10,202 @@ Paul Krzyzanowski
 Modified by Karan Naik
 Latest update: Sun Feb 20 2017
 
-Disclaimer: This study guide attempts to touch upon the most important topics that may be covered on the exam but does not claim to necessarily cover everything that one needs to know for the exam. Finally, don't take the one hour time window in the title literally.
+
+
 
 Introduction
-Computer security is about keeping computers, their programs, and the data they manage “safe.” Specifically, this means addressing three areas:
-
+What is computer security?
 Confidentiality
-Confidentiality means that we do not make a system’s data and its resources (the devices it connects to and its ability to run programs) available to everyone. Only authorized people and processes should have access. Privacy specifies limits on what information can be shared with others while confidentiality provides a means to block access to such information. Privacy is a reason for confidentiality. Someone being able to access a protected file containing your medical records without proper access rights is a violation of confidentiality.
+Kknow how privacy relates to confidentiality
 Integrity
+Data integrity
+origin/destination (endpoint) integrity
+system integrity
+Availability
+Policy vs. Mechanism
+Definitions
+Vulnerability
+Attack
+Threat categories (know but don't memorize)
+Disclosure
+Deception
+Disruption
+Usurpation
+Examples of threats
+Snooping
+Modification
+Alteration
+Repudiation of origin
+Denial of receipt
+Delay
+Denial of service
+You don't need to know the threat matrix or types of attackers/adversaries
+What is a trusted computing base
+Access control
+What is protection?
+What is access control?
+Basic OS and hardware mechanisms for protection
+Hardware timer
+Process scheduler
+Memory management unit (MMU)
+user vs. kernel mode execution
+You do not need to know about rings of privilege levels or call gates
+Purpose of authentication
+Subjects vs. objects
+Unix access control model
+root user
+User, group, other
+Read, write, execute permissions
+Order of checking
+You don't need to know windows domains
+What do permissions mean for directories (e.g., execute?)?
+You don't need to remember /etc/passwd and /etc/group but know that there's a file that stores a user' login, user ID, and a user's default group, and another that stores a list of groups and user names that belong to each group
+You don't need to remember syntax but know:
+chmod - change permissions of a file
+chown - change ownership of a file
+chgrp - change group of a file
+umask - initial (default) permissions of a file
+possible race condition with using umask
+setuid - what does it do? What are the risks?
+Access control lists (ACLs)
+Know the purpose of ACLs
+You don't need to know any syntax for setting them
+Principle of least privilege
+Privilege separation
+Access control matrix
+What's a row annd what's a column?
+I will not ask about access transitions
+I will not ask about domain transfers
+Implementation problems of ACLs
+Implementation problems of capability lists
+Mandatory Access Control (MAC)
+DAC vs. MAC
+Bell-LaPadula Model
+Simple Security Property
+*-Property
+Discretionary Security Property
+I will not ask about Bell-LaPadula tranquility principles
+Biba Integrity Model
+Difference from Bell-LaPadula
+Simple Integrity Property
+*-Property
+Type Enforcement (TE) Model
+Just the concept
+Role-Based Access Control (RBAC) Model
+Just the concept
+Multilateral security
+What is the concept?
+What is a compartment?
+What does a lattice model represent?
+Chinese Wall model
+What is the goal?
+What is a conflict class?
+I will not ask you about the Simple security property and *-property but understand when a subject will or will not be granted access to an object.
+I will not ask you about unsanitized data
+Control hijacking
+What is a buffer overflow?
+Why are setuid programs attractive targets?
+Stack overflow
+Role of stack pointer
+Return address overwrite
+NOP slide = landing zone
+Off-by-one stack overflow
+What is a frame pointer?
+Taking control (see hw assignment)
+Heap overflow
+What is the risk?
+Format string attacks
+What creates the vulnerability?
+Understand how you can read the stack
+Understand how you can write to memory via printf
+Defenses
+Safe vs. dangerous functions (e.g., strncpy vs. strcpy)
+What does fuzzing do?
+What's the problem with languages like C or C++?
+Data Execute Protection
+What does it do?
+What is a return-to-libc attack?
+What is Return Oriented Programming (ROP)?
+Address Space Layout Randomization (ASLR)
+What is it?
+Stack canaries
+What are they?
+When are they checked?
+Why would a compiler re-order how variables are allocated on the stack?
+Other injection attacks (and a few other attacks)
+Injection attacks
+What are they?
+SQL injection attack
+I do not expect you to know SQL but recognize how the attack works and how interpreted languages and command interpreters in general are vulnerable
+Prevention
+Escaping (but error-prone)
+Parameterized queries
+Shell and execution environment attacks
+IFS
+Understand the concept of an internal field separator
+How can a redefinition of IFS affect command parsing?
+system() and popen() risks
+Understand that the attacks are essentially the same as for SQL injection
+PATH: what is the risk?
+LD_PRELOAD/LD_LIBRARY_PATH: what is the risk?
+How can you attack a program via a file descriptor?
+Non-injection attacks
+Understand what is meant by comprehension errors
+Understand why parsing a filename can be tricky
+Understand why unicode can make parsing even trickier
+What is a homograph attack?
+Understand it's for deception, not injection
+What is a TOCTTOU (Time Of Check To Time Of Use) attack?
+Relative Attack Surface Quotient (RASQ)
+All you need to know is in the exam review slide deck - just understand bias as a multiplier to each possible attack type
+Know what is meant by an attack vector
+I will not ask you about root attack vectors, attack surfaces, or effective attack surface value
+App Confinement
+Why is access control not sufficient?
+chroot
+What does it do?
+I will not ask you about jailkits
+Why must it only be run as root?
+How can you escape a chroot jail if you get root privileges?
+FreeBSD Jails
+Understand the goal and how they wanted to improve chroot
+Ability to restric what root can do inside a jail
+Linux app isolation
+Namespaces
+Recognize the different namespaces: IPC, network, mount (file system), process IDs, user/group IDs, network name
+Understand the concept of the clone() system call: create a new process but specify which namespaces get shared
+Capabilities
+Note that these have no relation to capability lists for files
+Know that they restrict what a proess can do with root privileges if it becomes root
+You don't have to know the capabilities but it might be good to recognize a few in the notes
+Control groups
+Just know that they allow you to limit the amount of resources used by a proces (CPU, memory, file I/O, network I/O)
+----------------------------------------------------------------------------
+
+#Introduction
+
+Computer security is about securing computers, programs, and data. 
+Three objectives: Confidentiality, Integrity, Availability
+Confidentiality:people, Integrity:proccess, Availability:connections
+
+
+Confidentiality requires authorization in practice, privacy specifies boundries.
+
+cubicles. process and data has it's own cubicle and not everyone can see inside.
+
+Confidentiality means that we do not make a system’s data and its resources
+available to everyone. Only authorized people and processes should have access. 
+Privacy specifies limits on what information can be shared with others while confidentiality provides a means to block access to such information. Privacy is a reason for confidentiality. Someone being able to access a protected file containing your medical records without proper access rights is a violation of confidentiality. (HIPAA)
+
+
+Integrity: hole in the pipeline/hole in the wall/fly on the wall/contamination
 Integrity refers to the trustworthiness of a system. This means that everything is as you expect it to be: users are not imposters and processes are running correctly.
 
-Data integrity means that the data in a system has not been corrupted.
+Data integrity: data not corrupted. (checksum)
 
-Origin integrity means that the person or system sending a message or creating a file truly is that person and not an imposter.
+Origin integrity: sender is vouched for, ssl.
 
-Recipient integrity means that the person or system receiving a message truly is that person and not an imposter.
+Recipient integrity: receiver is intended target, not intercepted or imposter.
 
 System integrity means that the entire computing system is working properly; that it has not been damaged or subverted. Processes are running the way they are supposed to.
 
@@ -36,11 +217,11 @@ Security is difficult. Software is incredibly complex. Large systems may compris
 
 We saw that computer security addressed three areas of concern. The design of security systems also has three goals.
 
-Prevention
+Prevention (STOP)
 Prevention means preventing attackers from violating established security policies. It means that we can implement mechanisms into our hardware, operating systems, and application software that users cannot override – either maliciously or accidentally. Examples of prevention include enforcing access control rules for files and authenticating users with passwords.
-Detection
+Detection (IDENTIFY)
 Detection detects and reports security attacks. It is particularly important when prevention mechanisms fail. It is useful because it can identify weaknesses with certain prevention mechanisms. Even if prevention mechanisms are successful, detection mechanisms are useful to let you know that attempted attacks are taking place. An example of detection is notifying an administrator that a new user has been added to the system. Another example is being notified that there have been several consecutive unsuccessful attempts to log in.
-Recovery
+Recovery(BACKUP) back that ass up
 If a system is compromised, we need to stop the attack and repair any damage to ensure that the system can continue to run correctly and the integrity of data is preserved. Recovery includes forensics, the study of identifying what happened and what was damaged so we can fix it. An example of recovery is restoration from backups.
 Security engineering is the task of implementing the necessary mechanisms and defining policies across all the components of the system. Like other engineering disciplines, designing secure systems involves making compromises. A highly secure system will be disconnected from any communication network, sit in an electromagnetically shielded room that is only accessible to trusted users, and run software that has been thoroughly audited. That environment is not acceptable for most of our computing needs. We want to download apps, carry our computers with us, and interact with the world. Even in the ultra-secure example, we still need to be concerned with how we monitor access to the room, who wrote the underlying operating system and compilers, and whether authorized users can be coerced to subvert the system. Systems have to be designed with some idea of who are likely potential attackers and what the threats are. This is called risk analysis.
 
@@ -642,124 +823,3 @@ Linux capabilities are not to be confused with the concept of capability lists, 
 
 
 
-
-
-
-
-
-#Day 2
-
-1.1 no 71
-Symmetric 
-
-$$ A = A^T \quad a_{i,j} = a_{i,j}^T = a_{j,i} \quad a_{i,j} = a_{j,i} \quad \begin{bmatrix} a & b & c \\\ b & e & f \\\ c & f & i \end{bmatrix} $$
-
-1.2 no 37
-
-\\( u = \begin{bmatrix} 3 \\\ 8 \end{bmatrix} , \quad S = \left\lbrace \begin{bmatrix} 1 \\\ 2 \end{bmatrix} \begin{bmatrix} 2 \\\ 3 \end{bmatrix} \begin{bmatrix} -2 \\\ 5 \end{bmatrix} \right\rbrace \quad \quad
-c_1 \begin{bmatrix} 1 \\\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 2 \\\ 3 \end{bmatrix} + c_3 \begin{bmatrix} -2 \\\ 5 \end{bmatrix} \quad \quad \begin{bmatrix} c_1 + 2c_2 - 2c_3 \\\ 2 c_1 + 3c_2 + 5c_3 \end{bmatrix} \quad \begin{bmatrix} 3 \\\ 8 \end{bmatrix} \\)
-
-System of linear equations:
-
-\\(  a_1x_1+a_2x_2+\cdots +a_nx_n = k \\\
-     a_1,\, a_2,\ \dots,\ a_n\; and \; k \; are \; real \; numbers \\\
- x_1,\, x_2,\ \dots,\ x_n \; are \; the \; variables \\)
- 
-
- An equation is non-lin if any var is raised to a power, multiplied together or involve other functions
- 
-System eq
-
-$$	a_{11} x_1 +  a_{12} x_2 + \cdots a_{1n} x_n =  b_1 \\\
-	a_{21} x_1 +  a_{22} x_2 + \cdots a_{2n} x_n =  b_2 \\\
-	\vdots  \quad \quad \quad \quad \quad  \vdots\\\
-	 a_{m1} x_1 +  a_{m2} x_2 + \cdots a_{mn} x_n =  b_n \\\
- x_1 \begin{bmatrix} a_{11} \\\ \vdots \end{bmatrix} +  x_2 \begin{bmatrix} a_21 \\\ \vdots \end{bmatrix} +  x_3 \begin{bmatrix} a_31 \\\ \vdots  \end{bmatrix}   = \begin{bmatrix} b \\\ \vdots  \end{bmatrix} \\
-A =  \begin{bmatrix} a_11 \end{bmatrix} , x = \begin{bmatrix} x_1 \\\ x_2 \\\ \vdots \end{bmatrix} ,  b = \begin{bmatrix} b \\\ \vdots \end{bmatrix} \\\
-Ax = b $$
-
-`x + y +z = 1`
-
-`x -4y -z = 7`
-
-`0 + y + 2z = 0`
-
-\\( \begin{bmatrix} 1 &  1  & 1 \\\ 1 & -4 & -1 \\\ 0 & 1 & 2 \end{bmatrix}  \begin{bmatrix} x \\\ y \\\ z \end{bmatrix}  = \begin{bmatrix} 1 \\\ 7 \\\ 0 \end{bmatrix} \\)
-
-Three operations that do not change a system of equations:
-
-* Interchange two equations \\( A  \xrightarrow{ r_i \leftrightarrow r_j}  B \\)
-* Multiply an equation by a non-zero scaler \\(	A \xrightarrow{r_i \rightarrow cr_i}  B \\)
-* Multiply an equation by a scaler and add to another equation 	\\( A \xrightarrow{r_i \rightarrow cr_j + r_i} B \\)
-
-Interchange two equations
-\\( \begin{bmatrix} 2&-3&4&1\\\	-1&2&-1&-2\\\	2&3&1&-2	\end{bmatrix}	\xrightarrow{r_1 \leftrightarrow r_2}	\begin{bmatrix}	-1&2&-1&-2\\\ 	2&-3&4&1\\\ 	2&3&1&-2 	\end{bmatrix} \\)
-	
-Multiply an equation by a non-zero scaler
-\\(	\begin{bmatrix}	-1&2&-1&-2\\\  2&-3&4&1\\\ 2&3&1&-2 	\end{bmatrix}  \xrightarrow{r_2 \rightarrow 2r_1 + r_2} \begin{bmatrix} -1&2&-1&-2\\\ 	0&1&2&-3\\\ 	2&3&1&-2 \end{bmatrix} \\)
-	
-Multiply an equation by a scaler and add to another equation
-\\(	\begin{bmatrix}
-	-1&2&-1&-2\\\
-	%
-	0&1&2&-3\\\
-	%
-	2&3&1&-2
-	\end{bmatrix}
-	%
-	\xrightarrow{\begin{subarray}{l} r_3 \rightarrow 2r_1 + r_3, \\ r_1 \rightarrow -1r_1 \end{subarray}}
-	%
-	\begin{bmatrix}
-	1&-2&1&2\\\
-	%
-	0&1&2&-3\\\
-	%
-	0&7&-1&-6
-	\end{bmatrix}
-	\\)
-
----------------------------
-Special form of Matrices, goal is to use row ops to get to one of the special forms
-
-The Row-Echelon Form:
-
- - The zero rows are in the bottom of the matrix
- - Each *leading entry* is in a column to the right of the leading entry in the previous row
- - The entries under leading entries are equal to zero * not real condition, just an implication
-
- $$ 	\begin{bmatrix} 2&-3&4&1 \\\ 0&0&-1&-2\\\ 0&0&0&0 \end{bmatrix} \quad and \quad \begin{bmatrix}  0&2&-1&-2 \\\ 0&0&4&1\\\ 0&0&0&5	\end{bmatrix}	$$
-
- Non-examples:
- 
- $$	\begin{bmatrix} 	2&-3&4\\\ 0&0&0\\\ 0&0&1 	\end{bmatrix} \quad and \quad	\begin{bmatrix} 2&-3&4 \\\ 0&0&5 \\\ 0&0&1	\end{bmatrix} $$
-	
-Reduced Row Echelon form:
-
-- All conditions of Row-Echelon form
-- All leading entries are one (multiply with coefficient --> row operations to make this true)
-- Entries above AND below leading entries are all zero
-	-identity matrix in reduced row echelon
-
-\\(	\begin{bmatrix} 1&-3&0&1 \\\ 0&0&1&-2\\\  0&0&0&0 	\end{bmatrix} \quad  \begin{bmatrix}	0&1&0&0\\\	0&0&1&0\\\	0&0&0&1	\end{bmatrix} \\\
-	Non\; examples \quad \begin{bmatrix}  1&0&4\\\	0&1&0\\\	0&0&2 	\end{bmatrix} \quad \begin{bmatrix} 1&0&0\\\	0&0&1\\\	0&0&1	\end{bmatrix} \\)
-
-augmented matrix 
-
-`x + y +z = 1`
-`x -4y -z = 7`
-`0 + y + 2z = 0`
-\\( \begin{bmatrix} 1 & 1 & 1 & | 1 \\\ 1 & -4 & | -1 \\\ 0 & 1 & 2 & \0 \end{bmatrix} \quad 	\xrightarrow{{row operations}} 	\begin{bmatrix}	1&0&0& \frac{7}{4}\\\	0&1&0 & \frac{-3}{2}\\\	0&0&1 & \frac{3}{4} \end{bmatrix} \\\ 
-x_1 = \frac{7}{4}, \quad x_2= -\frac{3}{2}, \quad x_3 = \frac{3}{4} \\)
-
-\\( x = \begin{bmatrix} 2 \\\ 1 - 2x_3 \\\ x_3 \end{bmatrix} = \begin{bmatrix} 2 \\\ 1 \\\ 0 \end{bmatrix} + \begin{bmatrix} 0 \\\ -2x_3 \\\ x_3 \end{bmatrix} \\\
-= \begin{bmatrix} 2\\\ 1 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 0 \\\ -2 \\\ 1 \end{bmatrix} \\)
-
-example b
-soln 
-	x3= 0, x2 = x2, x1 = 5 - 2x2
-
-\\( x = \begin{bmatrix} 5 - 2x_2 \\\ x_2 \\\ 0 \end{bmatrix} = \begin{bmatrix} 5 \\\ 0 \\\ 0 \end{bmatrix} + \begin{bmatrix} -2x2 x2 0...... \\)
-
-example c
-no solution because
-last row gives self contradictory solution `0 = 4 `
