@@ -10,7 +10,6 @@ Paul Krzyzanowski
 Modified by Karan Naik
 Latest update: Sun Feb 20 2017
 
-
 #Introduction
 
 
@@ -859,3 +858,4 @@ a glyph is a printable character. Unicode is designed around the concept of scri
 Note that Wikipedia and many other sites refer to this as “Version 7 Unix”. Unix has been under continuous evolution at Bell Labs from 1969 through approximately 1989. As such, it did not have versions. Instead, an updated set of manuals was published periodically. Installations of Unix have been referred to by the editions of their manuals.  ?
 
 Linux capabilities are not to be confused with the concept of capability lists, which are a form of access control that Linux does not use).  ?
+
