@@ -7,6 +7,8 @@ categories: CompSec
 Q:
 Will you talk about botnets?
 Can you look at weather?
+How do you calculate the probability of something being cracked? (yes 26^3) (but real life)
+
 
 Xkasdps!
 
@@ -165,5 +167,38 @@ each disk has a substitution alphabet
 
 output of each rotor is fed through to next rotor.
 one rotor rotates by one position.
+
+->  polyalphabetic substitution cipher
+
+3 , 26^3 17,576 possible rotor positions
+
+Transposition
+Skytale
+
+padding
+
+still vulnerable to frequency analysis.
+
+Can have hybrid ADFGVX cipher(WWI)
+
+
+
+Computer - Block Ciphers.
+encrypt a fixed number of bits at a time. output blocksize (usually) = input blocksize
+
+
+Multiple rounds of combining the plaintext with the key (optional) converty key to internal form
+
+DES:16 rounds
+AES:10-14 rounds, depending on key length
+
+
+
+DES 1976 (adopted), fips
+block cipher, 64 bit blocks, 56 bit key
+Substitution followed by a permuatation (transposition)
+-16 rounds
+
+S-BOX
 
 
