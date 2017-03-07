@@ -8,9 +8,11 @@ Q:
 Will you talk about botnets?
 Can you look at weather?
 How do you calculate the probability of something being cracked? (yes 26^3) (but real life)
+what about include a parity bit inside the bit stream?
+Do we treat IVs and keys the same ay?
 
 
-Xkasdps!
+Xkasdps! (8 letters, basically true random?)
 
 Cryptography
 http://l2-news.com/coordinates/XKASD
@@ -201,4 +203,47 @@ Substitution followed by a permuatation (transposition)
 
 S-BOX
 
+For DES, cascading (doubling cipher) is okay
+the weakness is the meet in the middle attack
 
+triple des is 112 and 168
+
+
+CTR mode -< intialization vector.
+encrypt the counter with key, exclusive or result ith the plaintext blocks
+value of counter will be pseudorandom, recipient has to generate same counter stream.. need the same IV?
+
+More common approach Cipher block chaining CBC mode
+	random initialization vector = bunch of k random bits
+		exclor ith first plaintext blck - then encrypt the block
+			take exclor of result..
+			
+	intuitive idea... 
+	the weakness is iv source
+	
+	identical plaintext does not produce the same cipher text,
+	
+	an attacker can still cause data corruption
+	
+	what about include a parity bit inside the bit stream?
+	
+key explosion
+each pair of users need a separate key for secure communication (key between each pairing of nodes)
+n(n-1)/2 keys = n users
+
+Secure key distribution is the biggest problem with symmetric cryptography (IV)
+
+Invention of public key cryptography
+C = Ek1(p) P = Dkw(c) -> public
+.. private
+
+public and private are mathematically related but not derivable from the other
+
+RSA, Ellipic Curve Algo, DSS
+
+Unlike symmetrric. key length is an issue
+
+RSA Encryption
+
+Diffie Hellman Key Excange
+not public key encryption
