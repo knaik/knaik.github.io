@@ -6,6 +6,7 @@ categories: CompSec
 ---
 Q:
 Will you talk about botnets?
+Can you look at weather?
 
 Xkasdps!
 
@@ -124,3 +125,45 @@ sender destroys pages that have been used
 reciever maintains an identical pad.
 
 exclusive or
+
+or means set bit, and means clear bit. exclor flip a bit or not flip a bit	
+
+Perfect secrecy only when used properly
+-keys needs to be as long as message
+-key storage can be problematic,
+may need to store a lot of data
+-keys have to be generated randomly, no pseudorandom
+
+Anyone who condisers arithmetical methods of producing random digits is, of course, in a state of sin
+
+Seed
+
+Stream cipher
+
+Key sream generator produces a sequence of pseudo-random bytes, 
+	key -> key stream generator -> 
+	*statistically random (but weakness is seed)
+	--> approximates one time pad s0 s1 s2....sn
+								  p0 p1 p2....pn
+								  ci = si (+) pi
+								  
+WE can never reuse keys
+
+C = A (+) K
+C' = B (+) K
+C (+) C' = A (+) B <- common words
+
+You can guess A and see the outcome at B
+
+
+Electro mechanical cryptographic engines
+
+Rotor machines
+1920s mechanical devices used for autmating encryption, 
+not a one to one match
+each disk has a substitution alphabet
+
+output of each rotor is fed through to next rotor.
+one rotor rotates by one position.
+
+
