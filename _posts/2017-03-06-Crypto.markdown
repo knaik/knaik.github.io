@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "Cryptography"
+date:   2017-03-06 
+categories: CompSec
+---
+Q:
+Will you talk about botnets?
+
+Xkasdps!
+
+Cryptography
+http://l2-news.com/coordinates/XKASD
+Authentication
+Integrity
+Nonrepudiation
+Availability
+
+Plaintext (cleartext) message P
+Encryption E(p)
+produces -> ciphertext c = e(p)
+key
+cipher
+
+Restricted Cipher
+secret algorithm
+	Secrecy by obliqueness.obfuscation
+	vulnerable to: leaking, reverse engineering
+
+Shared Algorithms and secret keys
+Bump key = physical locks
+
+Kerckhoff's Principle (1883)
+A cryptosystem should be secure even if everything about the system, except the key is public knowledge
+secret should rest entirely on the key
+
+Good cryptosystem:
+white noise, random noise
+
+
+Brute Force
+C = Ek(P)
+P = Dk(C)
+symmetric
+
+Substitution
+Caesr cipher
+Shift cipher, simple variant, 
+each letter replaced by one n positions aay modulo alphabet size. n = shift value = key
+in Caesr's time key as 3. 
+
+India - similar scheme
+Pig latin
+
+Last seen as ROT13 on Usenet to keep reader from seeing offensive messages unillingly
+
+
+pair
+[A...Z]
+[U...T]
+My cat has fleas, gswunbmufzyum
+
+convey one piece of information for decrpytion: shift value
+trivially easy to crack.
+
+ATBASH
+
+Monoalphabetic subsitution cipher
+
+
+problem(key)
+
+Easy to decode
+Frequency Analysis
+
+moby dick|shakespeare
+-----------------
+e 12.3% |
+o 7.28 |
+d 4.01 |
+b 1.77 |
+x .108 |
+
+Letter Frequencies
+E:12%
+AHINORST:6-9.. etc
+TH HE IN ER AN RE
+THE ING AND HER ERE
+
+DIGRAMS
+TRIGRAMS
+N-GRAMS
+
