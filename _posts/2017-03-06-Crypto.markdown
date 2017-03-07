@@ -91,3 +91,36 @@ DIGRAMS
 TRIGRAMS
 N-GRAMS
 
+Polyalphabetic substitution ciphers
+
+Multiple substituion,
+Leon Battista Alberti: 1466: invented key
+
+two disks
+encrypt and decrypt
+
+simple cipher, two rings, initial position is known
+
+the second part of cipher is rotated to a new alignment
+
+Vigenere polyalphabetic cipher
+Use table and key ord to encpher a message, repeat keywoard over text: eg key = FACE
+
+Matrix
+
+Determine key length, count coincidences - identical characters n characters apart. find high values of n - that tells you the period of the key
+
+Determine values f each character of the key, you know the length of they key - that's the # of Caesar ciphers you have
+do a feq analysis of each position
+
+Index of conicidence
+
+One-time pads
+Invented in 1917
+
+each key letter on the pad encrypts exactly one plaintext character 
+encryption is addition of characters modulo 26, 
+sender destroys pages that have been used
+reciever maintains an identical pad.
+
+exclusive or
