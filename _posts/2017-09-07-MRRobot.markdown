@@ -8,13 +8,16 @@ categories: MrRobot
 Hello, friend. 
 What I'm about to tell you involves covert social engineering, illegal activity, and spoilers for those who haven't been following FSociety's movement to overthrow the most dangerous threat to civil liberties in history.
 
+This article include video of after the live stream cut out.
+
 ---------------------------------------------------
 
-Full disclosure: I consulted someone who worked with BBQ Films before writing this post. They gave me a tentative go ahead since I can't spoil an event that has already happened. They have not read any of this. All they said was I probably should be fine discussing my experiences. They did not tell me what to write and any opinion and assumption I made is strictly my own.
+Full disclosure: I consulted someone who worked with BBQ Films before writing this post. They gave me a tentative go ahead since I can't spoil an event that has already happened. They have not read any of this. All they said was I probably should be fine discussing my experiences. They did not tell me what to write and any opinion and assumption I made is strictly my own. I did make a few assumptions.
 
 
 I had the pleasure of attending the E Coin launch party, a Mr. Robot themed event by BBQ Films and USA Network. This article is going to contain spoilers about the show Mr. Robot and will be a bit technical at times, but I'll do my best to explain things clearly. If you have been keeping up with Mr. Robot and FSociety, skip to "The Infiltration". 
 
+![Entrance]({{ "/img/Entrance.jpg" }})
 
 Background/Summary of technical events so far: 
 
@@ -53,8 +56,10 @@ I was taking pictures in a very obvious. No one seemed to stop me and no one had
 
 
 I realized they were scared that I would ruin the experience for others. I said I wouldn't share them and they were only for me, but obviously they had no reason to trust my word...I had just social engineered my way into the event early. I later learned that the people working there had to sign an NDA to keep the experience secret. 
-Had my Dropbox account not been full, I would have been able to keep a copy due to automatic cloud backup. I tried for hours to recover the deleted files from my phone, but I took so my pictures afterwards that I'm pretty sure the memory was overwritten so recovery isn't possible. HOWEVER, remember how I was recording audio too? I got parts of the rehearsal and the moment someone asked me if I was a caterer recorded on audio and you can hear it by pressing play below. There are also some clearer recordings of the speech, that a fake Philip Price gave during the rehearsal.
+Had my Dropbox account not been full, I would have been able to keep a copy due to automatic cloud backup. I tried for hours to recover the deleted files from my phone, but I took so my pictures afterwards that I'm pretty sure the memory was overwritten so recovery isn't possible. HOWEVER, remember how I was recording audio too? I got parts of the rehearsal and the moment someone asked me if I was a caterer recorded on audio and you can hear it by pressing play below. There are also some clearer recordings of the speech, that a fake Philip Price gave during the rehearsal along with other details I go over later in this article. If you weren't there and don't know what happened, don't listen until after you read about the main event. I get asked at 5 minutes and 02 seconds. 
 
+
+{% include mrrobotaudio.html %}
 
 Overhearing people talk, I heard that I became momentarily infamous among the caterers since everyone there had genuinely thought I worked there. I'm sure to some I sounded like some crazed Superfan who did whatever it took to get in. 
 
@@ -71,16 +76,21 @@ The Main Event:
 BBQ Films puts on immersive cinematic experiences and were in charge of doing the events for the Superfans. 
 
 
-Around 6:15, a group of us who had RSVPed and were part of the discord group slowly approached the location. We were told to go one by one and so we did. This is where the Superfan experience started and it was its own wild ride. The bus I was taken on had the windows and front panel all covered in newspapers and the FSociety Flag was hanging by the door. A very intimidating bus driver and a hooded man told me if I had been followed. I responded no and the hooded man got close to my face and said, how could I be sure. I said assertively, because I made sure, but I probably sounded a lot more scared than I remember. I have included candid photos and video below. 
+Around 6:15, a group of us who had RSVPed and were part of the discord group slowly approached the location. We were told to go one by one and so we did. This is where the Superfan experience started and it was its own wild ride. The bus I was taken on had the windows and front panel all covered in newspapers and the FSociety Flag was hanging by the door. A very intimidating bus driver and a hooded man told me if I had been followed. I responded no and the hooded man got close to my face and said, how could I be sure. I said assertively, because I made sure, but I probably sounded a lot more scared than I remember. I have included candid photos below. 
+
+![Bus1]({{ "/img/Bus1.jpg" }})
+
+![Bus2]({{ "/img/Bus2.jpg" }})
 
 
-As other people piled in, pretty much all from our arg group, the hooded man did the same questioning with everyone that got on the bus. He was very much in character and did a great job at making us feel like we were being indoctrinated into FSociety. Someone from the press got on the bus and asked if this was the bus with the Superfans and the hooded guy replied no before leaning over and whispering into her ear that yes we were. We were given aprons and blue ties matching the caterers exactly. We were given a go bag with the FSociety mask and stickers to hand out to others at the party who we deemed worthy of joining the cause. We were given a headshot of who to meet next. I later learned that there were a bunch of teams each given different directives in different ways. This game detective wiki has more info http://wiki.gamedetectives.net/index.php?title=Mr._Robot_ARG . I should say spoiler alert, but if you've read this far, that's probably obvious by now. 
+
+As other people piled in, pretty much all from our arg group, the hooded man did the same questioning with everyone that got on the bus. He was very much in character and did a great job at making us feel like we were being indoctrinated into FSociety. Someone from the press got on the bus and asked if this was the bus with the Superfans and the hooded guy replied no before leaning over and whispering into her ear that yes we were. We were given aprons and blue ties matching the caterers exactly. We were given a go bag with the FSociety mask and stickers to hand out to others at the party who we deemed worthy of joining the cause. We were given a headshot of who to meet next. I later learned that there were a bunch of teams each given different directives in different ways. This game detective wiki has more info: [Game Detective Wiki Entry on ARG](http://wiki.gamedetectives.net/index.php?title=Mr._Robot_ARG). I should say spoiler alert, but if you've read this far, that's probably obvious by now. 
 
 
-Our team's task was to infiltrate the server and replace the keynote presentation video with an altered one that had been modified with FSociety's message. We were lead upstairs and greeted by our contact who took back the headshot, I can't remember our contact's name but all of the BBQ Film staff were given pseudonyms anyway. Each of the members of my team were given a different role. I was to plug in the ethernet adapter into the server. Someone else was to plug the other end into the laptop, I think. So much happened that I may be a little fuzzy on some small details. One person was in charge of the usb with the modified file. One person was in charge of reading instructions on the code to run to move the file. One person was in charge of inputting all of the commands into the laptop. The person from the press came along with us and took photos of us doing various activities. The activity we did reminded me of Keep Talking and Nobody Explodes ( http://www.keeptalkinggame.com/  ) a VR game where one person is in charge of defusing a bomb but is not allowed to see the manual and everyone else is in charge of reading different parts of the manual and communicating with the main person to defuse the bomb and win the game.
+Our team's task was to infiltrate the server and replace the keynote presentation video with an altered one that had been modified with FSociety's message. We were lead upstairs and greeted by our contact who took back the headshot, I can't remember our contact's name but all of the BBQ Film staff were given pseudonyms anyway. Each of the members of my team were given a different role. I was to plug in the ethernet adapter into the server. Someone else was to plug the other end into the laptop, I think. So much happened that I may be a little fuzzy on some small details. One person was in charge of the usb with the modified file. One person was in charge of reading instructions on the code to run to move the file. One person was in charge of inputting all of the commands into the laptop. The person from the press came along with us and took photos of us doing various activities. The activity we did reminded me of [Keep Talking and Nobody Explodes](http://www.keeptalkinggame.com/) a VR game where one person is in charge of defusing a bomb but is not allowed to see the manual and everyone else is in charge of reading different parts of the manual and communicating with the main person to defuse the bomb and win the game.
 
 
-The actual "hacking" took place in a real server room. It was set up to be friendly to people of every computer skill level. I am a Rutgers Graduate with a Bachelor's Degree in Computer Science, so I was able to get a deeper appreciation of what BBQ Films was trying to do. The event was made to be fun, not hard. I know my way around a computer so plugging in a usb to ethernet adapter to the server was something I did without having to rotate the usb side. I was surprised at how close to a real terminal we were playing with. It was not a real terminal because of course they wouldn't trust the entire event to a bunch of Superfans who might " rm -rf / --no-preserve-root " and delete everything. We used real linux commands to 'mount' , 'cd' into the usb and 'cp source destination' from the usb to the server. We had a binder with instruction that someone read. It was very much similar to what Elliot did in the pilot episode except there was a single server instead of a row of mainframes and we were replacing a file already there instead of rerouting traffic. A picture of the terminal can be seen on BBQ Films instagram. https://www.instagram.com/p/BZ5TyANAuZH/ 
+The actual "hacking" took place in a real server room. It was set up to be friendly to people of every computer skill level. I am a Rutgers Graduate with a Bachelor's Degree in Computer Science, so I was able to get a deeper appreciation of what BBQ Films was trying to do. The event was made to be fun, not hard. I know my way around a computer so plugging in a usb to ethernet adapter to the server was something I did without having to rotate the usb side. I was surprised at how close to a real terminal we were playing with. It was not a real terminal because of course they wouldn't trust the entire event to a bunch of Superfans who might " rm -rf / --no-preserve-root " and delete everything. We used real linux commands to 'mount' , 'cd' into the usb and 'cp source destination' from the usb to the server. We had a binder with instruction that someone read. It was very much similar to what Elliot did in the pilot episode except there was a single server instead of a row of mainframes and we were replacing a file already there instead of rerouting traffic. A picture of the terminal can be seen on [BBQ Films instagram](https://www.instagram.com/p/BZ5TyANAuZH/).
 
 
 Afterwards we were told to go back into the crowd and mingle. We were asked if we had kept our duffle bags, and we should use the mask when the time was right... "we would know when."
@@ -88,14 +98,64 @@ Afterwards we were told to go back into the crowd and mingle. We were asked if w
 
 There were other events scattered throughout the Launch Party. Another one I experienced myself was having a camera setup with a voice modulator to do a speech similar to the one Mr Robot gives, with the hat and cane. Hearing my voice sound like the same as Mr. Robot's with the mask was really fun. 
 
+![CAM]({{ "/img/Cam.png" }})
+
+![Food]({{ "/img/Food.jpg" }})
 
 The party itself was very exciting. I felt like I was living the high life. There was an open bar and servers walked around with food. The Strokes were playing on stage as the party went on and finally the main speech started. First was a little propaganda film about the benefits of E Corp and an introduction to Philip Price, the real one this time. He gave a speech, all playing into character. I have included some of it below. And then everyone got to see the outcome of why my team had "done". The presentation cut out and the modified video we copied from the usb started playing. 
 
 
 A group of people wearing the FSociety mask came onstage and started rallying the crowd to show their support and basically everyone had a mask by this point and put it on. The effect was amazing. All different people, dressed up in all different ways put on the mask. It really was a night to remember. 
 
+Here's a video of how it went down:
+[E Coin Speech and FSociety Takeover](https://vimeo.com/237246821)
 
-Finally, as a gift to everyone that attended we saw a showing of the Season 3 Episode 1. It is a worthy continuation of the show. Obviously, being a Superfan, I am also more critical about plot holes or convenient tropes but I thoroughly enjoyed it. 
+Finally, as a surprise to everyone that attended we saw a showing of the Season 3 Episode 1. It is a worthy continuation of the show. Obviously, being a Superfan, I am also more critical about plot holes or convenience tropes but I thoroughly enjoyed it. 
 
 
 As the show ended and we were all leaving, we were given pins and keychains. Outside a group of fans were dressed up as FSociety members and were "protesting" the launch party. They were giving out stickers. Overall it was one of the best experiences of my life, a night I will never forget. This is one of the few shows that really understands the entire range of its target demographic. Kor Adana is one of the best things that happened to Mr. Robot, it became a show about the power of technology instead of dumbing everything down and using technology as a convenient plot driver. It reminds me a little of how Wargames with its ability to demonstrate technology to the average viewer, except Mr. Robot does it much more masterfully and artistically. BBQ Films did a great job at coordinating the immersive experience. It wasn't technically airtight in the same way the show also isn’t always technically airtight. The show takes artistic freedoms for the sake of emphasizing the importance of the characters and their actions rather than getting caught up in technicalities. An example of that is when Elliot planted the Raspberry Pi, we just needed to know what he did, we didn't need to see a walkthrough of how to use the Pi to intercept SCADA signals using the GPIO pins. That's something better left for Defcon.
+
+![Exit1]({{ "/img/Exit.jpg" }})
+
+![Exit2]({{ "/img/exit2.png" }})
+
+
+There is so much more to Mr. Robot, I haven't spoiled any of the main twists so carefully written by Sam Esmail. I haven't included anything about any of the characters. I haven't even talked about how we can't always trust what the main protagonist says. This is arguably one of the best shows of this decade. The entire event and ARG is based on the main plot but is itself a world to itself. In other words, even if you read this entire article without watching Mr. Robot, it is still very much worth watching.
+
+Also E Coin has real value. At SDCC they used an online app and gave everyone 20 E Coins that could then be used to buy food at various places around the area. This time by showing up at The Red Wheelbarrow, you get free food, all you have to do is sign up for an [E Coin Account](https://e-coin.com/)
+
+
+RED WHEELBARROW BBQ MEAL
+RETURN HOME
+1x Brisket Sandwich, Chips and Bottled Water
+
+Saturday, 10/7:
+11AM - 5PM
+Williamsburg, Brooklyn
+N 10th St (b/w Wythe Ave & Berry St)
+Sunday, 10/8:
+11AM - 5PM
+Herald Square
+Monday, 10/9:
+11AM - 2PM
+Rockefeller Center
+6th Ave (b/w W 48th & W 49th St)
+2:30PM – 5PM
+Bryant Park
+6th Ave (b/w W 41st & W 42nd St)
+Tuesday, 10/10:
+11AM – 2PM
+Union Square
+Broadway (b/w 18th & 19th St)
+2:30PM – 5PM
+Washington Square Park
+5th Ave (b/w Washington Square N & E 8th St)
+
+
+Other Related Resources:
+
+[ArgSociety Reddit](https://www.reddit.com/r/ARGsociety/)
+
+[ArgSociety Discord](https://discord.gg/rUrNRev)
+
+[Mr Robot Reddit](https://www.reddit.com/r/MrRobot/)
