@@ -17,7 +17,7 @@ Full disclosure: I consulted someone who worked with BBQ Films before writing th
 
 I had the pleasure of attending the E Coin launch party, a Mr. Robot themed event by BBQ Films and USA Network. This article is going to contain spoilers about the show Mr. Robot and will be a bit technical at times, but I'll do my best to explain things clearly. If you have been keeping up with Mr. Robot and FSociety, skip to "The Infiltration". 
 
-![Entrance]({{ "/img/Entrance.png" }})
+![Entrance]({{ "/img/Entrance.jpg" }})
 
 Background/Summary of technical events so far: 
 
@@ -45,7 +45,7 @@ In addition to that I ended up getting an extra special experience by accidental
 
 The Infiltration: 
 
-![Benny]({{ "/img/Benny.png" }})
+![Benny]({{ "/img/Benny.jpg" }})
 
 
 I got to the event around 3:50pm and went to the front entrance and the first person that I met asked if I was with the catering staff. I told them no and they told me to meet my contact. I then asked if I could go to the bathroom because I really had to go but they turned me away telling me to go to a nearby Starbucks. I went around back to the service entrance and I met Benny. He said "I know why you are dressed the way you are but I am not allowed to talk to you until 6:15pm". He seemed a lot nicer and clearly more in touch with the culture of the show and what Superfans cared about. I thought to myself, I know what I'm doing and he knows what I'm doing, but we both understand I mean no harm. I asked him if I could use the bathroom, and to my pleasant surprise, he opened the door and let me in. He knew I wouldn't cause any trouble. 
@@ -80,9 +80,9 @@ BBQ Films puts on immersive cinematic experiences and were in charge of doing th
 
 Around 6:15, a group of us who had RSVPed and were part of the discord group slowly approached the location. We were told to go one by one and so we did. This is where the Superfan experience started and it was its own wild ride. The bus I was taken on had the windows and front panel all covered in newspapers and the FSociety Flag was hanging by the door. A very intimidating bus driver and a hooded man told me if I had been followed. I responded no and the hooded man got close to my face and said, how could I be sure. I said assertively, because I made sure, but I probably sounded a lot more scared than I remember. I have included candid photos below. 
 
-![Bus1]({{ "/img/Bus1.png" }})
+![Bus1]({{ "/img/Bus1.jpg" }})
 
-![Bus2]({{ "/img/Bus2.png" }})
+![Bus2]({{ "/img/Bus2.jpg" }})
 
 
 
@@ -100,9 +100,9 @@ Afterwards we were told to go back into the crowd and mingle. We were asked if w
 
 There were other events scattered throughout the Launch Party. Another one I experienced myself was having a camera setup with a voice modulator to do a speech similar to the one Mr Robot gives, with the hat and cane. Hearing my voice sound like the same as Mr. Robot's with the mask was really fun. 
 
-![CAM]({{ "/img/Cam.png" }})
+![CAM]({{ "/img/Cam.jpg" }})
 
-![Food]({{ "/img/Food.png" }})
+![Food]({{ "/img/Food.jpg" }})
 
 The party itself was very exciting. I felt like I was living the high life. There was an open bar and servers walked around with food. The Strokes were playing on stage as the party went on and finally the main speech started. First was a little propaganda film about the benefits of E Corp and an introduction to Philip Price, the real one this time. He gave a speech, all playing into character. I have included some of it below. And then everyone got to see the outcome of why my team had "done". The presentation cut out and the modified video we copied from the usb started playing. 
 
@@ -117,9 +117,9 @@ Finally, as a surprise to everyone that attended we saw a showing of the Season 
 
 As the show ended and we were all leaving, we were given pins and keychains. Outside a group of fans were dressed up as FSociety members and were "protesting" the launch party. They were giving out stickers. Overall it was one of the best experiences of my life, a night I will never forget. This is one of the few shows that really understands the entire range of its target demographic. Kor Adana is one of the best things that happened to Mr. Robot, it became a show about the power of technology instead of dumbing everything down and using technology as a convenient plot driver. It reminds me a little of how Wargames with its ability to demonstrate technology to the average viewer, except Mr. Robot does it much more masterfully and artistically. BBQ Films did a great job at coordinating the immersive experience. It wasn't technically airtight in the same way the show also isn’t always technically airtight. The show takes artistic freedoms for the sake of emphasizing the importance of the characters and their actions rather than getting caught up in technicalities. An example of that is when Elliot planted the Raspberry Pi, we just needed to know what he did, we didn't need to see a walkthrough of how to use the Pi to intercept SCADA signals using the GPIO pins. That's something better left for Defcon.
 
-![Exit1]({{ "/img/Exit.png" }})
+![Exit1]({{ "/img/Exit.jpg" }})
 
-![Exit2]({{ "/img/exit2.png" }})
+![Exit2]({{ "/img/exit2.jpg" }})
 
 
 There is so much more to Mr. Robot, I haven't spoiled any of the main twists so carefully written by Sam Esmail. I haven't included anything about any of the characters. I haven't even talked about how we can't always trust what the main protagonist says. This is arguably one of the best shows of this decade. The entire event and ARG is based on the main plot but is itself a world to itself. In other words, even if you read this entire article without watching Mr. Robot, it is still very much worth watching.
