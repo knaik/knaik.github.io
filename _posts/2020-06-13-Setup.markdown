@@ -10,6 +10,3 @@ First Blog post test in ages
 
 have to relearn markdown syntax
 see if android has a better markdown editor
-
-termux git shortcut is working
-git shortcut test 2
