@@ -12,3 +12,5 @@ have to relearn markdown syntax
 see if android has a better markdown editor
 
 is quickedit the best markdown editor
+
+error testing
