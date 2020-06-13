@@ -22,3 +22,5 @@ next is to automate commit message in bash script. and check to see how to promp
 also typing markdown formatting needs to be fixed
 
 test error prompt
+
+not the best
