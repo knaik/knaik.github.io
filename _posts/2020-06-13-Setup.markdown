@@ -16,6 +16,5 @@ is quickedit the best markdown editor
 final test for today
 
 
-proper commit coded
-next is to automate commit message in bash script. and check to see how to prompt error when 
+
 not the best
