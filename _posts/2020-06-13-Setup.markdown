@@ -20,3 +20,5 @@ proper commit coded
 next is to automate commit message in bash script. and check to see how to prompt error when auto run
 
 also typing markdown formatting needs to be fixed
+
+test error prompt
