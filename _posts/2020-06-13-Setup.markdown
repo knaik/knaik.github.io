@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Test Setup"
+date:   2020-06-13 
+categories: Op
+---
+
+First Blog post test in ages
+
+
+have to relearn markdown syntax
+see if android has a better markdown editor
