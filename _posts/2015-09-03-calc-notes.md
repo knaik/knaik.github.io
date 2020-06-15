@@ -24,8 +24,8 @@ sketch region closed by
 
 
 
-![graph 1](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/graph1.gif)
-![graph 2](https://raw.githubusercontent.com/knaik94/knaik94.github.io/master/images/graph2.gif)
+![graph 1](https://raw.githubusercontent.com/knaik/knaik.github.io/master/images/graph1.gif)
+![graph 2](https://raw.githubusercontent.com/knaik/knaik.github.io/master/images/graph2.gif)
 
 We we integrate w/ respect to x axis because one function is always top and another is always bottom
 we shouldn't with y because towards the top of the function, the outer function is it's own top and bottom
