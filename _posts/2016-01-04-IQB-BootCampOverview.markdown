@@ -10,6 +10,8 @@ https://iqb.rutgers.edu/bootcamp2016
 IQB 2016
 The Institute for Quantitative Biomedicine (“Proteomics”), with field trips
 
+![Me in the Northface]({{ "/img/Me.jpg" }})
+
 Jan. 4-15, 2016 9:00am to 3:00pm (7 of work days over winter break, 2 days RU facility tours, 1 final presentation day)
 
 GOAL: "Find" a molecule to treat non-small cell lung cancer, get an ivestigational new therapy application IND "approved", perpare a New Drug Application NDA based on potential "found" drug, and finally present our findings/package to an Oncologic Drugs Advisory Committee/FDA Simulation who would reccomend our found drug for appoval or rejection by the FDA. (Panel made up of PHD in Chemistry, Professionals in the field that gave the lectures, as well as Professionals from J&J) (Drug prechosen erlotinib)
