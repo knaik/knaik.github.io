@@ -4,6 +4,8 @@ title:  "Linear Algebra Notes"
 date:   2015-09-08 
 categories: LinearAlgebra
 ---
+To show latex rendering in webpage
+
 #Day 2
 
 1.1 no 71

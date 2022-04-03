@@ -1,72 +1,57 @@
 ---
 layout: post
-title:  "My Experience at the Mr. Robot E Coin Launch Party or How I Social Engineered My Way Into the Event Early"
+title:  "My Experience of How I Social Engineered My Way Into the Mr. Robot E Coin Launch Party  Early"
 date:   2017-03-06 
 categories: MrRobot
 ---
 
-Hello, friend. 
-What I'm about to tell you involves covert social engineering, illegal activity, and spoilers for those who haven't been following FSociety's movement to overthrow the most dangerous threat to civil liberties in history.
+Mr. Robot E Coin Launch Party
 
-This article include video of after the live stream cut out.
+Full disclosure: I consulted someone who worked with BBQ Films before writing this post. They gave me a tentative go ahead since I can't spoil an event that has already happened. They did not tell me what to write and any opinion and assumption I made is strictly my own. I did make a few assumptions.
 
----------------------------------------------------
+I had the pleasure of attending the E Coin launch party, a Mr. Robot themed event by BBQ Films and USA Network. A fake crypto coin launch event held in 2019 to promote season 3.
 
-Full disclosure: I consulted someone who worked with BBQ Films before writing this post. They gave me a tentative go ahead since I can't spoil an event that has already happened. They have not read any of this. All they said was I probably should be fine discussing my experiences. They did not tell me what to write and any opinion and assumption I made is strictly my own. I did make a few assumptions.
+Part of my instructions because I was a "Superfan" and had solved the ARGS, I was told to dress as a caterer, and talk to Benny the bus driver by the service entrance to Terminal 5, the venue where the event was taking place. I was supposed to meet him at 6:15pm and come alone. I showed up at 3:30pm because I had never been to NYC before. 
 
-
-I had the pleasure of attending the E Coin launch party, a Mr. Robot themed event by BBQ Films and USA Network. This article is going to contain spoilers about the show Mr. Robot and will be a bit technical at times, but I'll do my best to explain things clearly. If you have been keeping up with Mr. Robot and FSociety, skip to "The Infiltration". 
-
-![Entrance]({{ "/img/Entrance.jpg" }})
-
-Background/Summary of technical events so far: 
-
-
-Again MAJOR (mostly technical) SPOILERS for season 01 and 02:
-
-
-Mr. Robot is a show about a group of hackers who do what many of us have secretly wished would happen in real life. The main arc in the first two season revolves around the hacker group FSociety holding financial data of 75% of people hostage. They used a ransomware attack (analogous to Cryptolocker in real life) and encrypted E Corp's financial data, that made it impossible to access. E Corp is in charge of roughly 75% of society's banking information including data on debt in the Mr. Robot Universe. Ransomware is the same technology that has been used by hackers in real life to hold things like hospital data hostage until a certain amount of money is paid. FSociety deleted the decryption key, which made it impossible to retrieve the data through trying to crack the password. Trying every password would take longer than the time earth has existed.
-
-
-Then to destroy physical backups, the protagonist, Elliot Alderson, uses social engineering to infiltrate the physical data storage facility where the physical backups are stored on magnetic tape. He pretends to be a tech billionaire who is interested in working with the data storage company in charge of keeping E Corp's data secure. He uses a Raspberry Pi (a very small computer the size of a couple of packs of cards) to create a backdoor into the temperature control system. Then by increasing the temperature in the storage areas, the tapes would physically melt. Again this is a very real thing, companies like Google spend millions of dollars, and use sophisticated artificial intelligence to make sure the temperature of their storage facilities is optimized. Even one degree of cooling is worth millions due to increased reliability of the stored data and the reduced cost needed for air conditioning. There is a lot more to the show, I am only focusing on enough technical background to help set up the motivation for the E Coin launch party.
-
-
-After the federal banking system collapses, E Corp (an homage to Enron) steps in and issues the digital cryptocurrency known as E coin. The CEO of E Corp strong arms the government into backing E coin in order to make people less inclined to use Bitcoins which, according to the show, the Chinese have a lot of control over due to their mining efforts. Again this reflects the situation of real life. In fact, in the last few months, the price of graphics cards for computers have gone up due to so many people buying them to mine cryptocurrency more efficiently and quickly. For those who don't know cryptocurrency, the simple concept is that a computer has to do a very hard type of calculation to "make" cryptocurrency. In order to "mine" or "make" cryptocurrency, one has to invest electricity and computational time. In the show, the CEO of E Corp, Philip Price, wants to push his own company's version of cryptocurrency in order to have a corporation controlled currency without any federal regulation. One of the reasons why I love this show so much is the depth and accuracy of so many of the technical concepts. Something similar to an E Coin launch is happening in real life, look up Initial Coin Offering to get a better idea of just how something like this plays out. 
-
-
-In the post financial apocalyptic world that exists now in the Mr. Robot universe, the introduction of E Coins makes the entire operation of FSociety a lot less meaningful and so something must be done. We see the fictional E Coin being launched into the real world, our world. The event on Thursday night was a launch party, with an open bar and music by The Strokes and a keynote speech by non-other than E Corp's CEO Philip Price. 
-
-
-For people like me, Kor Adana, the tech writer for Mr. Robot and his team include easter eggs and puzzles that often lead to surprise gifts or secret events. Enthusiastic fans have now been labeled "Superfans". During this event BBQ Films marketing was hired by USA to bring an even more immersive experience to Superfans. I was among the lucky few who got the experience a secret mission similar to what Elliot and his group did during the first season. 
-
-
-In addition to that I ended up getting an extra special experience by accidentally social engineering my way into the event earlier than even the event coordinators anticipated. Part of my instructions was to dress as a caterer, and talk to Benny the bus driver by the service entrance to Terminal 5, the venue where the event was taking place. I was supposed to meet him at 6:15pm and come alone. I showed up at 4:30pm just in case. What happened next was one of the best experience of my life.
-
+What happened next was one of the best experience of my life.
 
 The Infiltration: 
 
 ![Benny]({{ "/img/Benny.jpg" }})
 
 
-I got to the event around 3:50pm and went to the front entrance and the first person that I met asked if I was with the catering staff. I told them no and they told me to meet my contact. I then asked if I could go to the bathroom because I really had to go but they turned me away telling me to go to a nearby Starbucks. I went around back to the service entrance and I met Benny. He said "I know why you are dressed the way you are but I am not allowed to talk to you until 6:15pm". He seemed a lot nicer and clearly more in touch with the culture of the show and what Superfans cared about. I thought to myself, I know what I'm doing and he knows what I'm doing, but we both understand I mean no harm. I asked him if I could use the bathroom, and to my pleasant surprise, he opened the door and let me in. He knew I wouldn't cause any trouble. 
+I got to the event around entry and went to the front entrance and the staff was still just putting up signs and the first person that I met asked if I was with the catering staff because cooincidentally that when the actual catering staff arrived. I told them no and they told me to meet my contact. I then asked if I could go to the bathroom because I really had to go but they turned me away telling me no to go to a nearby Starbucks. 
 
+I went around back to the service entrance and I met Benny. He said "I know why you are dressed the way you are but I am not allowed to talk to you until 6:15pm". He seemed a lot nicer and might have even been one of the BBQ organizers, and understood Superfans cared about. 
 
-I did what any Superfan would have done in the situation, I walked around and got a behind the scenes look at the event. First I went to the bathroom though, because I really did have to go. And then I walked around and since I was dressed as a caterer, no one questioned me. They were doing a pre-performance rehearsal, and I took pictures and recorded audio and some videos. And then I just sat down and watched the rehearsal performance. I happened to come inside the same time the caterers arrived and so everyone there genuinely thought I was a caterer. I saw essentially the entire event early. I have an account of the actual event including my special, officially sanctioned, Superfan experience below where it says "The Main Event". Right as the show ended, I clapped and drew attention to myself even though I was sitting inside along with other people who were also watching. I'm assuming they were USA executives and people from the BBQ Films team. This was at 4:30pm, no one was supposed to be allowed in until 7:00pm, not even the Superfans. 
+I thought to myself, I know what I'm doing and he knows what I'm doing, but we both understand I mean no harm. I asked him if I could use the bathroom, and to my pleasant surprise, he opened the door and let me in. He knew I wouldn't cause any trouble. 
 
+I did what any Superfan would have done in the situation, I walked around and got a behind the scenes look at the event. First I went to the bathroom though, because I really did have to go. And then I walked around and since I was dressed as a caterer, no one questioned me. They were doing a pre-performance rehearsal, and I took pictures and recorded audio and some videos. And then I just sat down and watched the rehearsal performance. I happened to come inside the same time the caterers arrived and so everyone no on really thought to mention it. I later found out they were missing a caterer because they though I was one of them.
 
-I was taking pictures in a very obvious. No one seemed to stop me and no one had told me not to. Someone came up to me and asked if I was a caterer and I replied no. I knew I was caught, but rather than try to sneak away I decided to stay and cooperate. A few minutes later a couple of people came up to me and asked me where are my credentials, one was probably part of the catering staff and one was probably part of the USA network or BBQ Films. When I said I don't have any they asked if I was a Superfan and I said yes. I asked them if I was in trouble and they thankfully said no. One of them was looking pretty worried and on high alert, and told the other that they saw me taking photos. The other asked me if I did and I replied yes. They told I needed to delete them. They went as far as to check my gallery to make sure I didn't have any saved somewhere else.
+I saw the entire event early. I ended seeing the event twice. Inclding the twist that was going to happen during one of the pivotal events where Phillip Price gives a speech and it gets taken over "hacked" by FSociety/Superfans (me).
+ 
+Right as the show ended, I clapped and drew attention to myself even though I was sitting inside along with other people who were also watching. I'm assuming they were USA executives and people from the BBQ Films team and but I was the only caterer. This was at 4:30pm, no one was supposed to be allowed in until 7:00pm, not even the Superfans. 
 
+I was taking pictures in a very obvious way. No one seemed to stop me and no one had told me not to. I was taking pictures in a very obvious way. No one seemed to stop me and no one had told me not to.
 
-I realized they were scared that I would ruin the experience for others. I said I wouldn't share them and they were only for me, but obviously they had no reason to trust my word...I had just social engineered my way into the event early. I later learned that the people working there had to sign an NDA to keep the experience secret. 
-Had my Dropbox account not been full, I would have been able to keep a copy due to automatic cloud backup. I tried for hours to recover the deleted files from my phone, but I took so my pictures afterwards that I'm pretty sure the memory was overwritten so recovery isn't possible. HOWEVER, remember how I was recording audio too? I got parts of the rehearsal and the moment someone asked me if I was a caterer recorded on audio and you can hear it by pressing play below. There are also some clearer recordings of the speech, that a fake Philip Price gave during the rehearsal along with other details I go over later in this article. If you weren't there and don't know what happened, don't listen until after you read about the main event. I get asked at 5 minutes and 02 seconds. 
-
+HOWEVER, remember how I was recording audio too? I got the ending to a rehearsal fake Philip Price was giving and the "hack" by FSociety (who I would be roleplaying as during the actual event) and I did suspicous and so someone ended asking am I a caterer and I answered honestly, no. That question is at timestamp 5 minutes and 02 seconds in my audio recording
 
 {% include mrrobotaudio.html %}
 
-Overhearing people talk, I heard that I became momentarily infamous among the caterers since everyone there had genuinely thought I worked there. I'm sure to some I sounded like some crazed Superfan who did whatever it took to get in. 
+[E Coin Speech and FSociety Takeover](https://vimeo.com/237246821) for context
 
 
-I am part of a discord ArgSociety (come join us  https://discord.gg/rUrNRev ) where a bunch of us Superfans who are really passionate about the show, the ARG (augmented reality game) and puzzles come together and discuss everything. I know many of them are going to be slightly pissed at me after reading this that I didn't share any of this information earlier. But I had also overheard that one of the USA or BBQ Films team members was in the chat watching just in case someone leaked info early. 
+I knew I was caught, but rather than lie I decided to stay and cooperate, because I want the show to be successful too. A few minutes later a couple executive looking of people came up to me and asked me where are my credentials, one was probably part of an executive of the catering staff and one was probably part of the USA network or BBQ Films. When I said I don't have any they asked if I was a Superfan and I said yes.
+
+I asked them if I was in trouble and they said no. One was looking pretty worried and on high alert, because they had been informed I taking photos. The BBQ/USA executive asked me if I did and I replied yes. They told I needed to delete them. They went as far as to check my gallery to make sure I didn't have any saved somewhere else.
+
+I realized they were scared that I would ruin the experience for others. I said I wouldn't share them and they were only for me, and even said I wouldn't share them until after the event finished but obviously they had no reason to trust my word and no way for me to sign an NDA. 
+
+I had just social engineered my way into the event early. I later learned that the people working there, especially the cateres had to sign an NDA to keep the experience secret. 
+
+Had my Dropbox account not been full, I would have been able to keep a copy due to automatic cloud backup. I tried for hours to recover the deleted files from my phone, but I failed and it had been overwritten by new files in memory. I could have sent photos to friends via snapchat or something but I understood wanting to keep the experience a secret.
+
+Overhearing people talk, I found out I had became momentarily infamous among the caterers and staff since everyone there had genuinely thought I was a caterer breaking NDA. I'm sure to some made it sound like some crazed Superfan who did whatever it took to get in. I am part of the discord dedicated to the puzzles of the show, where you get things by solving things hidden in the show, and I had also overheard that one of the USA or BBQ Films team members was in the chat watching just in case someone leaked info early. 
 
 
 They didn't have any reason to worry with me, but you can never predict how super enthusiastic fans will behave, especially with a show about hacking and social engineering. Much of the core audience of the show are themselves security researchers and penetration testers who make a living doing exactly what I did for large corporations and telling them what their weaknesses are. I was kindly asked to leave and come back at the right time so they don't confuse me or others with real staff again. I told Benny everything as I left. He had a smirk on his face and he knew he just made me one of the happiest fans in the world. This was all before the main event.
@@ -86,13 +71,24 @@ Around 6:15, a group of us who had RSVPed and were part of the discord group slo
 
 
 
-As other people piled in, pretty much all from our arg group, the hooded man did the same questioning with everyone that got on the bus. He was very much in character and did a great job at making us feel like we were being indoctrinated into FSociety. Someone from the press got on the bus and asked if this was the bus with the Superfans and the hooded guy replied no before leaning over and whispering into her ear that yes we were. We were given aprons and blue ties matching the caterers exactly. We were given a go bag with the FSociety mask and stickers to hand out to others at the party who we deemed worthy of joining the cause. We were given a headshot of who to meet next. I later learned that there were a bunch of teams each given different directives in different ways. This game detective wiki has more info: [Game Detective Wiki Entry on ARG](http://wiki.gamedetectives.net/index.php?title=Mr._Robot_ARG). I should say spoiler alert, but if you've read this far, that's probably obvious by now. 
+As other people piled in, pretty much all from our arg discord group, the hooded man did the same questioning with everyone that got on the bus. He was very much in character and did a great job at making us feel like we were being indoctrinated into FSociety. Someone from the press got on the bus and asked if this was the bus with the Superfans and the hooded guy replied no before leaning over and whispering into her ear that yes we were. We were given aprons and blue ties matching the caterers exactly. When I went the cateres only had a white shirt on or the assumed I forgot my tie.
+
+We were given a go bag with the FSociety mask and stickers to hand out to others at the party who we deemed worthy of joining the cause. We were given a headshot of who to meet next. I later learned that there were a bunch of teams each given different directives in different ways. This game detective wiki has more info: [Game Detective Wiki Entry on ARG](http://wiki.gamedetectives.net/index.php?title=Mr._Robot_ARG).
 
 
-Our team's task was to infiltrate the server and replace the keynote presentation video with an altered one that had been modified with FSociety's message. We were lead upstairs and greeted by our contact who took back the headshot, I can't remember our contact's name but all of the BBQ Film staff were given pseudonyms anyway. Each of the members of my team were given a different role. I was to plug in the ethernet adapter into the server. Someone else was to plug the other end into the laptop, I think. So much happened that I may be a little fuzzy on some small details. One person was in charge of the usb with the modified file. One person was in charge of reading instructions on the code to run to move the file. One person was in charge of inputting all of the commands into the laptop. The person from the press came along with us and took photos of us doing various activities. The activity we did reminded me of [Keep Talking and Nobody Explodes](http://www.keeptalkinggame.com/) a VR game where one person is in charge of defusing a bomb but is not allowed to see the manual and everyone else is in charge of reading different parts of the manual and communicating with the main person to defuse the bomb and win the game.
+Our team's task was to infiltrate the server and replace the keynote presentation video with an altered one that had been modified with FSociety's message. We were lead upstairs and greeted by our contact who took back the headshot, I can't remember our contact's name but all of the BBQ Film staff were given pseudonyms anyway. 
+
+The actual "hacking" took place in a real server room. It was set up to be doable by people who people who play sports for a living. 
+
+Each of the members of my team were given a different role. I was to plug in the ethernet into a fake server. Someone else was to plug the other end into the laptop. One person was in charge of plugging in the usb with the "modified" file. One person was in charge of reading instructions on the code to run to move the file. One person was in charge of inputting all of the commands into the laptop. The person from the press came along with us and took photos of us doing various activities.
+
+![Computer]({{ "/img/Bus2.jpg" }})
 
 
-The actual "hacking" took place in a real server room. It was set up to be friendly to people of every computer skill level. I am a Rutgers Graduate with a Bachelor's Degree in Computer Science, so I was able to get a deeper appreciation of what BBQ Films was trying to do. The event was made to be fun, not hard. I know my way around a computer so plugging in a usb to ethernet adapter to the server was something I did without having to rotate the usb side. I was surprised at how close to a real terminal we were playing with. It was not a real terminal because of course they wouldn't trust the entire event to a bunch of Superfans who might " rm -rf / --no-preserve-root " and delete everything. We used real linux commands to 'mount' , 'cd' into the usb and 'cp source destination' from the usb to the server. We had a binder with instruction that someone read. It was very much similar to what Elliot did in the pilot episode except there was a single server instead of a row of mainframes and we were replacing a file already there instead of rerouting traffic. A picture of the terminal can be seen on [BBQ Films instagram](https://www.instagram.com/p/BZ5TyANAuZH/).
+I have a degree in Computer Science, so I was able to get a deeper appreciation of what BBQ Films was trying to do. 
+
+The event was made to be fun, not hard. I know my way around a computer so plugging in a usb to ethernet adapter to the server was something I did without having to rotate the usb side. I was surprised at how close to a real terminal we were playing with. It was not a real terminal because of course they wouldn't trust the entire event to a bunch of Superfans who might " rm -rf / --no-preserve-root " and delete everything. We used real linux commands to 'mount' , 'cd' into the usb and 'cp source destination' from the usb to the server. We had a binder with instruction that someone read. It was very much similar to what Elliot did in the pilot episode except there was a single server instead of a row of mainframes and we were replacing a file already there instead of rerouting traffic. A picture of the terminal can be seen on [BBQ Films instagram](https://www.instagram.com/p/BZ5TyANAuZH/). ![Computer]({{ "/img/Bus2.jpg" }})
+
 
 
 Afterwards we were told to go back into the crowd and mingle. We were asked if we had kept our duffle bags, and we should use the mask when the time was right... "we would know when."
@@ -114,7 +110,6 @@ Here's a video of how it went down:
 
 Finally, as a surprise to everyone that attended we saw a showing of the Season 3 Episode 1. It is a worthy continuation of the show. Obviously, being a Superfan, I am also more critical about plot holes or convenience tropes but I thoroughly enjoyed it. 
 
-
 As the show ended and we were all leaving, we were given pins and keychains. Outside a group of fans were dressed up as FSociety members and were "protesting" the launch party. They were giving out stickers. Overall it was one of the best experiences of my life, a night I will never forget. This is one of the few shows that really understands the entire range of its target demographic. Kor Adana is one of the best things that happened to Mr. Robot, it became a show about the power of technology instead of dumbing everything down and using technology as a convenient plot driver. It reminds me a little of how Wargames with its ability to demonstrate technology to the average viewer, except Mr. Robot does it much more masterfully and artistically. BBQ Films did a great job at coordinating the immersive experience. It wasn't technically airtight in the same way the show also isn’t always technically airtight. The show takes artistic freedoms for the sake of emphasizing the importance of the characters and their actions rather than getting caught up in technicalities. An example of that is when Elliot planted the Raspberry Pi, we just needed to know what he did, we didn't need to see a walkthrough of how to use the Pi to intercept SCADA signals using the GPIO pins. That's something better left for Defcon.
 
 ![Exit1]({{ "/img/Exit.jpg" }})
@@ -126,12 +121,22 @@ There is so much more to Mr. Robot, I haven't spoiled any of the main twists so 
 
 Also E Coin has real value. At SDCC they used an online app and gave everyone 20 E Coins that could then be used to buy food at various places around the area. This time by showing up at The Red Wheelbarrow, you get free food, all you have to do is sign up for an [E Coin Account](https://e-coin.com/)
 
+ 
+SPOILERS for season 01 and 02 or and who just want background info about the show.
 
 
-Other Related Resources:
+Mr. Robot is a show about a group of hackers who do what many of us have secretly wished would happen in real life. The main arc in the first two season revolves around the hacker group FSociety holding financial data of 75% of people hostage. They used a ransomware attack (analogous to Cryptolocker in real life) and encrypted E Corp's financial data, that made it impossible to access. E Corp is in charge of roughly 75% of society's banking information including data on debt in the Mr. Robot Universe. Ransomware is the same technology that has been used by hackers in real life to hold things like hospital data hostage until a certain amount of money is paid. FSociety deleted the decryption key, which made it impossible to retrieve the data through trying to crack the password. Trying every password would take longer than the time earth has existed.
 
-[ArgSociety Reddit](https://www.reddit.com/r/ARGsociety/)
 
-[ArgSociety Discord](https://discord.gg/rUrNRev)
+Then to destroy physical backups, the protagonist, Elliot Alderson, uses social engineering to infiltrate the physical data storage facility where the physical backups are stored on magnetic tape. He pretends to be a tech billionaire who is interested in working with the data storage company in charge of keeping E Corp's data secure. He uses a Raspberry Pi (a very small computer the size of a couple of packs of cards) to create a backdoor into the temperature control system. Then by increasing the temperature in the storage areas, the tapes would physically melt. Again this is a very real thing, companies like Google spend millions of dollars, and use sophisticated artificial intelligence to make sure the temperature of their storage facilities is optimized. Even one degree of cooling is worth millions due to increased reliability of the stored data and the reduced cost needed for air conditioning. There is a lot more to the show, I am only focusing on enough technical background to help set up the motivation for the E Coin launch party.
 
-[Mr Robot Reddit](https://www.reddit.com/r/MrRobot/)
+
+After the federal banking system collapses, E Corp (an homage to Enron) steps in and issues the digital cryptocurrency known as E coin. The CEO of E Corp strong arms the government into backing E coin in order to make people less inclined to use Bitcoins which, according to the show, the Chinese have a lot of control over due to their mining efforts. Again this reflects the situation of real life. In fact, in the last few months, the price of graphics cards for computers have gone up due to so many people buying them to mine cryptocurrency more efficiently and quickly. For those who don't know cryptocurrency, the simple concept is that a computer has to do a very hard type of calculation to "make" cryptocurrency. In order to "mine" or "make" cryptocurrency, one has to invest electricity and computational time. In the show, the CEO of E Corp, Philip Price, wants to push his own company's version of cryptocurrency in order to have a corporation controlled currency without any federal regulation. One of the reasons why I love this show so much is the depth and accuracy of so many of the technical concepts. Something similar to an E Coin launch is happening in real life, look up Initial Coin Offering to get a better idea of just how something like this plays out. 
+
+
+In the post financial apocalyptic world that exists now in the Mr. Robot universe, the introduction of E Coins makes the entire operation of FSociety a lot less meaningful and so something must be done. We see the fictional E Coin being launched into the real world, our world. The event on Thursday night was a launch party, with an open bar and music by The Strokes and a keynote speech by non-other than E Corp's CEO Philip Price. 
+
+
+For people like me, Kor Adana, the tech writer for Mr. Robot and his team include easter eggs and puzzles that often lead to surprise gifts or secret events. Enthusiastic fans have now been labeled "Superfans". During this event BBQ Films marketing was hired by USA to bring an even more immersive experience to Superfans. I was among the lucky few who got the experience a secret mission similar to what Elliot and his group did during the first season. 
+
+In addition to that I ended up getting an extra special experience by accidentally social engineering my way into the event earlier than even the event coordinators anticipated. Part of my instructions was to dress as a caterer, and talk to Benny the bus driver by the service entrance to Terminal 5, the venue where the event was taking place. I was supposed to meet him at 6:15pm and come alone. I showed up at 4:30pm just in case. What happened next was one of the best experience of my life.
