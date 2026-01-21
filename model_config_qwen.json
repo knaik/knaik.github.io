@@ -18,7 +18,8 @@
     "https://huggingface.co/lrzjason/Anything2Real_2601/resolve/main/anything2real_2601.safetensors",
     "https://huggingface.co/dx8152/Qwen-Edit-2509-Multiple-angles/resolve/main/%E9%95%9C%E5%A4%B4%E8%BD%AC%E6%8D%A2.safetensors",
     "https://huggingface.co/PetruZetta/famegrid_qwen_lora/resolve/main/Famegrid_Qwen_Lora_Standard_V1.5_RealSkinFix.safetensors",
-    "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/resolve/main/qwen-image-edit-2511-multiple-angles-lora.safetensors"
+    "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/resolve/main/qwen-image-edit-2511-multiple-angles-lora.safetensors",
+    "https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/resolve/main/bfs_head_v5_2511_original.safetensors"
    ],
   "upscale_models": [
   ],
