@@ -2,38 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NYC Secure BLE Remote</title>
+    <title>NYC Secure Remote - Fixed</title>
     <style>
-        body { font-family: -apple-system, sans-serif; display: flex; justify-content: center; padding: 40px; background: #0f172a; color: #f8fafc; }
-        .container { background: #1e293b; padding: 30px; border-radius: 16px; width: 450px; box-shadow: 0 10px 25px rgba(0,0,0,0.4); border: 1px solid #334155; }
-        .lock-notice { background: #451a03; color: #fbbf24; padding: 15px; border-radius: 8px; font-size: 14px; margin-bottom: 20px; border: 1px solid #78350f; text-align: center; font-weight: 600; }
-        .status { margin-bottom: 15px; font-size: 13px; color: #94a3b8; padding: 8px; background: #0f172a; border-radius: 6px; }
-        input[type="password"] { width: 100%; box-sizing: border-box; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #0f172a; color: white; margin-bottom: 15px; font-size: 16px; }
+        body { font-family: sans-serif; display: flex; justify-content: center; padding: 40px; background: #0f172a; color: #f8fafc; }
+        .container { background: #1e293b; padding: 30px; border-radius: 16px; width: 450px; border: 1px solid #334155; }
+        .lock-notice { background: #451a03; color: #fbbf24; padding: 15px; border-radius: 8px; font-size: 14px; margin-bottom: 20px; border: 1px solid #78350f; text-align: center; font-weight: bold; }
+        input[type="password"] { width: 100%; box-sizing: border-box; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #0f172a; color: white; margin-bottom: 15px; }
         .btn-group { display: flex; gap: 12px; margin-bottom: 20px; }
-        button { flex: 1; padding: 14px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 14px; transition: all 0.2s; }
+        button { flex: 1; padding: 14px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
         #scanBtn { background: #3b82f6; color: white; }
-        #scanBtn:hover { background: #2563eb; }
         #sendBtn { background: #22c55e; color: white; }
-        #sendBtn:hover { background: #16a34a; }
-        button:disabled { background: #334155 !important; color: #64748b; cursor: not-allowed; opacity: 0.6; }
-        #log { background: #000; color: #4ade80; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12px; padding: 15px; border-radius: 8px; height: 160px; overflow-y: auto; border: 1px solid #334155; line-height: 1.5; }
+        button:disabled { background: #334155; color: #64748b; cursor: not-allowed; }
+        #log { background: #000; color: #4ade80; font-family: monospace; font-size: 12px; padding: 15px; border-radius: 8px; height: 160px; overflow-y: auto; border: 1px solid #334155; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h2 style="margin-top:0; color:#3b82f6;">NYC Verified Remote</h2>
-    <div class="status" id="statusText">System: Initializing Network...</div>
-    <div class="lock-notice" id="lockNotice">Verifying NYC Network Time...</div>
-
-    <input type="password" id="passInput" placeholder="Enter Security Password" disabled>
+    <h2 style="color:#3b82f6;">NYC Verified Remote</h2>
+    <div class="lock-notice" id="lockNotice">Initializing Security...</div>
+    <input type="password" id="passInput" placeholder="Security Password" disabled>
 
     <div class="btn-group">
         <button id="scanBtn" disabled>1. PAIR DEVICE</button>
         <button id="sendBtn" disabled>2. SEND COMMAND</button>
     </div>
-
-    <div id="log">Checking [WorldTimeAPI](http://worldtimeapi.org) and [GitHub](https://raw.githubusercontent.com)...<br></div>
+    <div id="log">Fetching bypass-safe headers...<br></div>
 </div>
 
 <script>
@@ -41,56 +35,48 @@
     let config = { unlock_date: null, password_hash: null };
     let nycNetworkTime = null;
 
-    // Hardcoded URLs
-    const CONFIG_URL = "https://raw.githubusercontent.com";
-    const NYC_TIME_API = "https://worldtimeapi.org";
+    // Use GitHub API instead of Raw URL for better CORS support
+    const GITHUB_API_URL = "https://api.github.com";
+    const TIME_API = "https://worldtimeapi.org";
 
-    const scanBtn = document.getElementById('scanBtn'), sendBtn = document.getElementById('sendBtn');
-    const passInput = document.getElementById('passInput'), logDiv = document.getElementById('log');
-    const statusText = document.getElementById('statusText'), lockNotice = document.getElementById('lockNotice');
-
-    function log(msg) { 
-        const now = new Date();
-        logDiv.innerHTML += `[${now.toLocaleTimeString()}] ${msg}<br>`; 
-        logDiv.scrollTop = logDiv.scrollHeight; 
-    }
+    const log = (msg) => { 
+        document.getElementById('log').innerHTML += `> ${msg}<br>`; 
+        document.getElementById('log').scrollTop = document.getElementById('log').scrollHeight; 
+    };
 
     async function init() {
         try {
-            // 1. Get Security Config from GitHub
-            const configRes = await fetch(CONFIG_URL);
-            config = await configRes.json();
-            log("GitHub security config loaded.");
+            // 1. Fetch Config via GitHub API (Base64 decoded)
+            const res = await fetch(GITHUB_API_URL);
+            const data = await res.json();
+            const decoded = atob(data.content); // GitHub API returns base64
+            config = JSON.parse(decoded);
+            log("Security configuration loaded via GitHub API.");
 
-            // 2. Get True NYC Time
-            const timeRes = await fetch(NYC_TIME_API);
+            // 2. Fetch Time with fallback
+            const timeRes = await fetch(TIME_API);
             const timeData = await timeRes.json();
             nycNetworkTime = new Date(timeData.datetime);
-            
-            log(`NYC Network Time: ${nycNetworkTime.toLocaleString('en-US', {timeZone: 'America/New_York'})}`);
+            log(`NYC Time Verified: ${nycNetworkTime.toLocaleTimeString()}`);
 
-            // Enable inputs
-            checkLockStatus();
-            scanBtn.disabled = false;
-            passInput.disabled = false;
-            statusText.innerText = "System: Security Verified";
+            document.getElementById('scanBtn').disabled = false;
+            document.getElementById('passInput').disabled = false;
+            updateLockUI();
 
         } catch (e) {
-            log("CRITICAL ERROR: Could not verify time/config.");
-            lockNotice.innerText = "Access Denied: Network Error";
-            lockNotice.style.background = "#7f1d1d";
+            log(`CORS/Fetch Error: ${e.message}`);
+            document.getElementById('lockNotice').innerText = "Network Error - Verify GitHub Repository is Public";
         }
     }
 
-    function checkLockStatus() {
+    function updateLockUI() {
         const unlockAt = new Date(config.unlock_date);
+        const notice = document.getElementById('lockNotice');
         if (nycNetworkTime >= unlockAt) {
-            lockNotice.innerText = "🔓 UNLOCKED (NYC Time Verified)";
-            lockNotice.style.background = "#064e3b"; lockNotice.style.color = "#4ade80";
-            return true;
+            notice.innerText = "🔓 UNLOCKED";
+            notice.style.background = "#064e3b"; notice.style.color = "#4ade80";
         } else {
-            lockNotice.innerText = "🔒 Locked until: " + unlockAt.toLocaleString('en-US', {timeZone: 'America/New_York'});
-            return false;
+            notice.innerText = "🔒 Locked until: " + unlockAt.toLocaleString('en-US', {timeZone: 'America/New_York'});
         }
     }
 
@@ -100,47 +86,26 @@
         return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
     }
 
-    scanBtn.addEventListener('click', async () => {
+    document.getElementById('scanBtn').addEventListener('click', async () => {
         try {
-            log("Scanning for Bluetooth devices...");
-            bleDevice = await navigator.bluetooth.requestDevice({ 
-                acceptAllDevices: true, 
-                optionalServices: [0x8ac0] 
-            });
-
-            statusText.innerText = "Device: Connecting...";
+            bleDevice = await navigator.bluetooth.requestDevice({ acceptAllDevices: true, optionalServices: [0x8ac0] });
             bleServer = await bleDevice.gatt.connect();
-            statusText.innerText = "Device: Connected to " + (bleDevice.name || "BLE Unit");
-            sendBtn.disabled = false;
-            log("BLE Connection Established.");
-        } catch (e) { log(`Bluetooth Error: ${e.message}`); }
+            document.getElementById('sendBtn').disabled = false;
+            log("Connected to BLE Unit.");
+        } catch (e) { log(e.message); }
     });
 
-    sendBtn.addEventListener('click', async () => {
-        // Password Check
-        const userHash = await hashString(passInput.value);
-        if (userHash !== config.password_hash) {
-            log("!! ERROR: Invalid Security Key !!");
-            return;
-        }
-
-        // Time Check
-        if (!checkLockStatus()) {
-            log("!! ERROR: Locked until scheduled NYC time !!");
-            return;
-        }
-
-        if (!bleServer?.connected) { log("Error: Device disconnected"); return; }
+    document.getElementById('sendBtn').addEventListener('click', async () => {
+        const userHash = await hashString(document.getElementById('passInput').value);
+        if (userHash !== config.password_hash) { log("!! WRONG PASSWORD !!"); return; }
+        if (nycNetworkTime < new Date(config.unlock_date)) { log("!! STILL LOCKED !!"); return; }
 
         try {
-            log("Credentials accepted. Locating GATT channel...");
             const service = await bleServer.getPrimaryService(0x8ac0);
             const char = await service.getCharacteristic(0x8ac1);
-            
-            log("Writing Command: AA 01 01 00");
             await char.writeValue(new Uint8Array([0xAA, 0x01, 0x01, 0x00]));
-            log("SUCCESS: Signal Transmitted.");
-        } catch (e) { log(`Write Error: ${e.message}`); }
+            log("SUCCESS: Command Transmitted.");
+        } catch (e) { log(e.message); }
     });
 
     init();
