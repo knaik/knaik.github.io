@@ -23,8 +23,11 @@
   "upscale_models": [
   ],
   "controlnet": [
+    "https://huggingface.co/Comfy-Org/Qwen-Image-InstantX-ControlNets/resolve/main/split_files/controlnet/Qwen-Image-InstantX-ControlNet-Union.safetensors"
   ],
   "clip_vision": [
+    "https://huggingface.co/mradermacher/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated-GGUF/resolve/main/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated.Q4_K_M.gguf",
+    "https://huggingface.co/mradermacher/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated-GGUF/resolve/main/Huihui-Qwen3-VL-30B-A3B-Instruct-abliterated.mmproj-f16.gguf"
   ],
   "ipadapter": [
   ],
